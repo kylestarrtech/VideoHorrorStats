@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
 
 .SoundHeaderText {
     font-size: 50px;
@@ -59,7 +58,7 @@
     border-color: #00eeff;
 
     margin-top: 10px;
-    width: 100%;
+    width: 99%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

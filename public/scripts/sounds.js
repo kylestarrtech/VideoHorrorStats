@@ -1,6 +1,8 @@
 var monsters = ["WOLFAudio", "TOADAudio", "DLMRAudio", "ERADAudio"]
 var monsterType = ["BODYAudio", "DOLLAudio"]
 
+console.log("Sounds Loaded!");
+
 function main() {
     console.log("Start");
     SelectID(0);

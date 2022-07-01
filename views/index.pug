@@ -3,9 +3,9 @@ html
     head 
         title Video Horror Stats (VHS)
         link(href="public/styles/index.css" rel="stylesheet")
-    body 
-        img#MainLogo(src="public/images/logos/logo.png" width="300px")
+        script(src="public/scripts/index.js")
+    body(onload="main()")
         include header
+        h1#ContentType HOME
         div#contentpanel
-            h1#ContentType Sounds
-            include sounds
+            

@@ -1,12 +1,32 @@
-#header img {
+.RoleButton {
     margin: 25px 0px 25px 0px;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-left: auto;
     margin-right: auto;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+
+    cursor: pointer;
 }
+
 #header {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+}
+
+#MainLogo {
+    height: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
