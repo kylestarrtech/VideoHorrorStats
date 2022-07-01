@@ -1,0 +1,29 @@
+{
+    "Name": "W.A.R.T.",
+    "Base_Stats": {
+        "Speed": 5.6,
+        "TensionTrack": 36,
+        "LungeSpeed": 8.46,
+        "LungeRecovery": 3.92
+    },
+    "Powers": {
+        "Leap": {
+
+        },
+        "AcidArmor": {
+            
+        },
+        "Echolocation": {
+
+        }
+    },
+    "Audio": {
+        "TensionTrack": {
+            "Base": "data/sounds/wart/tension/base.ogg",
+            "Close": "data/sounds/wart/tension/close.ogg",
+            "Closer": "data/sounds/wart/tension/closer.ogg",
+            "Alarmed": "data/sounds/wart/tension/alarmed.ogg",
+            "Chased": "data/sounds/wart/tension/chased.ogg"
+        }
+    }
+}
