@@ -1,0 +1,29 @@
+{
+    "Name": "Werewolf",
+    "Base_Stats": {
+        "Speed": 5.8,
+        "TensionTrack": 36,
+        "LungeSpeed": 8.76,
+        "LungeRecovery": 4.06
+    },
+    "Powers": {
+        "Berserk": {
+
+        },
+        "Howl": {
+            
+        },
+        "Hunt": {
+
+        }
+    },
+    "Audio": {
+        "TensionTrack": {
+            "Base": "data/sounds/werewolf/tension/base.ogg",
+            "Close": "data/sounds/werewolf/tension/close.ogg",
+            "Closer": "data/sounds/werewolf/tension/closer.ogg",
+            "Alarmed": "data/sounds/werewolf/tension/alarmed.ogg",
+            "Chased": "data/sounds/werewolf/tension/chased.ogg"
+        }
+    }
+}

@@ -1,4 +1,6 @@
 server.js
 data/stats/monster/deathwire.json
 data/stats/monster/anomaly.json
+data/sounds/anomaly
+data/sounds/deathwire
 .gitignore
