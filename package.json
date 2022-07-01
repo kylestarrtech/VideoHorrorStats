@@ -1,0 +1,30 @@
+{
+  "name": "videohorrorstats",
+  "version": "1.0.0",
+  "description": "A website dedicated to displaying accurate stats for the multiplayer asymmetrical horror action game Video Horror Society (VHS).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylestarrtech/VideoHorrorStats.git"
+  },
+  "keywords": [
+    "vhs",
+    "videohorrorsociety",
+    "asymmetrical",
+    "game",
+    "website",
+    "nodejs",
+    "pug",
+    "js",
+    "javascript"
+  ],
+  "author": "Kyle Starr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylestarrtech/VideoHorrorStats/issues"
+  },
+  "homepage": "https://github.com/kylestarrtech/VideoHorrorStats#readme"
+}
