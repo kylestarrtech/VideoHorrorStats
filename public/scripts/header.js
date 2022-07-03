@@ -1,4 +1,4 @@
-var pages = ["home", "teens", "monsters", "sounds"]
+var pages = ["home", "teen", "monster", "sounds"]
 var selectedPage = 0;
 
 function HighlightButton(type) {

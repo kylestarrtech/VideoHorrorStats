@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+
+.StatsCategory {
+    background-color: #31003180;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+    margin-top: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.StatsDivisor {
+    width: 50%;
+    color: #ffffff;
+}
+
+.StatDescriptor {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 4px #ffffff;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.StatNumber {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 6px #ffffff;
+}
+
+.StatsSubcategory {
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 7px #ffffff;
+}
+
+.StatsTitle {
+    font-size: 36px;
+    font-weight: 900;
+
+    letter-spacing: 3px;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 10px #ffffff;
+}
+
+.StatsCategory p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 4px #ffffff;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
