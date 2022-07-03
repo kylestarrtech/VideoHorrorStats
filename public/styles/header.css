@@ -17,6 +17,12 @@
     -o-user-drag: none;
 
     cursor: pointer;
+
+    animation: fadeIn 1s;
+}
+
+#MainLogo {
+    animation: fadeIn 1s;
 }
 
 #header {
@@ -25,8 +31,24 @@
     margin-right: auto;
 }
 
+#headerDivider {
+    width: 50%;
+    color: #ffffff;
+    animation: widen 1s;
+}
+
 #MainLogo {
     height: 100px;
     margin-bottom: 50px;
     cursor: pointer;
+}
+
+@keyframes widen {
+    from { width: 0%; }
+    to { width: 50%; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
