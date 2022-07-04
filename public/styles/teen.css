@@ -64,3 +64,27 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.StatToolTip {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+#ToolTip {
+    font-size: 36px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20%;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    vertical-align: baseline;
+
+    background-color: #00000080;
+
+    font-family: 'Roboto';
+    text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 4px #ffffff;
+
+    transition: opacity 1s;
+}

@@ -1,0 +1,113 @@
+{
+    "Name": "LIFE AND HEALING",
+    "Description": "The values here will use the solid numbers in the files - but the percentages will also be shown on the side to reflect moreso what would exist in a real match.",
+    "StatCategories": [
+        {
+            "Name": "BASE LIFE STATS",
+            "Stats": [
+                {
+                    "Name": "Base Life",
+                    "Value": 225,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(100%)"
+                    }
+                },
+                {
+                    "Name": "Base Life on Resurrect",
+                    "Value": 60,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(26.67%)"
+                    }
+                },
+                {
+                    "Name": "Life Lost on Injure",
+                    "Value": 50,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(22.2%)"
+                    }
+                },
+                {
+                    "Name": "Life Lost on Down",
+                    "Value": 50,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(22.2%)"
+                    }
+                },
+                {
+                    "Name": "Bleedout Speed",
+                    "Value": 0.5,
+                    "Unit": "/s",
+                    "Misc": {
+                        "Suffix": "(0.22%/s)"
+                    }
+                },
+                {
+                    "Name": "Critical Health Threshold",
+                    "Value": 30,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(13.3%)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "HEALING",
+            "Stats": [
+                {
+                    "Name": "Heal Time (MedKit)",
+                    "Value": 24.62,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Heal Time (1 healer)",
+                    "Value": 16,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Heal Time (2 healers)",
+                    "Value": 11.94,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Heal Time (3 healers)",
+                    "Value": 9.70,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Revive Time (1 healer)",
+                    "Value": 9.6,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Revive Time (2 healers)",
+                    "Value": 6.4,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Revive Time (3 healers)",
+                    "Value": 4.8,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                }
+            ]
+        }
+    ]
+}

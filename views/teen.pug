@@ -6,39 +6,11 @@ html
         link(href="public/styles/teen.css" rel="stylesheet")
         script(src="public/scripts/index.js")
         script(src="public/scripts/teen.js")
-    body(onload="main()")
+    body(onload="mainTeen()")
         include header
         h1#ContentType TEEN STATS
+        div#ToolTip
         div#contentpanel
-            div.StatsCategory
-                h1.StatsTitle BASE MOVEMENT
-                hr.StatsDivisor
-                p Teen Movement is based purely on the running speed. Walking and crouching simply provide modifiers for this speed. Additionally, the speeds of Monsters are also simply multipliers of Teen run speed.
-                p These stats displayed below will not include speeds while doing certain actions - those can be found in said action's appropriate section.
-                p Below are some simple movement stats:
-                h2.StatsSubcategory BASE TEEN MOVEMENT SPEEDS
-                p.StatDescriptor Default Run Speed: <span class="StatNumber">5m/s</span>
-                p.StatDescriptor Walk Multiplier: <span class="StatNumber">0.5% (2.5m/s)</span>
-                p.StatDescriptor Crouch Multiplier: <span class="StatNumber">0.25% (1.25m/s)</span>
-                p.StatDescriptor Crawl Multiplier: <span class="StatNumber">0.15% (0. 75m/s)</span>
-            div.StatsCategory
-                h1.StatsTitle LIFE AND HEALING
-                hr.StatsDivisor
-                p The values here will use the solid numbers in the files - but the percentages will also be shown on the side to reflect moreso what would exist in a real match.
-                h2.StatsSubcategory BASE LIFE STATS
-                p.StatDescriptor Base Life: <span class="StatNumber">225 (100%)</span>
-                p.StatDescriptor Base Life on Resurrect: <span class="StatNumber">60 (26.67%)</span>
-                p.StatDescriptor Life Lost on Injure: <span class="StatNumber">50 (22.2%)</span>
-                p.StatDescriptor Life Lost on Down: <span class="StatNumber">50 (22.2%)</span>
-                p.StatDescriptor Bleedout Speed: <span class="StatNumber">0.5/s (0.22%)</span>
-                p.StatDescriptor Critical Health Threshold: <span class="StatNumber">30 (13.3%)</span>
-                h2.StatsSubcategory HEALING
-                p.StatDescriptor Heal Time (MedKit) <span class="StatNumber">24.62s</span>
-                p.StatDescriptor Heal Time (1 healer) <span class="StatNumber">16s</span>
-                p.StatDescriptor Heal Time (2 healers) <span class="StatNumber">11.94s</span>
-                p.StatDescriptor Heal Time (3 healers) <span class="StatNumber">9.70s</span>
-                p.StatDescriptor Revive Time (1 healer) <span class="StatNumber">9.6s</span>
-                p.StatDescriptor Revive Time (2 healers) <span class="StatNumber">6.4s</span>
-                p.StatDescriptor Revive Time (3 healers) <span class="StatNumber">4.8s</span>
+
 
             

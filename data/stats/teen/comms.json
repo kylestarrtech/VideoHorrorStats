@@ -1,0 +1,59 @@
+{
+    "Name": "PINGS AND COMMUNICATIONS",
+    "Description": "This section dictates specifically values related to teammate communication (Walkie Talkies not included - that will be in the items section!).<br><br>Mainly pings will be here - but any other values that are added in relation to teen communication will be put in this",
+    "StatCategories": [
+        {
+            "Name": "PINGS",
+            "Stats": [
+                {
+                    "Name": "Ping Duration",
+                    "Value": 5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration a ping stays visible to all other teens."
+                    }
+                },
+                {
+                    "Name": "Ping Object Range",
+                    "Value": 10,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The max range at which an object can be pinged."
+                    }
+                },
+                {
+                    "Name": "Ping Double-Click Buffer",
+                    "Value": 0.2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time one has between clicks for a ping to be considered a cautionary ping."
+                    }
+                },
+                {
+                    "Name": "Ping Cooldown",
+                    "Value": 1.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The minimum cooldown before one can ping again (this does not account for penalties)."
+                    }
+                },
+                {
+                    "Name": "Default Ping Penalty Timer",
+                    "Value": -8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base start time for penalizing ping spam. Must be <= 0 in order for you to be able to ping."
+                    }
+                },
+                {
+                    "Name": "Ping Time Penalty",
+                    "Value": 4,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The amount of penalty added to the ping penalty timer per ping."
+                    }
+                }
+            ]
+        }
+    ]
+}

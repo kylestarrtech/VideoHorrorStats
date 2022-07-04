@@ -1,0 +1,71 @@
+{
+    "Name": "BASE MOVEMENT",
+    "Description": "Teen Movement is based purely on the running speed. Walking and crouching simply provide modifiers for this speed. Additionally, the speeds of Monsters are also simply multipliers of Teen run speed.<br><br>These stats displayed below will not include speeds while doing certain actions - those can be found in said action's appropriate section.<br><br>Below are some simple movement stats:",
+    "StatCategories": [
+        {
+            "Name": "BASE TEEN MOVEMENT SPEEDS",
+            "Stats": [
+                {
+                    "Name": "Default Run Speed",
+                    "Value": 5.0,
+                    "Unit": "m/s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Walk Speed Multiplier",
+                    "Value": 0.50,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(2.5m/s)"
+                    }
+                },
+                {
+                    "Name": "Crouch Speed Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.25m/s)"
+                    }
+                },
+                {
+                    "Name": "Crawl Speed Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(0.75m/s)"
+                    }
+                },
+                {
+                    "Name": "Spectral Movement Speed",
+                    "Value": 6.25,
+                    "Unit": "m/s",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Spectral Acceleration",
+                    "Value": 10.25,
+                    "Unit": "m/s²",
+                    "Misc": {
+                    }
+                },
+                {
+                    "Name": "Post-Hit Haste Multiplier",
+                    "Value": 1.45,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(7.25m/s)"
+                    }
+                },
+                {
+                    "Name": "Post-Hit Haste Duration",
+                    "Value": 4,
+                    "Unit": "s",
+                    "Misc": {
+                    }
+                }
+            ]
+        }
+    ]
+}
