@@ -1,14 +1,211 @@
 {
-    "Name": "Werewolf",
-    "Icon": "public/images/monster/journey/werewolf-full.png",
-    "Base_Stats": {
-        "Speed": 5.8,
-        "TensionTrack": 36,
-        "LungeSpeed": 8.76,
-        "LungeRecovery": 4.06
-    },
+    "Name": "WEREWOLF",
+    "Quote": "Your inner beast unleashed.",
+    "Icon": "public/images/monster/journey/werewolf-full2.png",
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.16,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.8m/s)",
+                "ToolTip": "Werewolf`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of Werewolf`s Tension Track."
+            }
+        },
+        {
+            "Name": "Lunge Speed",
+            "Value": 8.76,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Werewolf moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 4,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Werewolf moves while recovering from a missed lunge."
+            }
+        }
+    ],
     "Powers": [
-        
+        {
+            "Name": "Berserk",
+            "Icon": "public/images/monster/powers/werewolf/berserk.png",
+            "Stats": [
+                {
+                    "Name": "Berserk Speed Multiplier",
+                    "Value": 0.24,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(7.2m/s)",
+                        "ToolTip": "The bonus speed Werewolf acquires while using Berserk."
+                    }
+                },
+                {
+                    "Name": "Berserk Tension Track Multiplier",
+                    "Value": 0.05,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(37.8m)",
+                        "ToolTip": "The extra multiplier added to Werewolf`s Tension Track when using Berserk."
+                    }
+                },
+                {
+                    "Name": "Berserk Attack Recovery Multiplier",
+                    "Value": 0.14,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(4.46m/s)",
+                        "ToolTip": "The extra multiplier added to Werewolf`s movement speed while recovering from a missed attack."
+                    }
+                },
+                {
+                    "Name": "Berserk Duration",
+                    "Value": 12,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration Berserk will stay active after being activated by Werewolf."
+                    }
+                },
+                {
+                    "Name": "Berserk Cooldown",
+                    "Value": 24,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default cooldown of Werewolf`s Berserk."
+                    }
+                },
+                {
+                    "Name": "Berserk Focus Time",
+                    "Value": 0.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Werewolf to focus Berserk before it activates."
+                    }
+                },
+                {
+                    "Name": "Berserk Focus Speed Multiplier",
+                    "Value": 0.60,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(3m/s)",
+                        "ToolTip": "The multiplier applied to Werewolf`s movement speed while focusing Berserk."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Howl",
+            "Icon": "public/images/monster/powers/werewolf/howl.png",
+            "Stats": [
+                {
+                    "Name": "Howl Range",
+                    "Value": 30,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range a teen can be away from Werewolf in order to be Cowering when Howl is activated."
+                    }
+                },
+                {
+                    "Name": "Howl Cowering Time",
+                    "Value": 8.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time teens affected by Howl will be Cowering."
+                    }
+                },
+                {
+                    "Name": "Howl Cooldown",
+                    "Value": 28,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown of Werewolf`s Howl."
+                    }
+                },
+                {
+                    "Name": "Howl Focus Time",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Werewolf to focus Howl before it activates."
+                    }
+                },
+                {
+                    "Name": "Howl Focus Speed Multiplier",
+                    "Value": 0.60,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(3m/s)",
+                        "ToolTip": "The multiplier applied to Werewolf`s movement speed while focusing Howl."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Hunt",
+            "Icon": "public/images/monster/powers/werewolf/hunt.png",
+            "Stats": [
+                {
+                    "Name": "Hunt Maximum Range",
+                    "Value": 24,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range the closest teen may be at in order to be detected by Werewolf`s Hunt."
+                    }
+                },
+                {
+                    "Name": "Hunt Minimum Range",
+                    "Value": 6,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range the closest teen may be at in order to be detected by Werewolf`s Hunt at the maximum frequency."
+                    }
+                },
+                {
+                    "Name": "Hunt Duration",
+                    "Value": 25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration Hunt will stay active for after being activated by Werewolf."
+                    }
+                },
+                {
+                    "Name": "Hunt Cooldown",
+                    "Value": 55,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown of Werewolf`s Hunt."
+                    }
+                },
+                {
+                    "Name": "Hunt Focus Time",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Werewolf to focus Hunt before it activates."
+                    }
+                },
+                {
+                    "Name": "Hunt Focus Speed Multiplier",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(2m/s)",
+                        "ToolTip": "The multiplier applied to Werewolf`s movement speed while focusing Hunt."
+                    }
+                }
+            ]
+        }
     ],
     "Audio": {
         "TensionTrack": {

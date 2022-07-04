@@ -10,7 +10,7 @@
     position:absolute; 
     top: 0px;
     left: 0px;
-    opacity: 0.5;
+    opacity: 0.75;
     z-index: -1;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .PowerImage {
-    width: 15%;
+    width: 100px;
     margin-left: 10px;
     margin-top: 10px;
     margin-right: auto;
@@ -93,4 +93,46 @@
     box-shadow: 0px 0px 10px #00eeff80;
 
     z-index: 3;
+}
+
+.MonsterSelect {
+    background-color: #31003180;
+    width: 32%;
+    
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    height: 150px;
+    position: sticky;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+    cursor: pointer;
+}
+
+.MonsterSelect:hover {
+    animation-name: MonsterSelectHover;
+    animation-duration: 0.25s
+}
+
+@keyframes MonsterSelectHover {
+    from {
+        background-color: #31003170;
+        border-color: #00eeff;
+    }
+    30% {
+        background-color: #4e004890;
+        border-color: #410404;
+    }
+    60% {
+        background-color: #31003175;
+        border-color: #310031;
+    }
+    100% {
+        background-color: #31003180;
+        border-color: #00eeff;
+    }
 }

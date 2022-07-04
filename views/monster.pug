@@ -11,4 +11,10 @@ html
         include header
         h1#ContentType MONSTER STATS
         div#ToolTip
+        button.MonsterSelect(onclick="UpdateSelectedCategory(0)")
+            img(src="public/images/monster/werewolf.png" height="125px")
+        button.MonsterSelect(onclick="UpdateSelectedCategory(1)")
+            img(src="public/images/monster/wart.png" height="125px")
+        button.MonsterSelect(onclick="UpdateSelectedCategory(2)")
+            img(src="public/images/monster/dollmaster.png" height="125px")
         div#contentpanel

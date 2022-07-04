@@ -1,5 +1,5 @@
 var contentPanel;
-var categories = ["data/stats/monster/wart.json"]
+var categories = ["data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json"]
 
 var selectedCategoryIndex = 0;
 
@@ -23,7 +23,12 @@ function GetCategoryData(index) {
 }
 
 function LoadCategory(categoryData) {
-    contentPanel.innerHTML += "<div class='StatsCategory'>" + GenerateStatsPage(categoryData);
+    contentPanel.innerHTML = "<div class='StatsCategory'>" + GenerateStatsPage(categoryData);
+}
+
+function UpdateSelectedCategory(index) {
+    selectedCategoryIndex = index;
+    GetCategoryData(selectedCategoryIndex);
 }
 
 function GenerateStatsPage(categoryData) {
@@ -89,7 +94,6 @@ function GenerateStatsPage(categoryData) {
 }
 
 function ShowToolTip(tooltipText) {
-    console.log("Showing ToolTip!");
     let tooltip = document.getElementById("ToolTip");
 
     for (var i = 0; i < tooltipTimeouts.length; i++) {
@@ -104,7 +108,6 @@ function ShowToolTip(tooltipText) {
 }
 
 function HideToolTip() {
-    console.log("Hiding ToolTip!")
     let tooltip = document.getElementById("ToolTip");
     tooltip.style.opacity = 0;
     tooltipTimeouts.push(setTimeout(function() {

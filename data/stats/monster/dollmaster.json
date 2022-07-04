@@ -1,14 +1,377 @@
 {
-    "Name": "Doll Master",
-    "Icon": "public/images/monster/journey/dollmaster-full.png",
-    "Base_Stats": {
-        "Speed": 5.6,
-        "TensionTrack": 36,
-        "LungeSpeed": 8.00,
-        "LungeRecovery": 3.92
-    },
+    "Name": "DOLL MASTER",
+    "Quote": "Toy with your prey.",
+    "Icon": "public/images/monster/journey/dollmaster-full2.png",
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.12,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.6m/s)",
+                "ToolTip": "Doll Master`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Doll Movement Speed Multiplier",
+            "Value": 1.12,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.6m/s)",
+                "ToolTip": "A Doll`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of Doll Master`s Tension Track."
+            }
+        },
+        {
+            "Name": "Lunge Speed",
+            "Value": 8,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Doll Master moves during a lunge."
+            }
+        },
+        {
+            "Name": "Doll Lunge Speed",
+            "Value": 7.55,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which a Doll moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 3.92,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Doll Master moves while recovering from a missed lunge."
+            }
+        },
+        {
+            "Name": "Doll Lunge Recovery Speed",
+            "Value": 3.92,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which a Doll moves while recovering from a missed lunge."
+            }
+        }
+    ],
     "Powers": [
-        
+        {
+            "Name": "Leap",
+            "Icon": "public/images/monster/powers/dollmaster/leap.png",
+            "Stats": [
+                {
+                    "Name": "Leap Speed Multiplier",
+                    "Value": 2,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(10m/s)",
+                        "ToolTip": "The speed at which a Doll moves while leaping - this is a multiplier on the teen running speed of 5m/s."
+                    }
+                },
+                {
+                    "Name": "Leap Speed Multiplier (Damaged)",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5.0m/s)",
+                        "ToolTip": "The speed at which a Doll moves while leaping AND taking damaged during the leap."
+                    }
+                },
+                {
+                    "Name": "Leap Acceleration",
+                    "Value": 100,
+                    "Unit": "m/s²",
+                    "Misc": {
+                        "ToolTip": "The rate of acceleration of a Doll`s leap."
+                    }
+                },
+                {
+                    "Name": "Leap Duration",
+                    "Value": 0.75,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of a Doll`s leap."
+                    }
+                },
+                {
+                    "Name": "Leap Cooldown",
+                    "Value": 8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default cooldown of a Doll`s leap."
+                    }
+                },
+                {
+                    "Name": "Leap Focus Time",
+                    "Value": 0.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for a Doll to focus leap before it activates."
+                    }
+                },
+                {
+                    "Name": "Leap Focus Speed Multiplier",
+                    "Value": 1.00,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5m/s)",
+                        "ToolTip": "The multiplier applied to a Doll`s movement speed while focusing leap."
+                    }
+                },
+                {
+                    "Name": "Leap Max Height",
+                    "Value": 0.5,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The max height at which a Doll reaches during its leap."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Doll Trap",
+            "Icon": "public/images/monster/powers/dollmaster/summon.png",
+            "Stats": [
+                {
+                    "Name": "Maximum Base Doll Traps",
+                    "Value": 5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum amount of Doll Traps that Doll Master may place before new Doll Traps replace old ones."
+                    }
+                },
+                {
+                    "Name": "Minimum Base Doll Traps",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The minimum amount of Doll Traps that Doll Master may have available to himself."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Cooldown",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The cooldown applied to Doll Master before another trap may be placed after having placed another Doll Trap. This cooldown visually does not show in game."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Abort Cooldown",
+                    "Value": 0.85,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The cooldown applied to Doll Master before another trap may be placed if you just cancelled placing a Doll Trap. This cooldown visually does not show in game."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Minimum Separation Distance",
+                    "Value": 3,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The minimum distance two Doll Traps may be from each other. If you attempt to place a Doll Trap within 3 meters of another it will not work as it is less than this value."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Maximum Placement Distance",
+                    "Value": 4,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum distance at which Doll Master may place a Doll Trap away from himself."
+                    }
+                },
+                {
+                    "Name": "Doll Far Proximity",
+                    "Value": 22,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum distance a teen may be when a Doll Trap detects a teen as being in proximity."
+                    }
+                },
+                {
+                    "Name": "Doll Tricky Proximity",
+                    "Value": 11,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum distance a teen may be when a Doll Trap detects a teen as being nearby.<br><b>This is only visible while using the mutation Tricky.</b>"
+                    }
+                },
+                {
+                    "Name": "Doll Trap Alarmed Radius",
+                    "Value": 0.0175,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum distance a teen may be when a Doll Trap is considered Alarmed (provided the teen is not crouching)."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Alarmed Lifetime",
+                    "Value": 6,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time a Doll will remain in the Alarmed state with inaction before being destroyed."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Disarm Distance",
+                    "Value": 1.4,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum distance a teen may be from a Doll Trap in order to be able to disarm a Doll Trap."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Disarm Time",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes for a teen to disarm a Doll Trap."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Focus Time",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Doll Master to place down an additional Doll Trap."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Focus Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5m/s)",
+                        "ToolTip": "The multiplier applied to Doll Master`s movement speed while placing a Doll Trap.<br><b>This value may be incorrect!</b>"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Doll Possession",
+            "Icon": "public/images/monster/powers/dollmaster/possession.png",
+            "Stats": [
+                {
+                    "Name": "Doll Possession Cooldown",
+                    "Value": 12,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default cooldown of Doll Possession."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Control Time",
+                    "Value": 1.1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time after having possessed a Doll it takes to have full view and control of the Doll - in essence, this is the fade animation that plays when switching between the two cameras."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Alarmed Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(0.7s)",
+                        "ToolTip": "The bonus charge multiplier that is given when using Doll Possession on a Doll Trap that is Alarmed."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Danger Sense Radius",
+                    "Value": 22,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range an armed teen may be before Doll Master receives a notification of their presence."
+                    }
+                },
+                {
+                    "Name": "Doll Destroyed Exposed Duration",
+                    "Value": 13,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration that Doll Master is exposed after having a Doll be destroyed with a weapon."
+                    }
+                },
+                {
+                    "Name": "Doll Lifetime",
+                    "Value": 30,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default time that Doll Master may control a Doll."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Teleport",
+            "Icon": "public/images/monster/powers/dollmaster/teleport.png",
+            "Stats": [
+                {
+                    "Name": "Teleport Cooldown",
+                    "Value": 60,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default cooldown of Doll Master`s Teleport."
+                    }
+                },
+                {
+                    "Name": "Teleport Alarmed Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(0.5s)",
+                        "ToolTip": "The bonus charge multiplier that is given when using Teleport on a Doll Trap that is Alarmed."
+                    }
+                },
+                {
+                    "Name": "Teleport Focus Time",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Doll Master to focus Teleport before it activates."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Recall",
+            "Icon": "public/images/monster/powers/dollmaster/summon.png",
+            "Stats": [
+                {
+                    "Name": "Doll Trap Recall Minimum Range",
+                    "Value": 22,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The minimum range a teen can be to a Doll Trap that is eligible to be recalled."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Recall Focus Time",
+                    "Value": 0.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Doll Master to focus Recall before it activates."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Recall Focus Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5m/s)",
+                        "ToolTip": "The multiplier applied to Doll Master`s movement speed while recalling a Doll Trap.<br><b>This value may be incorrect!</b>"
+                    }
+                }
+            ]
+        }
     ],
     "Audio": {
         "TensionTrack": {
