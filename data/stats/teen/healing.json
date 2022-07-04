@@ -18,7 +18,8 @@
                     "Value": 60,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(26.67%)"
+                        "Suffix": "(26.67%)",
+                        "ToolTip": "The base amount of life a teen receives when revived with the Book of the Dead."
                     }
                 },
                 {
@@ -50,7 +51,8 @@
                     "Value": 30,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(13.3%)"
+                        "Suffix": "(13.3%)",
+                        "ToolTip": "The maximum health you can have to be considered at Critical Health."
                     }
                 }
             ]

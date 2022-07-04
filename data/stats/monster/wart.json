@@ -1,22 +1,259 @@
 {
     "Name": "W.A.R.T.",
-    "Base_Stats": {
-        "Speed": 5.6,
-        "TensionTrack": 36,
-        "LungeSpeed": 8.46,
-        "LungeRecovery": 3.92
-    },
-    "Powers": {
-        "Leap": {
-
+    "Quote": "Evolution is unstoppable.",
+    "Icon": "public/images/monster/journey/wart-full2.png",
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.12,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.6m/s)",
+                "ToolTip": "W.A.R.T.`s movement speed multiplier."
+            }
         },
-        "AcidArmor": {
-            
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of W.A.R.T.`s Tension Track."
+            }
         },
-        "Echolocation": {
-
+        {
+            "Name": "Lunge Speed",
+            "Value": 8.46,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which W.A.R.T. moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 3.92,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which W.A.R.T. moves while recovering from a missed lunge."
+            }
         }
-    },
+    ],
+    "Powers": [
+        {
+            "Name": "Leap",
+            "Icon": "public/images/monster/powers/wart/leap.png",
+            "Stats": [
+                {
+                    "Name": "Leap Speed Multiplier",
+                    "Value": 2,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(10m/s)",
+                        "ToolTip": "The speed at which W.A.R.T. moves while leaping - this is a multiplier on the teen running speed of 5m/s."
+                    }
+                },
+                {
+                    "Name": "Leap Speed Multiplier (Damaged)",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5.0m/s)",
+                        "ToolTip": "The speed at which W.A.R.T. moves while leaping AND taking damaged during the leap."
+                    }
+                },
+                {
+                    "Name": "Leap Acceleration",
+                    "Value": 100,
+                    "Unit": "m/s²",
+                    "Misc": {
+                        "ToolTip": "The rate of acceleration of W.A.R.T.`s leap."
+                    }
+                },
+                {
+                    "Name": "Leap Shockwave Range",
+                    "Value": 6,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The size of W.A.R.T.`s shockwave when landing after a leap."
+                    }
+                },
+                {
+                    "Name": "Leap Shockwave Duration",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of the shockwave <u>visual</u>. The stagger effect is a different stat."
+                    }
+                },
+                {
+                    "Name": "Leap Stagger Duration",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of the stagger effect applied to teens within W.A.R.T.`s shockwave range."
+                    }
+                },
+                {
+                    "Name": "Leap Duration",
+                    "Value": 0.75,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of W.A.R.T.`s leap."
+                    }
+                },
+                {
+                    "Name": "Leap Cooldown",
+                    "Value": 7,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default cooldown of W.A.R.T.`s leap."
+                    }
+                },
+                {
+                    "Name": "Leap Focus Time",
+                    "Value": 0.7,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for W.A.R.T. to focus leap before it activates."
+                    }
+                },
+                {
+                    "Name": "Leap Focus Speed Multiplier",
+                    "Value": 1.01,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5.05m/s)",
+                        "ToolTip": "The multiplier applied to W.A.R.T.`s movement speed while focusing leap."
+                    }
+                },
+                {
+                    "Name": "Leap Max Height",
+                    "Value": 0.1,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The max height at which W.A.R.T. reaches during its leap."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Acid Armor",
+            "Icon": "public/images/monster/powers/wart/acidarmor.png",
+            "Stats": [
+                {
+                    "Name": "Acid Armor Duration",
+                    "Value": 12,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration at which W.A.R.T. is protected with Acid Armor."
+                    }
+                },
+                {
+                    "Name": "Acid Armor Cooldown",
+                    "Value": 32,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The cooldown for Acid Armor - this cooldown begins as soon as Acid Armor is activated."
+                    }
+                },
+                {
+                    "Name": "Acid Armor Focus Time",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time for W.A.R.T. to focus Acid Armor before it activates."
+                    }
+                },
+                {
+                    "Name": "Acid Armor Focus Speed Multiplier",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(2m/s)",
+                        "ToolTip": "The multiplier applied to W.A.R.T.`s speed while focusing Acid Armor."
+                    }
+                },
+                {
+                    "Name": "Acid Armor Shatter Flinch Duration",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of W.A.R.T.`s flinch animation after having Acid Armor broken."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Echolocation",
+            "Icon": "public/images/monster/powers/wart/echolocation.png",
+            "Stats": [
+                {
+                    "Name": "Afterimage Delay Time",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The delay time before Afterimages become visible to all players."
+                    }
+                },
+                {
+                    "Name": "Afterimage Brightness Attentuation Multiplier",
+                    "Value": 0.75,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "A constant curve value dedicated to making sure Afterimages are brighter the further you are away from them but more translucent the closer you are away from them."
+                    }
+                },
+                {
+                    "Name": "Afterimage Duration",
+                    "Value": 8.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time Afterimages remain visible to all players."
+                    }
+                },
+                {
+                    "Name": "Echolocation Maximum Range",
+                    "Value": 200,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range at which Echolocation will detect other players. You never really see this value reached in-game - but it`s still worth noting."
+                    }
+                },
+                {
+                    "Name": "Echolocation Minimum Range",
+                    "Value": 20,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The minimum range at which Echolocation will begin detecting players. This value <u>may</u> be unused at this point but in the situation it is not I`ll list it here anyways."
+                    }
+                },
+                {
+                    "Name": "Echolocation Cooldown",
+                    "Value": 35,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The cooldown for Echolocation."
+                    }
+                },
+                {
+                    "Name": "Echolocation Focus Time",
+                    "Value": 1.7,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time for W.A.R.T. to focus Echolocation before it activates."
+                    }
+                },
+                {
+                    "Name": "Echolocation Focus Speed Multiplier",
+                    "Value": 0.45,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(2.25m/s)",
+                        "ToolTip": "The multiplier applied to W.A.R.T.`s speed while focusing Echolocation."
+                    }
+                }
+            ]
+        }
+    ],
     "Audio": {
         "TensionTrack": {
             "Base": "data/sounds/wart/tension/base.ogg",

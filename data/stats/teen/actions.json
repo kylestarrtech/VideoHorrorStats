@@ -1,0 +1,93 @@
+{
+    "Name": "ACTIONS AND AURAS",
+    "Description": "This section will be dedicated to the details of various actions alongside certain miscellaneous numbers related to aura reading.",
+    "StatCategories": [
+        {
+            "Name": "ACTIONS",
+            "Stats": [
+                {
+                    "Name": "Post-Hit Collisionless Duration",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time your character does not have a hitbox after losing a health state to the Monster."
+                    }
+                },
+                {
+                    "Name": "Teen Revive Range",
+                    "Value": 1.5,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range you can be to a dead teen to begin the revival interaction with the Book of the Dead."
+                    }
+                },
+                {
+                    "Name": "Teen Pickup Range",
+                    "Value": 0.5,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range you can be to a prone teen to begin the pickup interaction."
+                    }
+                },
+                {
+                    "Name": "Teen Weapon Discard Duration",
+                    "Value": 1.0,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for a teen to discard their weapon."
+                    }
+                },
+                {
+                    "Name": "Fast Vault Sprint Distance",
+                    "Value": 4,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The amount of distance required for a teen to get a fast vault."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "AURAS",
+            "Stats": [
+                {
+                    "Name": "MedKit Station Aura Range",
+                    "Value": 6,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The range at which a teen can see the aura of a MedKit Station by default."
+                    }
+                },
+                {
+                    "Name": "Dead Teen Aura Range",
+                    "Value": 6,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The range at which a teen can see the aura of a dead teen."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "SPECTRALS",
+            "Stats": [
+                {
+                    "Name": "Spectral Cancel Time",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes for a teen to relinquish their spectral."
+                    }
+                },
+                {
+                    "Name": "Spectral Teen Aura Range",
+                    "Value": 15,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The minimum range required to see the aura of a living teen while playing as a spectral."
+                    }
+                }
+            ]
+        }
+    ]
+}

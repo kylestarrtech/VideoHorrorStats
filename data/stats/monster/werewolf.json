@@ -1,22 +1,15 @@
 {
     "Name": "Werewolf",
+    "Icon": "public/images/monster/journey/werewolf-full.png",
     "Base_Stats": {
         "Speed": 5.8,
         "TensionTrack": 36,
         "LungeSpeed": 8.76,
         "LungeRecovery": 4.06
     },
-    "Powers": {
-        "Berserk": {
-
-        },
-        "Howl": {
-            
-        },
-        "Hunt": {
-
-        }
-    },
+    "Powers": [
+        
+    ],
     "Audio": {
         "TensionTrack": {
             "Base": "data/sounds/werewolf/tension/base.ogg",

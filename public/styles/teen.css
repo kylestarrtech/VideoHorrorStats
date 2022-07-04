@@ -14,6 +14,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    position:relative;
 }
 
 .StatsDivisor {
@@ -30,6 +31,10 @@
 
     margin-left: 10%;
     margin-right: 10%;
+
+    cursor: default;
+
+    user-select: none;
 }
 
 .StatNumber {
@@ -49,6 +54,7 @@
 .StatsTitle {
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 5px;
 
     letter-spacing: 3px;
     text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 10px #ffffff;
@@ -81,10 +87,14 @@
     text-align: center;
     vertical-align: baseline;
 
-    background-color: #00000080;
+    background-color: #000000aa;
 
     font-family: 'Roboto';
+    font-weight: 100;
+    font-style: italic;
     text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 4px #ffffff;
 
     transition: opacity 1s;
+
+    z-index: 100;
 }

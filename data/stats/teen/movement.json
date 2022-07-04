@@ -48,6 +48,7 @@
                     "Value": 10.25,
                     "Unit": "m/s²",
                     "Misc": {
+                        "ToolTip": "The rate at which spectrals accelerate to their max speed."
                     }
                 },
                 {
@@ -55,7 +56,8 @@
                     "Value": 1.45,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(7.25m/s)"
+                        "Suffix": "(7.25m/s)",
+                        "ToolTip": "The amount your current movement speed is multiplied by after being attacked by the Monster."
                     }
                 },
                 {
@@ -63,6 +65,7 @@
                     "Value": 4,
                     "Unit": "s",
                     "Misc": {
+                        "ToolTip": "The duration of the movement speed boost that is applied after being attacked by the Monster."
                     }
                 }
             ]

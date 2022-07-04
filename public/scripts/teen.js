@@ -1,5 +1,7 @@
 var contentPanel;
-var categories = ["data/stats/teen/movement.json", "data/stats/teen/healing.json", "data/stats/teen/comms.json"]
+var categories = ["data/stats/teen/movement.json", "data/stats/teen/healing.json", "data/stats/teen/comms.json", "data/stats/teen/actions.json"]
+var categoryDivs = [] //Dynamically add divs to this array for future tracking.
+
 
 var tooltipTimeouts = []
 

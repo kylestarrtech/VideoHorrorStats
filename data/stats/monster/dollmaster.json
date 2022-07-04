@@ -1,28 +1,15 @@
 {
     "Name": "Doll Master",
+    "Icon": "public/images/monster/journey/dollmaster-full.png",
     "Base_Stats": {
         "Speed": 5.6,
         "TensionTrack": 36,
         "LungeSpeed": 8.00,
         "LungeRecovery": 3.92
     },
-    "Powers": {
-        "Leap": {
-
-        },
-        "Place": {
-
-        },
-        "Recall": {
-
-        },
-        "Possession": {
-            
-        },
-        "Teleport": {
-
-        }
-    },
+    "Powers": [
+        
+    ],
     "Audio": {
         "TensionTrack": {
             "Base": "data/sounds/dollmaster/tension/base.ogg",
