@@ -9,6 +9,11 @@ function UnhighlightButton(type) {
     document.getElementById(type + "RoleButton").src = 'public/images/header/' + type + '/base.png';
 }
 
+function HighlightLogo(state) {
+    if (state) { document.getElementById("MainLogo").src = 'public/images/logos/logo-small.png'; }
+    else { document.getElementById("MainLogo").src = 'public/images/logos/logo-small-nofx.png'; }
+}
+
 function main() {
     console.log("Loaded!");
     //LoadSelectedPage();

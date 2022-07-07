@@ -2,7 +2,7 @@ link(href="public/styles/header.css" rel="stylesheet")
 script(src="public/scripts/header.js" type="text/javascript" onload="main()")
 
 div#header
-    img#MainLogo(class="MainButton", src="public/images/logos/logo-small.png" onclick="UpdateSelectedPage(0)")
+    img#MainLogo(class="MainButton", src="public/images/logos/logo-small-nofx.png", onmouseenter="HighlightLogo(true)", onmouseleave="HighlightLogo(false)", onclick="UpdateSelectedPage(0)")
     img.RoleButton(id="teenRoleButton", onmouseenter="HighlightButton('teen')", onmouseleave="UnhighlightButton('teen')", src="public/images/header/teen/base.png", width="150px", alt="Teen", onclick="UpdateSelectedPage(1)")
     img.RoleButton(id="monsterRoleButton", onmouseenter="HighlightButton('monster')", onmouseleave="UnhighlightButton('monster')", src="public/images/header/monster/base.png", width="150px", alt="Monster", onclick="UpdateSelectedPage(2)")
     img.RoleButton(id="soundsRoleButton", onmouseenter="HighlightButton('sounds')", onmouseleave="UnhighlightButton('sounds')", src="public/images/header/sounds/base.png", width="150px", alt="Sounds", onclick="UpdateSelectedPage(3)")

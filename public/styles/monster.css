@@ -12,6 +12,8 @@
     left: 0px;
     opacity: 0.75;
     z-index: -1;
+
+    animation: MonsterImageFadeIn 1s;
 }
 
 .MonsterTitle {
@@ -97,7 +99,7 @@
 
 .MonsterSelect {
     background-color: #31003180;
-    width: 32%;
+    width: 24%;
     
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -134,5 +136,16 @@
     100% {
         background-color: #31003180;
         border-color: #00eeff;
+    }
+}
+
+@keyframes MonsterImageFadeIn {
+    from {
+        left: -15px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 0.75;
     }
 }

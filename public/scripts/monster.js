@@ -1,5 +1,5 @@
 var contentPanel;
-var categories = ["data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json"]
+var categories = ["data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json", "data/stats/monster/deathwire.json"]
 
 var selectedCategoryIndex = 0;
 
@@ -8,6 +8,16 @@ var tooltipTimeouts = []
 function mainMonster() {
     contentPanel = document.getElementById("contentpanel");
     console.log("Found contentpanel! Beginning category loading...");
+
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.has('monsterID')) {
+        let proposedIndex = parseInt(urlParams.get('monsterID'));
+        if (proposedIndex < 0 || proposedIndex >= categories.length) {
+            proposedIndex = 0;
+        }
+        selectedCategoryIndex = proposedIndex;
+    }
+
     GetCategoryData(selectedCategoryIndex);
 }
 
@@ -26,9 +36,15 @@ function LoadCategory(categoryData) {
     contentPanel.innerHTML = "<div class='StatsCategory'>" + GenerateStatsPage(categoryData);
 }
 
+function UpdateParameters() {
+    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?monsterID=' + selectedCategoryIndex;
+    window.history.pushState({path:newurl},'',newurl);
+}
+
 function UpdateSelectedCategory(index) {
     selectedCategoryIndex = index;
     GetCategoryData(selectedCategoryIndex);
+    UpdateParameters();
 }
 
 function GenerateStatsPage(categoryData) {
