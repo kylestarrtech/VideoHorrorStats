@@ -34,6 +34,7 @@ function GetCategoryData(index) {
 
 function LoadCategory(categoryData) {
     contentPanel.innerHTML = "<div class='StatsCategory'>" + GenerateStatsPage(categoryData);
+    BuildMutations(categoryData);
 }
 
 function UpdateParameters() {
@@ -45,6 +46,41 @@ function UpdateSelectedCategory(index) {
     selectedCategoryIndex = index;
     GetCategoryData(selectedCategoryIndex);
     UpdateParameters();
+}
+
+function BuildMutations(categoryData) {
+    console.log(categoryData);
+    console.log(categoryData.Mutations);
+    for (var mutation of categoryData.Mutations) {
+        console.log(mutation.PowerID);
+        let powerTarget = document.getElementById("POWERSTATSCATEGORY" + mutation.PowerID);
+
+        let finalStr = "";
+
+        finalStr += "<div class='StatsCategory'>" +
+        "<img class='MutationImage' src='" + mutation.Icon + "'>" +
+        "<h2 class='StatsTitle'>" + mutation.Name + "</h2>" +
+        "<hr class='StatsDivisor'>";
+
+        for (var mutationStat of mutation.Stats) {
+            finalStr += "<p class='StatsDescriptor' ";
+
+            if (mutationStat.Misc.ToolTip) {
+                finalStr += "onmouseenter=\"ShowToolTip('" + mutationStat.Misc.ToolTip + "')\"" +
+                            "onmouseleave='HideToolTip()'";
+            }
+    
+            finalStr += ">" + mutationStat.Name +
+                ": <span class='StatsNumber'>" + mutationStat.Value + mutationStat.Unit;
+            if (mutationStat.Misc.Suffix) {
+                finalStr += " " + mutationStat.Misc.Suffix;
+            }
+    
+            finalStr += "</span></p>";    
+        }
+
+        powerTarget.innerHTML += finalStr;
+    }
 }
 
 function GenerateStatsPage(categoryData) {
@@ -80,8 +116,10 @@ function GenerateStatsPage(categoryData) {
     finalStr += "<h2 class='PowerStatsHeader'>POWERS</h2>" +
         "<hr class='StatsDivisor'>";
 
+
+    let i = 0;
     for (var power of categoryData.Powers) {
-        finalStr += "<div class='StatsCategory'>" +
+        finalStr += "<div class='StatsCategory' id='POWERSTATSCATEGORY" + i + "'>" +
             "<img class='PowerImage' src='" + power.Icon + "'>" + 
             "<h2 class='StatsTitle'>" + power.Name + "</h2>" +
             "<hr class='StatsDivisor'>";
@@ -100,10 +138,15 @@ function GenerateStatsPage(categoryData) {
                 finalStr += " " + powerStat.Misc.Suffix;
             }
 
+            
             finalStr += "</span></p>";
         }
+
+        finalStr += "<h2 class='PowerStatsHeader'>MUTATIONS</h2>"
         
         finalStr += "</div>";
+
+        i++;
     }
     
     return finalStr;

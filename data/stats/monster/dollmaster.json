@@ -373,6 +373,80 @@
             ]
         }
     ],
+    "Mutations": [
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                
+            ]
+        }
+    ],
     "Audio": {
         "TensionTrack": {
             "Base": "data/sounds/dollmaster/tension/base.ogg",

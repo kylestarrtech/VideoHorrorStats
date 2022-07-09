@@ -254,6 +254,75 @@
             ]
         }
     ],
+    "Mutations": [
+        {
+            "Name": "Bombshell",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/wart/bombshell.png",
+            "Stats": [
+                {
+                    "Name": "Shockwave Radius Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(7.5m)",
+                        "ToolTip": "The bonus applied by Bombshell to the shockwave radius."
+                    }
+                },
+                {
+                    "Name": "Stagger Duration Multiplier",
+                    "Value": 0.1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.1s)",
+                        "ToolTip": "The bonus applied by Bombshell to the duration at which teens in the leap shockwave are Staggered."
+                    }
+                },
+                {
+                    "Name": "Leap Cooldown Bonus",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(8.75s)",
+                        "ToolTip": "The penalty applied by Bombshell to the cooldown on W.A.R.T.`s Leap power."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Throttle",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/wart/throttle.png",
+            "Stats": [
+                {
+                    "Name": "Leap Bonus Speed Multiplier",
+                    "Value": 0.24,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(12.4m/s)",
+                        "ToolTip": "The speed bonus applied to W.A.R.T.`s leap while using Throttle."
+                    }
+                },
+                {
+                    "Name": "Leap Focus Time Multiplier",
+                    "Value": 0.30,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(0.91s)",
+                        "ToolTip": "The multiplier applied to W.A.R.T.`s leap focus time while using Throttle."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Kinetic",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/wart/kinetic.png",
+            "Stats": [
+                
+            ]
+        }
+    ],
     "Audio": {
         "TensionTrack": {
             "Base": "data/sounds/wart/tension/base.ogg",
