@@ -24,3 +24,15 @@ body {
     text-shadow: 5px 0px 0px #ff00ff, -5px 0px 0px #00ffff, 0px 0px 15px #ffffff;
     letter-spacing: 10px;
 }
+
+#ContentSubheader {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 0px;
+    color: #ffffff;
+    text-shadow: 3px 0px 0px #ff00ff, -3px 0px 0px #00ffff, 0px 0px 15px #ffffff;
+    letter-spacing: 7px;
+}

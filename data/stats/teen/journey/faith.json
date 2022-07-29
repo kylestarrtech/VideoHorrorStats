@@ -1,0 +1,3761 @@
+{
+    "Name": "FAITH",
+    "1": {
+        "1": {
+            "0,0": {
+                "x": 0,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,0": {
+                "x": 1,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint1": {
+                "x": 2,
+                "y": 0,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist1",
+                    "E": "PlotTwist4",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist4": {
+                "x": 3,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint5",
+                    "W": "PerkPoint1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint5": {
+                "x": 4,
+                "y": 0,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "TeenPerk2T1",
+                    "W": "PlotTwist4"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "TeenPerk2T1": {
+                "x": 5,
+                "y": 0,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist7",
+                    "E": "PlotTwist9",
+                    "W": "PerkPoint5"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_HealMaster"
+            },
+            "6,0": {
+                "x": 6,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist9",
+                    "W": "TeenPerk2T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist9": {
+                "x": 7,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "TeenPerk2T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "8,0": {
+                "x": 8,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,0": {
+                "x": 9,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "0,1": {
+                "x": 0,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,1": {
+                "x": 1,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "TeenPerk1T1",
+                    "E": "PlotTwist1",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist1": {
+                "x": 2,
+                "y": 1,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint1",
+                    "S": "",
+                    "E": "PerkPoint3",
+                    "W": "TeenPerk1T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint3": {
+                "x": 3,
+                "y": 1,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist6",
+                    "W": "PlotTwist1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "4,1": {
+                "x": 4,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist6",
+                    "E": "",
+                    "W": "PerkPoint3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist7": {
+                "x": 5,
+                "y": 1,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "TeenPerk2T1",
+                    "S": "",
+                    "E": "PerkPoint8",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint8": {
+                "x": 6,
+                "y": 1,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkSlot2",
+                    "E": "",
+                    "W": "PlotTwist7"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "7,1": {
+                "x": 7,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "8,1": {
+                "x": 8,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,1": {
+                "x": 9,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "Start": {
+                "x": 0,
+                "y": 2,
+                "NodeType": "Start",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "TeenPerk1T1",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "TeenPerk1T1": {
+                "x": 1,
+                "y": 2,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist1",
+                    "S": "PlotTwist3",
+                    "E": "PlotTwist2",
+                    "W": "Start"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "ID_PK_InjuryVision"
+            },
+            "PlotTwist2": {
+                "x": 2,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkSlot1",
+                    "W": "TeenPerk1T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkSlot1": {
+                "x": 3,
+                "y": 2,
+                "NodeType": "PerkSlot",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist6",
+                    "W": "PlotTwist2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:3",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkSlots:1"
+            },
+            "PlotTwist6": {
+                "x": 4,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint3",
+                    "S": "PerkPoint4",
+                    "E": "PerkPoint7",
+                    "W": "PerkSlot1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint7": {
+                "x": 5,
+                "y": 2,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkSlot2",
+                    "W": "PlotTwist6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PerkSlot2": {
+                "x": 6,
+                "y": 2,
+                "NodeType": "PerkSlot",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint8",
+                    "S": "PerkPoint9",
+                    "E": "PlotTwist10",
+                    "W": "PerkPoint7"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:3",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkSlots:1"
+            },
+            "PlotTwist10": {
+                "x": 7,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist12",
+                    "W": "PerkSlot2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PlotTwist12": {
+                "x": 8,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "Finish",
+                    "W": "PlotTwist10"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "Finish": {
+                "x": 9,
+                "y": 2,
+                "NodeType": "Finish",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist12"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": "CPV:CT_Virgin:PNT_AffinitySlots:1,CPV:CT_Virgin:PNT_StarPower:1"
+            },
+            "0,3": {
+                "x": 0,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,3": {
+                "x": 1,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "TeenPerk1T1",
+                    "S": "",
+                    "E": "PlotTwist3",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist3": {
+                "x": 2,
+                "y": 3,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkPoint2",
+                    "E": "PerkPoint4",
+                    "W": "TeenPerk1T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint4": {
+                "x": 3,
+                "y": 3,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist6",
+                    "W": "PlotTwist3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "4,3": {
+                "x": 4,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist6",
+                    "S": "",
+                    "E": "",
+                    "W": "PerkPoint4"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist8": {
+                "x": 5,
+                "y": 3,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "TeenPerk3T1",
+                    "E": "PerkPoint9",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint9": {
+                "x": 6,
+                "y": 3,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkSlot2",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist8"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "7,3": {
+                "x": 7,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "8,3": {
+                "x": 8,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,3": {
+                "x": 9,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "0,4": {
+                "x": 0,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,4": {
+                "x": 1,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint2": {
+                "x": 2,
+                "y": 4,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PlotTwist3",
+                    "S": "",
+                    "E": "PlotTwist5",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist5": {
+                "x": 3,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint6",
+                    "W": "PerkPoint2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint6": {
+                "x": 4,
+                "y": 4,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "TeenPerk3T1",
+                    "W": "PlotTwist5"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "TeenPerk3T1": {
+                "x": 5,
+                "y": 4,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist8",
+                    "S": "",
+                    "E": "PlotTwist11",
+                    "W": "PerkPoint6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_ReviveMaster"
+            },
+            "6,4": {
+                "x": 6,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist11",
+                    "W": "TeenPerk3T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist11": {
+                "x": 7,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "TeenPerk3T1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "8,4": {
+                "x": 8,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,4": {
+                "x": 9,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            }
+        },
+        "2": {
+            "0,0": {
+                "x": 0,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint1": {
+                "x": 1,
+                "y": 0,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "TeenPerk1T2",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "TeenPerk1T2": {
+                "x": 2,
+                "y": 0,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist2",
+                    "E": "PlotTwist4",
+                    "W": "PerkPoint1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_InjuryVision"
+            },
+            "PlotTwist4": {
+                "x": 3,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint4",
+                    "W": "TeenPerk1T2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "4,0": {
+                "x": 4,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkPoint4",
+                    "E": "",
+                    "W": "PlotTwist4"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "5,0": {
+                "x": 5,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkPoint6",
+                    "E": "PlotTwist7",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist7": {
+                "x": 6,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkSlot1",
+                    "W": "PerkPoint6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkSlot1": {
+                "x": 7,
+                "y": 0,
+                "NodeType": "PerkSlot",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist10",
+                    "E": "PlotTwist12",
+                    "W": "PlotTwist7"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:3",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkSlots:1"
+            },
+            "PlotTwist12": {
+                "x": 8,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "PerkSlot1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "9,0": {
+                "x": 9,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "0,1": {
+                "x": 0,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,1": {
+                "x": 1,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist2": {
+                "x": 2,
+                "y": 1,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "TeenPerk1T2",
+                    "S": "PerkPoint3",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "3,1": {
+                "x": 3,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist5",
+                    "E": "PerkPoint4",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint4": {
+                "x": 4,
+                "y": 1,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist4",
+                    "S": "",
+                    "E": "PerkPoint6",
+                    "W": "PlotTwist5"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PerkPoint6": {
+                "x": 5,
+                "y": 1,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist7",
+                    "S": "",
+                    "E": "PlotTwist8",
+                    "W": "PerkPoint4"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "6,1": {
+                "x": 6,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist8",
+                    "E": "",
+                    "W": "PerkPoint6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist10": {
+                "x": 7,
+                "y": 1,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkSlot1",
+                    "S": "PerkPoint8",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "8,1": {
+                "x": 8,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,1": {
+                "x": 9,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "Start": {
+                "x": 0,
+                "y": 2,
+                "NodeType": "Start",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist1",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist1": {
+                "x": 1,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint3",
+                    "W": "Start"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint3": {
+                "x": 2,
+                "y": 2,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist2",
+                    "S": "PlotTwist3",
+                    "E": "PlotTwist5",
+                    "W": "PlotTwist1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist5": {
+                "x": 3,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint4",
+                    "S": "PerkPoint5",
+                    "E": "",
+                    "W": "PerkPoint3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "4,2": {
+                "x": 4,
+                "y": 2,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "5,2": {
+                "x": 5,
+                "y": 2,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist8": {
+                "x": 6,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint6",
+                    "S": "PerkPoint7",
+                    "E": "PerkPoint8",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint8": {
+                "x": 7,
+                "y": 2,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist10",
+                    "S": "PlotTwist11",
+                    "E": "PlotTwist13",
+                    "W": "PlotTwist8"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist13": {
+                "x": 8,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "Finish",
+                    "W": "PerkPoint8"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "Finish": {
+                "x": 9,
+                "y": 2,
+                "NodeType": "Finish",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist13"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": "CPV:CT_Virgin:PNT_AffinitySlots:1,CPV:CT_Virgin:PNT_StarPower:1"
+            },
+            "0,3": {
+                "x": 0,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,3": {
+                "x": 1,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist3": {
+                "x": 2,
+                "y": 3,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint3",
+                    "S": "TeenPerk2T2",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "3,3": {
+                "x": 3,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PlotTwist5",
+                    "S": "",
+                    "E": "PerkPoint5",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint5": {
+                "x": 4,
+                "y": 3,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist6",
+                    "E": "PerkPoint7",
+                    "W": "PlotTwist5"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PerkPoint7": {
+                "x": 5,
+                "y": 3,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist9",
+                    "E": "PlotTwist8",
+                    "W": "PerkPoint5"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "6,3": {
+                "x": 6,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist8",
+                    "S": "",
+                    "E": "",
+                    "W": "PerkPoint7"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist11": {
+                "x": 7,
+                "y": 3,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint8",
+                    "S": "TeenPerk3T2",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "8,3": {
+                "x": 8,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,3": {
+                "x": 9,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "0,4": {
+                "x": 0,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint2": {
+                "x": 1,
+                "y": 4,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "TeenPerk2T2",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "TeenPerk2T2": {
+                "x": 2,
+                "y": 4,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist3",
+                    "S": "",
+                    "E": "PlotTwist6",
+                    "W": "PerkPoint2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_HealMaster"
+            },
+            "PlotTwist6": {
+                "x": 3,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint5",
+                    "W": "TeenPerk2T2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "4,4": {
+                "x": 4,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint5",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "5,4": {
+                "x": 5,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint7",
+                    "S": "",
+                    "E": "PlotTwist9",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist9": {
+                "x": 6,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "TeenPerk3T2",
+                    "W": "PerkPoint7"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "TeenPerk3T2": {
+                "x": 7,
+                "y": 4,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist11",
+                    "S": "",
+                    "E": "PerkPoint9",
+                    "W": "PlotTwist9"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_ReviveMaster"
+            },
+            "PerkPoint9": {
+                "x": 8,
+                "y": 4,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "TeenPerk3T2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "9,4": {
+                "x": 9,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            }
+        },
+        "3": {
+            "0,0": {
+                "x": 0,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,0": {
+                "x": 1,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist2": {
+                "x": 2,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkPoint1",
+                    "E": "PerkPoint2",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "3,0": {
+                "x": 3,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint2",
+                    "W": "PlotTwist2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint2": {
+                "x": 4,
+                "y": 0,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PlotTwist4",
+                    "E": "PlotTwist6",
+                    "W": "PlotTwist2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist6": {
+                "x": 5,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint5",
+                    "W": "PerkPoint2"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint5": {
+                "x": 6,
+                "y": 0,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "TeenPerk2T3",
+                    "E": "PlotTwist9",
+                    "W": "PlotTwist6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist9": {
+                "x": 7,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkPoint7",
+                    "E": "PlotTwist12",
+                    "W": "PerkPoint5"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PlotTwist12": {
+                "x": 8,
+                "y": 0,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist9"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "9,0": {
+                "x": 9,
+                "y": 0,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "0,1": {
+                "x": 0,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,1": {
+                "x": 1,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "2,1": {
+                "x": 2,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PlotTwist2",
+                    "S": "PerkPoint1",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "3,1": {
+                "x": 3,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist4": {
+                "x": 4,
+                "y": 1,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint2",
+                    "S": "PerkPoint3",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "5,1": {
+                "x": 5,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "TeenPerk2T3": {
+                "x": 6,
+                "y": 1,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint5",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_HealMaster"
+            },
+            "PerkPoint7": {
+                "x": 7,
+                "y": 1,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PlotTwist9",
+                    "S": "PlotTwist10",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "8,1": {
+                "x": 8,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,1": {
+                "x": 9,
+                "y": 1,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "Start": {
+                "x": 0,
+                "y": 2,
+                "NodeType": "Start",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist1",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist1": {
+                "x": 1,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint1",
+                    "W": "Start"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint1": {
+                "x": 2,
+                "y": 2,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist2",
+                    "S": "PlotTwist3",
+                    "E": "TeenPerk1T3",
+                    "W": "PlotTwist1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "TeenPerk1T3": {
+                "x": 3,
+                "y": 2,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint3",
+                    "W": "PerkPoint1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_InjuryVision"
+            },
+            "PerkPoint3": {
+                "x": 4,
+                "y": 2,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist4",
+                    "S": "PlotTwist5",
+                    "E": "PlotTwist7",
+                    "W": "TeenPerk1T3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist7": {
+                "x": 5,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkSlot1",
+                    "W": "PerkPoint3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkSlot1": {
+                "x": 6,
+                "y": 2,
+                "NodeType": "PerkSlot",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PlotTwist10",
+                    "W": "PlotTwist7"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:3",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkSlots:1"
+            },
+            "PlotTwist10": {
+                "x": 7,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint7",
+                    "S": "PerkPoint8",
+                    "E": "PlotTwist13",
+                    "W": "PerkSlot1"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PlotTwist13": {
+                "x": 8,
+                "y": 2,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "Finish",
+                    "W": "PlotTwist10"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "Finish": {
+                "x": 9,
+                "y": 2,
+                "NodeType": "Finish",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist13"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": "CPV:CT_Virgin:PNT_AffinitySlots:1,CPV:CT_Virgin:PNT_StarPower:1"
+            },
+            "0,3": {
+                "x": 0,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,3": {
+                "x": 1,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "2,3": {
+                "x": 2,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint1",
+                    "S": "PlotTwist3",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "3,3": {
+                "x": 3,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist5": {
+                "x": 4,
+                "y": 3,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint3",
+                    "S": "PerkPoint4",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "5,3": {
+                "x": 5,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "TeenPerk3T3": {
+                "x": 6,
+                "y": 3,
+                "NodeType": "TeenPerk",
+                "CanTravel": {
+                    "N": false,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "PerkPoint6",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:2",
+                "Rewards": "ID_PK_ReviveMaster"
+            },
+            "PerkPoint8": {
+                "x": 7,
+                "y": 3,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": true,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PlotTwist10",
+                    "S": "PlotTwist11",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "8,3": {
+                "x": 8,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "9,3": {
+                "x": 9,
+                "y": 3,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "0,4": {
+                "x": 0,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "1,4": {
+                "x": 1,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PlotTwist3": {
+                "x": 2,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "PerkPoint1",
+                    "S": "",
+                    "E": "PerkPoint4",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "3,4": {
+                "x": 3,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint4",
+                    "W": "PlotTwist3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            },
+            "PerkPoint4": {
+                "x": 4,
+                "y": 4,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PlotTwist5",
+                    "S": "",
+                    "E": "PlotTwist8",
+                    "W": "PlotTwist3"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist8": {
+                "x": 5,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "PerkPoint6",
+                    "W": "PerkPoint4"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PerkPoint6": {
+                "x": 6,
+                "y": 4,
+                "NodeType": "PerkPoint",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "TeenPerk3T3",
+                    "S": "",
+                    "E": "PlotTwist11",
+                    "W": "PlotTwist8"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "CPV:CT_Virgin:PNT_PerkPoints:1"
+            },
+            "PlotTwist11": {
+                "x": 7,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": true,
+                    "S": false,
+                    "E": true,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "PerkPoint8",
+                    "S": "",
+                    "E": "PlotTwist14",
+                    "W": "PerkPoint6"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "PlotTwist14": {
+                "x": 8,
+                "y": 4,
+                "NodeType": "PlotTwist",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": true
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": "PlotTwist11"
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "CPV:CT_Virgin:PNT_Aura:1",
+                "Rewards": "PTK:PT_Mystery"
+            },
+            "9,4": {
+                "x": 9,
+                "y": 4,
+                "NodeType": "",
+                "CanTravel": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "TravelTo": {
+                    "N": "",
+                    "S": "",
+                    "E": "",
+                    "W": ""
+                },
+                "ExitAct": {
+                    "N": false,
+                    "S": false,
+                    "E": false,
+                    "W": false
+                },
+                "Cost": "",
+                "Rewards": ""
+            }
+        }
+    }
+}

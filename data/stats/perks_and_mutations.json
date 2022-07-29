@@ -1,0 +1,405 @@
+{
+    "Template": {
+        "Name": "All Systems Go",
+        "ProtoName": "AllSystemsGo",
+        "Icon": "public/images/perks/allsystemsgo.png",
+        "Description": "This is a template description, and not a real perk. Increase your <span class='PerkDescI'>running speed</span> by <span class='PerkDescT1'>1%</span>/<span class='PerkDescT2'>2%</span>/<span class='PerkDescT3'>3%</span> while <span class='PerkDescI'>unarmed</span>."
+    },
+    "ID_PK_KillInhibit": {
+        "Name": "Crush Morale",
+        "ProtoName": "KillInhibit",
+        "Icon": "public/images/perks/crushmorale.png",
+        "Description": "When you <span class='PerkDescB'>Knockdown</span> or <span class='PerkDescB'>Kill</span> a teen all other active teens will become <span class='PerkDescB'>Inhibited</span> for the next <span class='PerkDescT1'>9</span>/<span class='PerkDescT2'>12</span>/<span class='PerkDescT3'>16</span> seconds. This Perk can only activate once every <span class='PerkDescBlue'>60</span> seconds."
+    },
+    "ID_PK_PickupDrop": {
+        "Name": "Pocket Punch",
+        "ProtoName": "PickupDrop",
+        "Icon": "public/images/perks/pocketpunch.png",
+        "Description": "When you <span class='PerkDescB'>Injure</span> a teen that is carrying a <span class='PerkDescB'>Pickup</span>, they will drop it on the ground. This Perk can only activate once every <span class='PerkDescT1'>300</span>/<span class='PerkDescT2'>200</span>/<span class='PerkDescT3'>100</span> seconds."
+    },
+    "ID_PK_ScreamRange": {
+        "Name": "Screecher",
+        "ProtoName": "ScreamRange",
+        "Icon": "public/images/perks/screecher.png",
+        "Description": "The monster's <span class='PerkDescB'>Scream</span> shockwave range is increased by <span class='PerkDescT1'>12%</span>/<span class='PerkDescT2'>24%</span>/<span class='PerkDescT3'>36%</span>."
+    },
+    "ID_PK_Eradicator_ModeSwap_SpeedBoost": {
+        "Name": "Nitro Booster",
+        "ProtoName": "SpeedBoost",
+        "Icon": "public/images/monster/mutations/deathwire/nitrobooster.png",
+        "Description": "<span class='MutPOS'>+</span> After switching into <span class='PerkDescB'>Vehicle</span> mode you will move an additional <span class='PerkDescB'>200%</span> faster for <span class='PerkDescB'>2</span> seconds.<br><span class='MutNEG'>-</span> There is now an <span class='PerkDescB'>18 second</span> cooldown on <span class='PerkDescB'>Mode Swap</span> after exiting <span class='PerkDescB'>Vehicle</span> mode and <span class='PerkDescB'>Deathwire</span> can no longer enter <span class='PerkDescB'>Vehicle</span> mode while <span class='PerkDescB'>Recalibrating</span>."
+    }, 
+    "ID_PK_Eradicator_ElectricSurge_Expose": {
+        "Name": "Triangulation Matrix",
+        "ProtoName": "Expose",
+        "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
+        "Description": "<span class='MutPOS'>+</span> While Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Exposed</span>.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Deathwire</span> may only store <span class='PerkDescB'>1</span> use of <span class='PerkDescB'>Electric Surge</span> at a time."
+    }, 
+    "ID_PK_Eradicator_ScannerBeam_Armed": {
+        "Name": "Armament Calibration",
+        "ProtoName": "Armed",
+        "Icon": "public/images/monster/mutations/deathwire/armamentcalibration.png",
+        "Description": "<span class='MutPOS'>+</span> The time that <span class='PerkDescB'>armed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>30%</span>.<br><span class='MutNEG'>-</span> The time that <span class='PerkDescB'>unarmed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Scanner Beam</span> is reduced by <span class='PerkDescB'>30%</span>."
+    },
+    "ID_PK_HideSense": {
+        "Name": "Hidden Agenda",
+        "ProtoName": "HideSense",
+        "Icon": "public/images/mutations/hiddenagenda.png",
+        "Description": "<span class='PerkDescT1'>4 seconds</span>/<span class='PerkDescT2'>2 seconds</span>/<span class='PerkDescT3'>0 seconds</span> after a teen leaves a <span class='PerkDescB'>hiding place</span> the aura of the <span class='PerkDescB'>hiding place</span> will be revealed to you for <span class='PerkDescBlue'>6 seconds</span>"
+    },
+    "ID_PK_DollMaster_Summon_LongDuration": {
+        "Name": "Frolic",
+        "ProtoName": "LongDuration",
+        "Icon": "public/images/monster/mutations/dollmaster/frolic.png",
+        "Description": "<span class='MutPOS'>+</span> The total time a <span class='PerkDescB'>Doll</span> can be possessed is increased by <span class='PerkDescBlue'>25%</span>.<br><span class='MutNEG'>-</span> The focusing time required to begin possessing a <span class='PerkDescB'>Doll</span> is increased by <span class='PerkDescYellow'>50%</span>"
+    },
+    "ID_PK_Vigilance": {
+        "Name": "Ambush",
+        "ProtoName": "Vigilance",
+        "Icon": "public/images/mutations/ambush.png",
+        "Description": "When a <span class='PerkDescRed'>Blunder</span> occurs while a teen is crafting, that teen will be <span class='PerkDescRed'>Exposed</span> for <span class='PerkDescT1'>3 seconds</span>/<span class='PerkDescT2'>5 seconds</span>/<span class='PerkDescT3'>7 seconds</span>."
+    },
+    "ID_PK_DollMaster_Trap_ImprovedDetect": {
+        "Name": "Tricky",
+        "ProtoName": "ImprovedDetect",
+        "Icon": "public/images/monster/mutations/dollmaster/tricky.png",
+        "Description": "<span class='MutPOS'>+</span> A <span class='PerkDescB'>Inhibited</span> will twitch and its icon will turn <span class='PerkDescOrange'>Orange</span> when it detects a <span class='PerkDescB'>Inhibited</span> teen within <span class='PerkDescBlue'>11 meters</span> of it.<br><span class='MutNEG'>-</span> The maximum number of <span class='PerkDescB'>Inhibited</span> that can be placed on the map simultaneously is reduced by <span class='PerkDescYellow'>1</span>."
+    },
+    "ID_PK_EvilPickupUseReveal": {
+        "Name": "Deadly Bite",
+        "ProtoName": "PickupUseReveal",
+        "Icon": "public/images/perks/deadlybite.png",
+        "Description": "When a teen uses a <span class='PerkDescB'>Candy Bar</span>, you will be <span class='PerkDescB'>Alerted</span> and they will be <span class='PerkDescRed'>Exposede</span> for <span class='PerkDescT1'>2 seconds</span>/<span class='PerkDescT2'>3.5 seconds</span>/<span class='PerkDescT3'> 5 seconds</span>. This can only activate once every <span class='PerkDescT1'>150 seconds</span>/<span class='PerkDescT2'>90 secpmds</span>/<span class='PerkDescT3'>30 seconds</span>."
+    },
+    "ID_PK_DollMaster_Teleport_NoTargeting": {
+        "Name": "Outcast",
+        "ProtoName": "NoTargeting",
+        "Icon": "public/images/monster/mutations/dollmaster/outcast.png",
+        "Description": "<span class='MutNEU'>*</span> <span class='PerkDescB'>Doll Teleport</span> will no longer use a selected <span class='PerkDescB'>Doll Trap</span>, but will instead always target the <span class='PerkDescB'>Doll Trap</span> that is farthest away from the <span class='PerkDescB'>Doll Master</span>.<br><span class='MutPOS'>+</span> <span class='PerkDescB'>Doll Teleport</span> focusing time is reduced by <span class='PerkDescB'>15%</span>."
+    },
+    "ID_PK_Eradicator_ElectricSurge_Inhibit": {
+        "Name": "Neural Disruptor",
+        "ProtoName": "Inhibit",
+        "Icon": "public/images/monster/mutations/deathwire/neuraldisruptor.png",
+        "Description": "<span class='MutPOS'>+</span> When Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Inhibited</span> for <span class='PerkDescB'>20 seconds</span>.<br><span class='MutNEG'>-</span> The <span class='PerkDescB'>Overcharged</span> status lasts an additional <span class='PerkDescB'>1.5 seconds</span>."
+    },
+    "ID_PK_Eradicator_ModeSwap_FastCharge": {
+        "Name": "Swift Cycle Module",
+        "ProtoName": "FastCharge",
+        "Icon": "public/images/monster/mutations/deathwire/swiftcyclemodule.png",
+        "Description": "<span class='MutPOS'>+</span> Decreases the focusing time required to enter <span class='PerkDescB'>Vehicle</span> mode by <span class='PerkDescB'>40%</span>.<br><span class='MutNEG'>-</span> The movement speed of <span class='PerkDescB'>Vehicle</span> mode is reduced by <span class='PerkDescB'>25%</span>."
+    },
+    "ID_PK_Eradicator_ScannerBeam_WideArea": {
+        "Name": "Wide-Range Optics",
+        "ProtoName": "WideArea",
+        "Icon": "public/images/monster/mutations/deathwire/widerangeoptics.png",
+        "Description": "<span class='MutPOS'>+</span> The area scanned by the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>25%</span>.<br><span class='MutNEG'>-</span> The cooldown of the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>15%</span>."
+    },
+    "ID_PK_Eradicator_ModeSwap_FastSurgeCooldown": {
+        "Name": "Charging Belt",
+        "ProtoName": "FastSurgeCooldown",
+        "Icon": "public/images/monster/mutations/deathwire/chargingbelt.png",
+        "Description": "<span class='MutPOS'>+</span> While in <span class='PerkDescB'>Vehicle</span> mode your <span class='PerkDescB'>Electric Surge</span> cooldown recovers <span class='PerkDescB'>50%</span> faster.<br><span class='MutNEG'>-</span> While in <span class='PerkDescB'>Assault</span> mode your <span class='PerkDescB'>Electric Surge</span> cooldown recovers <span class='PerkDescB'>50%</span> slower."
+    },
+    "ID_PK_Eradicator_ScannerBeam_FastMoving": {
+        "Name": "Sentry Rigging",
+        "ProtoName": "FastMoving",
+        "Icon": "public/images/monster/mutations/deathwire/sentryrigging.png",
+        "Description": "<span class='MutPOS'>+</span> <span class='PerkDescB'>Deathwire's</span> movement speed while charging the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>200%</span>.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Deathwire</span> can no longer use the <span class='PerkDescB'>Scanner Beam</span> while in <span class='PerkDescB'>Assault</span> mode."
+    },
+    "ID_PK_Eradicator_ElectricSurge_ExtraSurge": {
+        "Name": "Stigma Coil",
+        "ProtoName": "ExtraSurge",
+        "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
+        "Description": "<span class='MutPOS'>+</span> You may now store up to <span class='PerkDescB'>3</span> uses of <span class='PerkDescB'>Electric Surge</span> at a time.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Electric Surge</span> no longer affects unarmed Teens."
+    },
+    "ID_PK_DollMaster_Summon_JumpRefresh": {
+        "Name": "Rebound",
+        "ProtoName": "JumpRefresh",
+        "Icon": "public/images/monster/mutations/dollmaster/rebound.png",
+        "Description": "<span class='MutPOS'>+</span> When a <span class='PerkDescB'>Doll</span> becomes possessed, the <span class='PerkDescB'>Jump</span> cooldown is set to <span class='PerkDescB'>2</span> seconds.<br><span class='MutNEG'>-</span> The amount of time a <span class='PerkDescB'>Doll</span> can be possessed is reduced by <span class='PerkDescB'>20%</span>."
+    },
+    "ID_PK_DollMaster_Trap_ExtraTraps": {
+        "Name": "Offspring",
+        "ProtoName": "ExtraTraps",
+        "Icon": "public/images/monster/mutations/dollmaster/offspring.png",
+        "Description": "<span class='MutPOS'>+</span> The maximum number of <span class='PerkDescB'>Doll Traps</span> that can be placed on the map simultaneously is increased by <span class='PerkDescBlue'>1</span>.<br><span class='MutNEG'>-</span> The distance at which <span class='PerkDescB'>Doll Traps</span> become <span class='PerkDescRed'>Alarmed</span> is reduced by <span class='PerkDescYellow'>90%</span>."
+    },
+    "ID_PK_DollMaster_Teleport_DoubleTeleport": {
+        "Name": "Slippery",
+        "ProtoName": "DoubleTeleport",
+        "Icon": "public/images/monster/mutations/dollmaster/slippery.png",
+        "Description": "<span class='MutPOS'>+</span> A second <span class='PerkDescB'>Doll Teleport</span> can now be performed within <span class='PerkDescBlue'>4 seconds</span> of the initial <span class='PerkDescB'>Doll Teleport</span> before going on cooldown. If the second <span class='PerkDescB'>Doll Teleport</span> is performed, a <span class='PerkDescB'>Doll Trap</span> will be left behind.<br><span class='MutNEG'>-</span> The focusing time required to <span class='PerkDescB'>Doll Teleport</span> is increased by <span class='PerkDescYellow'>25%</span>."
+    },
+    "ID_PK_DollMaster_Summon_ExtraJumps": {
+        "Name": "Double Cross",
+        "ProtoName": "ExtraJumps",
+        "Icon": "public/images/monster/mutations/dollmaster/doublecross.png",
+        "Description": "<span class='MutPOS'>+</span> A possessed <span class='PerkDescB'>Doll</span> can store <span class='PerkDescBlue'>1 additional use</span> of the <span class='PerkDescB'>Jump</span> ability.<br><span class='MutNEG'>-</span> A possessed <span class='PerkDescB'>Doll's</span> base run speed is reduced by <span class='PerkDescYellow'>2%</span>."
+    },
+    "ID_PK_DollMaster_Trap_TripPersist": {
+        "Name": "Haunted",
+        "ProtoName": "TripPersist",
+        "Icon": "public/images/monster/mutations/dollmaster/haunted.png",
+        "Description": "<span class='MutPOS'>+</span> A <span class='PerkDescB'>Doll Trap</span> will no longer self-destruct at the end of the <span class='PerkDescRed'>Alarmed</span> state.<br>Teens will be <span class='PerkDescRed'>Exposed</span> while <span class='PerkDescB'>disarming</span> a <span class='PerkDescB'>Doll Trap</span> and for <span class='PerkDescBlue'>3 seconds</span> after the disarm is completed.<br>The cooldown on <span class='PerkDescB'>Doll Possession</span> is reduced by <span class='PerkDescOrange'>25%</span>.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Doll Trap</span> icons will no longer change color when teens are nearby.<br><span class='PerkDescB'>Remove Trap</span> can't be used while <span class='PerkDescB'>Doll Possession</span> is on cooldown.",
+        "ExtraWidth": 500
+    },
+    "ID_PK_DollMaster_Teleport_HitRefresh": {
+        "Name": "Aggressive",
+        "ProtoName": "HitRefresh",
+        "Icon": "public/images/monster/mutations/dollmaster/aggressive.png",
+        "Description": "<span class='MutPOS'>+</span> If the <span class='PerkDescB'>Doll Master</span> strikes a teen within <span class='PerkDescBlue'>8 seconds</span> of performing a <span class='PerkDescB'>Doll Teleport</span>, the <span class='PerkDescB'>Doll Teleport</span> cooldown is reduced to 12 seconds.<br><span class='MutNEG'>-</span> The base <span class='PerkDescB'>Doll Teleport</span> cooldown time is increased by <span class='PerkDescYellow'>15%</span>."
+    },
+    "ID_PK_CrowdReveal": {
+        "Name": "Easy Target",
+        "ProtoName": "CrowdReveal",
+        "Icon": "public/images/mutations/easytarget.png",
+        "Description": "When an active teen more than <span class='PerkDescBlue'>28 meters</span> from you gets within <span class='PerkDescYellow'>10 meters</span> of <span class='PerkDescOrange'>2</span> other active teens, you will be <span class='PerkDescB'>alerted</span> and these teens will be <span class='PerkDescRed'>Exposed</span> for <span class='PerkDescPink'>4 seconds</span>. This can only activate once every <span class='PerkDescT1'>120 seconds</span>/<span class='PerkDescT2'>90 seconds</span>/<span class='PerkDescT3'>60 seconds</span>."
+    },
+    "ID_PK_Gluttony": {
+        "Name": "All Consuming",
+        "ProtoName": "Gluttony",
+        "Icon": "public/images/mutations/allconsuming.png",
+        "Description": "Fuel your <span class='PerkDescB'>Rage</span> <span class='PerkDescT1'>15% faster</span>/<span class='PerkDescT2'>30% faster</span>/<span class='PerkDescT3'>45% faster</span> when <span class='PerkDescB'>Feasting</span>."
+    },
+    "ID_PK_Lethality": {
+        "Name": "Lethal Weapon",
+        "ProtoName": "Lethality",
+        "Icon": "public/images/mutations/lethalweapon.png",
+        "Description": "Increases the <span class='PerkDescB'>Life</span> loss inflicted when teens are <span class='PerkDescB'>Injured</span> by your <span class='PerkDescB'>Basic Attack</span> by <span class='PerkDescT1'>4%</span>/<span class='PerkDescT2'>8%</span>/<span class='PerkDescT3'>12%</span>of the base amount."
+    },
+    "ID_PK_Toad_AcidArmor_HitBonus": {
+        "Name": "Toxic",
+        "ProtoName": "HitBonus",
+        "Icon": "public/images/monster/mutations/wart/toxic.png",
+        "Description": "<span class='MutPOS'>+</span> The <span class='PerkDescB'>Life</span> loss inflicted when a teen is hit while <span class='PerkDescB'>W.A.R.T.</span> is <span class='PerkDescGreen'>Armored</span> is increased by <span class='PerkDescBlue'>8%</span> of the base amount.<br><span class='MutNEG'>-</span> After <span class='PerkDescB'>Acid Armor</span> is used, <span class='PerkDescB'>Leap</span> cannot be used for <span class='PerkDescYellow'>3 seconds</span>."
+    },
+    "ID_PK_Toad_Leap_FastCooldown": {
+        "Name": "Kinetic",
+        "ProtoName": "FastCooldown",
+        "Icon": "public/images/monster/mutations/wart/kinetic.png",
+        "Description": "<span class='MutPOS'>+</span> The <span class='PerkDescB'>Leap</span> base cooldown is reduced by <span class='PerkDescBlue'>25%</span>.<br><span class='MutNEG'>-</span> The <span class='PerkDescB'>Leap</span> will no longer create a <span class='PerkDescB'>Shockwave</span> after landing."
+    },
+    "ID_PK_Toad_Echolocation_Deafen": {
+        "Name": "Deafen",
+        "ProtoName": "Deafen",
+        "Icon": "public/images/monster/mutations/wart/deafen.png",
+        "Description": "<span class='MutPOS'>+</span> When <span class='PerkDescB'>Echolocation</span> is used, the teens are now affected by the <span class='PerkDescRed'>Deafened</span> status for <span class='PerkDescBlue'>4.5 seconds</span>.<br><span class='MutNEG'>-</span> When <span class='PerkDescB'>Echolocation</span> is used, it will cancel the <span class='PerkDescGreen'>Armored</span> status and the <span class='PerkDescB'>Acid Armor</span> power can't be used for the next <span class='PerkDescYellow'>4.5 seconds</span>."
+    },
+    "ID_PK_Toad_Leap_ImprovedStagger": {
+        "Name": "Bombshell",
+        "ProtoName": "ImprovedStagger",
+        "Icon": "public/images/monster/mutations/wart/bombshell.png",
+        "Description": "<span class='MutPOS'>+</span> The <span class='PerkDescB'>Leap's</span> shockwave radius is increased by <span class='PerkDescBlue'>25%</span> and the <span class='PerkDescRed'>Stagger</span> effect duration by <span class='PerkDescYellow'>10%</span>.<br><span class='MutNEG'>-</span> The base cooldown of the <span class='PerkDescB'>Leap</span> is increased by <span class='PerkDescOrange'>35%</span>."
+    },
+    "ID_PK_Toad_AcidArmor_FastCooldown": {
+        "Name": "Immune",
+        "ProtoName": "FastCooldown",
+        "Icon": "public/images/monster/mutations/wart/immune.png",
+        "Description": "<span class='MutPOS'>+</span> The <span class='PerkDescB'>Acid Armor's</span> base cooldown is reduced by <span class='PerkDescBlue'>15%</span>.<br><span class='MutNEG'>-</span> If <span class='PerkDescB'>Acid Armor</span> is shattered by a weapon then all of <span class='PerkDescB'>W.A.R.T</span>'s powers are placed on cooldown."
+    },
+    "ID_PK_Toad_Echolocation_EchoWeaponDetect": {
+        "Name": "Detect",
+        "ProtoName": "EchoWeaponDetect",
+        "Icon": "public/images/monster/mutations/wart/detect.png",
+        "Description": "When <span class='PerkDescB'>Echolocation</span> is used, the <span class='PerkDescB'>Afterimages</span> of armed teens will appear in a different color than unarmed teens.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Echolocation's</span> base cooldown is increased by <span class='PerkDescBlue'>25%</span>."
+    },
+    "ID_PK_Toad_Leap_FastSpeed": {
+        "Name": "Throttle",
+        "ProtoName": "FastSpeed",
+        "Icon": "public/images/monster/mutations/wart/throttle.png",
+        "Description": "<span class='MutPOS'>+</span> Movement speed during the <span class='PerkDescB'>Leap</span> when not taking weapon damage is increased by <span class='PerkDescBlue'>24%</span>.<br><span class='MutNEG'>-</span> The activation time of the <span class='PerkDescB'>Leap</span> is increased by <span class='PerkDescYellow'>30%</span>."
+    },
+    "ID_PK_Toad_AcidArmor_SpeedBonus": {
+        "Name": "Fluid",
+        "ProtoName": "SpeedBonus",
+        "Icon": "public/images/monster/mutations/wart/fluid.png",
+        "Description": "<span class='MutPOS'>+</span> The base speed at which the <span class='PerkDescB'>W.A.R.T</span> can move while <span class='PerkDescGreen'>Armored</span> and not taking damage is increased by <span class='PerkDescBlue'>5%</span>.<br><span class='MutNEG'>-</span> The activation time of <span class='PerkDescB'>Acid Armor</span> is increased by <span class='PerkDescYellow'>20%</span>."
+    },
+    "ID_PK_Toad_Echolocation_EchoCloneMotion": {
+        "Name": "Mimic",
+        "ProtoName": "EchoCloneMotion",
+        "Icon": "public/images/monster/mutations/wart/mimic.png",
+        "Description": "<span class='MutPOS'>+</span> When <span class='PerkDescB'>Echolocation</span> is used, a trail of <span class='PerkDescB'>Afterimages</span> that trace the movement for the next <span class='PerkDescBlue'>1.3 seconds</span> will be created instead of a single <span class='PerkDescB'>Afterimage</span>.<br><span class='MutNEG'>-</span> The focusing time to use <span class='PerkDescB'>Echolocation</span> is increased by <span class='PerkDescYellow'>30%</span>."
+    },
+    "ID_PK_ExtendSubdued": {
+        "Name": "Scream Fest",
+        "ProtoName": "ExtendSubdued",
+        "Icon": "public/images/monster/perks/screamfest.png",
+        "Description": "Teens affected by the monster's <span class='PerkDescB'>Scream</span> are <span class='PerkDescRed'>Disrupted</span> for <span class='PerkDescT1'>12% longer</span>/<span class='PerkDescT2'>24% longer</span>/<span class='PerkDescT3'>36% longer</span>."
+    },
+    "ID_PK_Ferocity": {
+        "Name": "Ruthless",
+        "ProtoName": "Ferocity",
+        "Icon": "public/images/monster/perks/ruthless.png",
+        "Description": "Recover from a missed attack <span class='PerkDescT1'>13% faster</span>/<span class='PerkDescT2'>26% faster</span>/<span class='PerkDescT3'>39% faster</span>."
+    },
+    "ID_PK_ProneReveal": {
+        "Name": "Body Count",
+        "ProtoName": "ProneReveal",
+        "Icon": "public/images/monster/perks/bodycount.png",
+        "Description": "When any <span class='PerkDescB'>Prone</span> teen within <span class='PerkDescT1'>20 meters</span>/<span class='PerkDescT2'>20 meters</span>/<span class='PerkDescT3'>28 meters</span> of you is <span class='PerkDescT1'>moving</span>/<span class='PerkDescT2'>moving or controlling a Spectral</span>/<span class='PerkDescT3'>literally existing</span> they will be <span class='PerkDescRed'>Exposed</span>."
+    },
+    "ID_PK_Werewolf_Berserk_LongDuration": {
+        "Name": "Nightmare",
+        "ProtoName": "LongDuration",
+        "Icon": "public/images/monster/mutations/werewolf/nightmare.png",
+        "Description": "<span class='MutPOS'>+</span> <span class='PerkDescGreen'>Berserk</span> duration is increased by <span class='PerkDescBlue'>35%</span>.<br><span class='MutNEG'>-</span> The speed boost gained from <span class='PerkDescGreen'>Berserk</span> is reduced by <span class='PerkDescYellow'>15%</span>."
+    },
+    "ID_PK_Werewolf_Howl_FastCooldown": {
+        "Name": "Rabid",
+        "ProtoName": "FastCooldown",
+        "Icon": "public/images/monster/mutations/werewolf/rabid.png",
+        "Description": "<span class='MutPOS'>+</span> <span class='PerkDescB'>Howl</span> cooldown is reduced by <span class='PerkDescBlue'>15%</span>.<br><span class='MutNEG'>-</span> The maximum range of <span class='PerkDescB'>Howl</span> is reduced by <span class='PerkDescYellow'>10%</span>."
+    },
+    "ID_PK_Werewolf_Sense_ExtendRange": {
+        "Name": "Greedy",
+        "ProtoName": "ExtendRange",
+        "Icon": "public/images/monster/mutations/werewolf/extendrange.png",
+        "Description": "<span class='MutPOS'>+</span> When <span class='PerkDescGreen'>Hunting</span>, the range at which teens can be detected is increased by <span class='PerkDescBlue'>25%</span>.<br><span class='MutNEG'>-</span> When <span class='PerkDescGreen'>Hunting</span>, the frequency response of the <span class='PerkDescYellow'>Heartbeat sound</span> when teens are nearby is reduced by <span class='PerkDescOrange'>25%</span>."
+    },
+    "ID_PK_Werewolf_Sense_MarkTeen": {
+        "Name": "Obsessed",
+        "ProtoName": "MarkTeen",
+        "Icon": "public/images/monster/mutations/werewolf/obsessed.png",
+        "Description": "<span class='MutPOS'>+</span> The duration of <span class='PerkDescGreen'>Hunting</span> depletes <span class='PerkDescBlue'>40%</span> slower while no teens are detected.<br><span class='MutNEG'>-</span> The duration of <span class='PerkDescGreen'>Hunting</span> depletes <span class='PerkDescYellow'>30%</span> faster while teens are detected."
+    },
+    "ID_PK_Werewolf_Howl_Stagger": {
+        "Name": "Thunder",
+        "ProtoName": "Stagger",
+        "Icon": "public/images/monster/mutations/werewolf/thunder.png",
+        "Description": "<span class='MutPOS'>+</span> <span class='PerkDescB'>Howl</span> now <span class='PerkDescRed'>Deafens</span> teens for <span class='PerkDescBlue'>4.5 seconds</span>.<br><span class='MutNEG'>-</span> The cooldown of <span class='PerkDescB'>Howl</span> is increased by <span class='PerkDescOrange'>20%</span>."
+    },
+    "ID_PK_Werewolf_Berserk_InstantRefresh": {
+        "Name": "Grim",
+        "ProtoName": "InstantRefresh",
+        "Icon": "public/images/monster/mutations/werewolf/grim.png",
+        "Description": "<span class='MutPOS'>+</span> If an active <span class='PerkDescGreen'>Berserk</span> expires without the <span class='PerkDescB'>Werewolf</span> hitting a teen or being struck by a weapon, the cooldown remaining on <span class='PerkDescB'>Berserk</span> is set to <span class='PerkDescBlue'>2.5 second</span>.<br><span class='MutNEG'>-</span> An active <span class='PerkDescGreen'>Berserk</span> will cancel when <span class='PerkDescB'>Howl</span> or <span class='PerkDescB'>Hunt</span> is used, and using <span class='PerkDescB'>Berserk</span> will cancel an active <span class='PerkDescGreen'>Hunt</span>."
+    },
+    "ID_PK_Werewolf_Berserk_HitPersist": {
+        "Name": "Vicious",
+        "ProtoName": "HitPersist",
+        "Icon": "public/images/monster/mutations/werewolf/vicious.png",
+        "Description": "<span class='MutPOS'>+</span> If you <span class='PerkDescB'>Knockdown</span> a teen while <span class='PerkDescGreen'>Berserk</span> is active, it will remain active for <span class='PerkDescBlue'>9.5 seconds</span> instead of being cancelled. <br><span class='MutNEG'>-</span> The cooldown of <span class='PerkDescB'>Berserk</span> is increased by <span class='PerkDescYellow'>20%</span>."
+    },
+    "ID_PK_Werewolf_Howl_Reaction": {
+        "Name": "Savage",
+        "ProtoName": "Reaction",
+        "Icon": "public/images/monster/mutations/werewolf/savage.png",
+        "Description": "<span class='MutPOS'>+</span> For <span class='PerkDescBlue'>1.5 seconds</span> after escaping taking damage from a weapon, gain the <span class='PerkDescGreen'>Savage</span> status, reducing the focus time required to use <span class='PerkDescB'>Howl</span> by <span class='PerkDescYellow'>80%</span>.<br><span class='MutNEG'>-</span> When not affected by the <span class='PerkDescGreen'>Savage</span> status, the focus time required to use <span class='PerkDescB'>Howl</span> is increased by <span class='PerkDescOrange'>33%</span>."
+    },
+    "ID_PK_Werewolf_Sense_Toggle": {
+        "Name": "Chronic",
+        "ProtoName": "Toggle",
+        "Icon": "public/images/monster/mutations/werewolf/chronic.png",
+        "Description": "<span class='MutPOS'>+</span> <span class='PerkDescGreen'>Hunting</span> will no longer detect teens that are <span class='PerkDescRed'>Prone</span>.<br><span class='MutNEG'>-</span> Whenever you <span class='PerkDescB'>Knockdown</span> a teen, <span class='PerkDescB'>Hunt</span> cannot be used for the next <span class='PerkDescBlue'>22 seconds</span>."
+    },
+    "ID_PK_Motivator": {
+        "Name": "Team Spirit",
+        "ProtoName": "Motivator",
+        "Icon": "public/images/teen/perks/teamspirit.png",
+        "Description": "Other teens within <span class='PerkDescBlue'>12 meters</span> of you gain a <span class='PerkDescT1'>6%</span>/<span class='PerkDescT2'>9%</span>/<span class='PerkDescT3'>12%</span> speed increase to <span class='PerkDescB'>Healing</span>, <span class='PerkDescB'>Reviving</span>, <span class='PerkDescB'>Resurrecting</span> or <span class='PerkDescB'>Disarming</span> actions.<br>This bonus does not stack witha dditional users of this Perk."
+    },
+    "ID_PK_TeenVision": {
+        "Name": "Friend Zone",
+        "ProtoName": "TeenVision",
+        "Icon": "public/images/teen/perks/friendzone.png",
+        "Description": "While within <span class='PerkDescT1'>13 meters</span>/<span class='PerkDescT2'>20 meters</span>/<span class='PerkDescT3'>27 meters</span> of another teen, their aura is visible to you."
+    },
+    "ID_PK_Spry": {
+        "Name": "Lightning Fast",
+        "ProtoName": "Spry",
+        "Icon": "public/images/teen/perks/lightningfast.png",
+        "Description": "The duration of the speed boost gained after being <span class='PerkDescB'>Injured</span> by the monster is increased by <span class='PerkDescT1'>10%</span>/<span class='PerkDescT2'>17%</span>/<span class='PerkDescT3'>24%</span>."
+    },
+    "ID_PK_SlowDying": {
+        "Name": "Never Say Die",
+        "ProtoName": "SlowDying",
+        "Icon": "public/images/teen/perks/neversaydie.png",
+        "Description": "The rate at which you lose <span class='PerkDescB'>Life</span> while <span class='PerkDescB'>Prone</span> is reduced by <span class='PerkDescT1'>9%</span>/<span class='PerkDescT2'>18%</span>/<span class='PerkDescT3'>27%</span>."
+    },
+    "ID_PK_Hardy": {
+        "Name": "Born Tough",
+        "ProtoName": "Hardy",
+        "Icon": "public/images/teen/perks/borntough.png",
+        "Description": "Gives an additional <span class='PerkDescT1'>8%</span>/<span class='PerkDescT2'>16%</span>/<span class='PerkDescT3'>24%</span> <span class='PerkDescB'>Life</span> for the first <span class='PerkDescBlue'>180 seconds</span> of a match."
+    },
+    "ID_PK_KeepWeapon": {
+        "Name": "Vice Grip",
+        "ProtoName": "KeepWeapon",
+        "Icon": "public/images/teen/perks/vicegrip.png",
+        "Description": "Once per match, if you are knocked <span class='PerkDescB'>Prone</span> while you have a weapon equipped you will not lose it. This perk only becomes active after <span class='PerkDescT1'>2 other teens</span>/<span class='PerkDescT2'>1 other teen</span>/<span class='PerkDescT3'>0 other teens</span> have/has died."
+    },
+    "ID_PK_CrouchMaster": {
+        "Name": "Low Profile",
+        "ProtoName": "CrouchMaster",
+        "Icon": "public/images/teen/perks/lowprofile.png",
+        "Description": "While <span class='PerkDescI'>unarmed</span>, your movement speed when <span class='PerkDescB'>Crouching</span> is increased by <span class='PerkDescT1'>25%</span>/<span class='PerkDescT2'>50%</span>/<span class='PerkDescT3'>75%</span>."
+    },
+    "ID_PK_FailMaster": {
+        "Name": "Silent Shadow",
+        "ProtoName": "FailMaster",
+        "Icon": "public/images/teen/perks/silentshadow.png",
+        "Description": "When a crafting skill check is failed, there is a <span class='PerkDescT1'>50%</span>/<span class='PerkDescT2'>75%</span>/<span class='PerkDescT3'>100%</span> chance the <span class='PerkDescRed'>Blunder</span> will be prevented and the monster will not be alerted."
+    },
+    "ID_PK_Augur": {
+        "Name": "Evil Eye",
+        "ProtoName": "Augur",
+        "Icon": "public/images/teen/perks/evileye.png",
+        "Description": "The monster's aura will be visible to you for <span class='PerkDescT1'>2.5 seconds</span>/<span class='PerkDescT2'>3 seconds</span>/<span class='PerkDescT3'>3.5 seconds</span> after <span class='PerkDescT1'>Transforming</span>/<span class='PerkDescT2'>Transforming and while Disintegrating</span>/<span class='PerkDescT3'>Transforming, while Disintegrating, and while Stunned</span>."
+    },
+    "ID_PK_EssenceVision": {
+        "Name": "Head Trip",
+        "ProtoName": "EssenceVision",
+        "Icon": "public/images/teen/perks/headtrip.png",
+        "Description": "While controlling a <span class='PerkDescB'>Spectral</span>, you will now see the aura of <span class='PerkDescB'>Luma</span> within <span class='PerkDescT1'>13 meters</span>/<span class='PerkDescT2'>26 meters</span>/<span class='PerkDescT3'>at any distance</span> of/from you and the movement speed of your <span class='PerkDescB'>Spectral</span> is increased by <span class='PerkDescT1'>4%</span>/<span class='PerkDescT2'>12%</span>/<span class='PerkDescT3'>20%</span>."
+    },
+    "ID_PK_PickupVision": {
+        "Name": "Street Smart",
+        "ProtoName": "PickupVision",
+        "Icon": "public/images/teen/perks/streetsmart.png",
+        "Description": "You can see the aura of Pickups and most Searchable objects within <span class='PerkDescT1'>5 meters</span>/<span class='PerkDescT2'>10 meters</span>/<span class='PerkDescT3'>15 meters</span>."
+    },
+    "ID_PK_MedkitMaster": {
+        "Name": "Quick Fix",
+        "ProtoName": "MedkitMaster",
+        "Icon": "public/images/teen/perks/quickfix.png",
+        "Description": "Increases the speed at which you can <span class='PerkDescB'>Heal</span> yourself with a <span class='PerkDescB'>Med Kit</span> by <span class='PerkDescT1'>6%</span>/<span class='PerkDescT2'>10%</span>/<span class='PerkDescT3'>14%</span>. While <span class='PerkDescB'>Injured</span> the distance at which you can see the aura of <span class='PerkDescB'>Med Kit</span> stations is increased to <span class='PerkDescT1'>16 meters</span>/<span class='PerkDescT2'>20 meters</span>/<span class='PerkDescT3'>24 meters</span>."
+    },
+    "ID_PK_HealMaster": {
+        "Name": "Healing Hands",
+        "ProtoName": "HealMaster",
+        "Icon": "public/images/teen/perks/healinghands.png",
+        "Description": "Increases the speed at which you perform <span class='PerkDescB'>Healing</span> on others by <span class='PerkDescT1'>6%</span>/<span class='PerkDescT2'>12%</span>/<span class='PerkDescT3'>18%</span>."
+    },
+    "ID_PK_InjuryVision": {
+        "Name": "Secret Admirer",
+        "ProtoName": "InjuryVision",
+        "Icon": "public/images/teen/perks/secretadmirer.png",
+        "Description": "When a teen is <span class='PerkDescB'>Injured</span>, their aura becomes visible to you for the next <span class='PerkDescT1'>3 seconds</span>/<span class='PerkDescT2'>6 seconds</span>/<span class='PerkDescT3'>9 seconds</span>."
+    },
+    "ID_PK_ReviveMaster": {
+        "Name": "Magic Touch",
+        "ProtoName": "ReviveMaster",
+        "Icon": "public/images/teen/perks/magictouch.png",
+        "Description": "Increases the speed at which you revive a prone teen by <span class='PerkDescT1'>10%</span>/<span class='PerkDescT2'>20%</span>/<span class='PerkDescT3'>30%</span>.<br><br>A revived teen will regain <span class='PerkDescT1'>2%</span>/<span class='PerkDescT2'>4%</span>/<span class='PerkDescT3'>6%</span> of their total base <span class='PerkDescB'>Life</span>. This effect will not stack when assisted by other users of this perk."
+    },
+    "ID_PK_CraftMaster": {
+        "Name": "CraftMaster",
+        "ProtoName": "CraftMaster",
+        "Icon": "public/images/teen/perks/craftmaster.png",
+        "Description": "Each time another teen dies during a match <span class='PerkDescB'>CraftMaster</span> gains a token. Each token increases the speed at which you craft weapons by <span class='PerkDescT1'>2%</span>/<span class='PerkDescT2'>4%</span>/<span class='PerkDescT3'>6%</span>."
+    },
+    "ID_PK_StationVision": {
+        "Name": "Station Vision",
+        "ProtoName": "StationVision",
+        "Icon": "public/images/teen/perks/stationvision.png",
+        "Description": "Increases the distance at which you can see the indicator of crafting stations by <span class='PerkDescT1'>50%</span>/<span class='PerkDescT2'>100%</span>/<span class='PerkDescT3'>at any distance</span>. The aura of stations that are in use by another teen will flash."
+    },
+    "ID_PK_Multitasker": {
+        "Name": "Multitasker",
+        "ProtoName": "Multitasker",
+        "Icon": "public/images/teen/perks/multitasker.png",
+        "Description": "While crafting a weapon at a station, the loss of crafting progress at other stations is reduced by <span class='PerkDescT1'>25%</span>/<span class='PerkDescT2'>50%</span>/<span class='PerkDescT3'>75%</span>."
+    }
+}

@@ -1,0 +1,278 @@
+.center-ui {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#layoutpanel {
+    position: relative;
+    display: block;
+    height: 500px;
+
+}
+
+#journeypanel {
+    background-color: #31003180;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    overflow-y: scroll;
+    min-height: 525px;
+    max-width: 1000px;
+}
+
+#sizeEnforcer {
+    color: #ffffff00;
+    
+    position: absolute;
+    top: 700px;
+    left: 1250px;
+}
+
+.ActSelectLabel {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 7px #ffffff;
+}
+
+.ActSelectionBox {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ActSelectionBox select {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #00000080;
+    color: #ffffff;
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+
+    letter-spacing: 3px;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 10px #ffffff;
+
+    padding-right: 5px;
+    width: 200px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+
+}
+
+.journeyimage {
+    cursor: pointer;
+}
+
+.nodetooltip {
+    background-color: #000000ab;
+    z-index: 5;
+    position: absolute;
+    width: 300px;
+    height: max-content;
+    padding: 5px 5px 5px 5px;
+}
+
+.node {
+    position:absolute !important;
+    font-weight: 900;
+}
+
+#SelectedCharacter {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 5px;
+
+    letter-spacing: 3px;
+    text-shadow: 3px 0px 0px #ff00ff, -3px 0px 0px #00ffff, 0px 0px 10px #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.NodeName {
+    font-weight: 900;
+    font-size: 15pt;
+}
+
+.connectorImg {
+    position: absolute;
+    top: 23px;
+    left: 25px;
+    height: 5px;
+    z-index: -1;
+    opacity: 1;
+    box-shadow: 0px 0px 10px #0ff;
+}
+
+.NodeType {
+    text-align: right;
+    font-size: 10pt;
+    float: right;
+    margin: 5px 5px 0px 0px;
+    color: #ddd;
+    font-weight: 300;
+}
+
+.NodeDescription {
+    font-weight: 400;
+}
+
+.MonsterSelect {
+    background-color: #31003180;
+    width: 24%;
+    
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    height: 150px;
+    position: sticky;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+    cursor: pointer;
+}
+
+.MonsterSelect:hover {
+    animation-name: MonsterSelectHover;
+    animation-duration: 0.25s
+}
+
+.TeenSelect {
+    background-color: #31003180;
+    width: 15.6%;
+    
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+
+    height: 150px;
+    position: sticky;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+    cursor: pointer;
+}
+
+.TeenSelect:hover {
+    animation-name: MonsterSelectHover;
+    animation-duration: 0.25s
+}
+
+@keyframes MonsterSelectHover {
+    from {
+        background-color: #31003170;
+        border-color: #00eeff;
+    }
+    30% {
+        background-color: #4e004890;
+        border-color: #410404;
+    }
+    60% {
+        background-color: #31003175;
+        border-color: #310031;
+    }
+    100% {
+        background-color: #31003180;
+        border-color: #00eeff;
+    }
+}
+
+.PerkDescI {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.PerkDescB {
+    font-style: bold;
+    font-weight: 500;
+}
+
+.PerkDescT1 {
+    color: #9d6c56;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescT2 {
+    color: #5e71c8;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescT3 {
+    color: #ffe300;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescRed {
+    color: #ff5555;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescGreen {
+    color: #55ff55;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescBlue {
+    color: #5555ff;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescOrange {
+    color: #ffae1a;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescYellow {
+    color: #ead979;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.PerkDescPink {
+    color: #ff78ff;
+    text-shadow: 0px 0px 5px #000;
+    font-weight: 600;
+}
+
+.MutPOS {
+    color: #00a700;
+    font-weight: 900;
+}
+
+.MutNEG {
+    color: #ff5151;
+    font-weight: 900;
+}
+
+.MutNEU {
+    color: #006aac;
+    font-weight: 900;
+}

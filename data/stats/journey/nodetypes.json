@@ -1,0 +1,42 @@
+{
+    "Start": {
+        "Type": "JOURNEY/ACT START",
+        "Description": "The start of this character's act/journey.",
+        "RelyOnAddedData": false
+    },
+    "Finish": {
+        "Type": "JOURNEY/ACT END",
+        "Description": "The end of this character's act/journey.",
+        "RelyOnAddedData": false
+    },
+    "PlotTwist": {
+        "Type": "PLOT TWIST",
+        "Description": "A mysterious reward...",
+        "RelyOnAddedData": false
+    },
+    "PerkPoint": {
+        "Type": "PERK POINT",
+        "Description": "An additional Perk Point. Assign Perk Points to equip perks in your character loadout.",
+        "RelyOnAddedData": false
+    },
+    "PerkSlot": {
+        "Type": "PERK SLOT",
+        "Description": "An additional Perk Slot. Place unlocked perks here.",
+        "RelyOnAddedData": false
+    },
+    "TeenPerk": {
+        "Type": "TEEN PERK",
+        "Description": "",
+        "RelyOnAddedData": true
+    },
+    "EvilPerk": {
+        "Type": "MONSTER PERK",
+        "Description": "",
+        "RelyOnAddedData": true
+    },
+    "Mutation": {
+        "Type": "MUTATION",
+        "Description": "",
+        "RelyOnAddedData": true
+    }
+}

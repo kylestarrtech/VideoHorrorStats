@@ -1,0 +1,49 @@
+doctype html 
+html 
+    head 
+        title Journeys - Video Horror Stats
+        link(href="public/styles/index.css" rel="stylesheet")
+        link(href="public/styles/teen.css" rel="stylesheet")
+        link(href="public/styles/journey.css" rel="stylesheet")
+        script(src="public/scripts/journey.js")
+    body(onload="mainJourney()")
+        include header
+        h1#ContentType CHARACTER JOURNEYS
+        h2#ContentSubheader TEEN
+        div.CharacterButtons
+            button.TeenSelect(onclick="UpdateSelectedJourney(4)")
+                img(src="public/images/teen/journey/gloria.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedJourney(5)")
+                img(src="public/images/teen/journey/brett.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedJourney(6)")
+                img(src="public/images/teen/journey/jess.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedJourney(7)")
+                img(src="public/images/teen/journey/leo.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedJourney(8)")
+                img(src="public/images/teen/journey/faith.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedJourney(9)")
+                img(src="public/images/teen/journey/reggie.png" height="125px")
+        hr
+        h2#ContentSubheader MONSTER
+        div.CharacterButtons
+            button.MonsterSelect(onclick="UpdateSelectedJourney(0)")
+                img(src="public/images/monster/werewolf.png" height="125px")
+            button.MonsterSelect(onclick="UpdateSelectedJourney(1)")
+                img(src="public/images/monster/wart.png" height="125px")
+            button.MonsterSelect(onclick="UpdateSelectedJourney(2)")
+                img(src="public/images/monster/dollmaster.png" height="125px")
+            button.MonsterSelect(onclick="UpdateSelectedJourney(3)")
+                img(src="public/images/monster/deathwire2.png" height="125px")
+        hr
+        div#contentpanel
+            h1#SelectedCharacter [CHARACTER NAME]
+            h2.ActSelectLabel Selected Act:
+                div.ActSelectionBox
+                    select(id="actSelect" onchange="UpdateAct()")
+                        option(value="1") Act I
+                        option(value="2") Act II
+                        option(value="3") Act III
+            hr
+            div#journeypanel
+                div#layoutpanel
+                    div#sizeEnforcer
