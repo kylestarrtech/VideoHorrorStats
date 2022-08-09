@@ -1,0 +1,540 @@
+{
+    "CREATORS": [
+        {
+            "Name": "TricksterShadow",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "TricksterShadow",
+                "YouTube": "TricksterShadow",
+                "Twitter": "TricksofShadows"
+            }
+        },
+        {
+            "Name": "Jaee",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Jaee",
+                "YouTube": "JaeeTv",
+                "Twitter": "Jaeettv"
+            }
+        },
+        {
+            "Name": "TheMightyRoq",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "themightyroq",
+                "YouTube": "themightyroq",
+                "Twitter": "themightyroq"
+            }
+        },
+        {
+            "Name": "Lillipie101",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Lillipie101",
+                "YouTube": "Lillipie101",
+                "Twitter": "Lillipie101"
+            }
+        },
+        {
+            "Name": "MissPaprika",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "MissPaprika",
+                "Twitter": "MissPapri"
+            }
+        },
+        {
+            "Name": "Stats4Fun",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Stats4Fun",
+                "YouTube_ID": "UCt3D3nUWhXg7ikM0zlIqM8A"
+            }
+        },
+        {
+            "Name": "DaYoshi",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "DaYoshi",
+                "YouTube_ID": "UCGSxfTOPnMLM2TdpAx7mzig",
+                "Twitter": "DaYoshi0"
+            }
+        },
+        {
+            "Name": "ARTPOPxGUY",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "ARTPOPxGUY",
+                "Twitter": "ARTPOPxGUY"
+            }
+        },
+        {
+            "Name": "Ladylz",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "ladylz",
+                "YouTube_ID": "UCRpPLNr6T-lOd72qgtlR0UQ",
+                "Twitter": "LadylzTV"
+            }
+        },
+        {
+            "Name": "Memedewd",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Memedewd",
+                "YouTube_ID": "UC8ytGtHl_iJD0rvNxGsNeYQ",
+                "Twitter": "Memedewd"
+            }
+        },
+        {
+            "Name": "Noah Fence",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Noah_Fencee",
+                "Twitter": "heyyitsnoah"
+            }
+        },
+        {
+            "Name": "DisneyMads",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "mads_isnt_available",
+                "Twitter": "DisneyMads"
+            }
+        },
+        {
+            "Name": "Blaze Immortal",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "BlazeImmortal_",
+                "YouTube": "blazeimmortal",
+                "Twitter": "BlazeImmortal_"
+            }
+        },
+        {
+            "Name": "Kelskii",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "kelskii",
+                "YouTube": "kelskiittv",
+                "Twitter": "kelskiitv"
+            }
+        },
+        {
+            "Name": "Vangardt",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Vangardt",
+                "Twitter": "Vangardt"
+            }
+        },
+        {
+            "Name": "B33RM4N",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "kingb33rm4n",
+                "YouTube": "thatguy8605",
+                "Twitter": "therealb33rm4n"
+            }
+        },
+        {
+            "Name": "Pixelishious",
+            "Links": {
+                "MainPlatform": "Twitch",
+                "Twitch": "Pixelishious",
+                "YouTube_ID": "UC7Parq2YMi0tIm6ySxtkT_g",
+                "Twitter": "Pixelishious"
+            }
+        },
+        {
+            "Name": "TZBoom",
+            "Links": {
+                "Twitch": "Tzboom",
+                "YouTube_ID": "UCQlY0onjz-iV6epLwZrAB3A",
+                "Twitter": "TZedBoom",
+                "TikTok": "Tzboom"
+            }
+        },
+        {
+            "Name": "IssaBoneman",
+            "Links": {
+                "Twitch": "issaboneman",
+                "YouTube_ID": "UCgp7596tnXBcvBRc55DsDQw",
+                "Twitter": "IssaBoneman"
+            }
+        },
+        {
+            "Name": "Lanee1x",
+            "Links": {
+                "Twitch": "lanee1x",
+                "Twitter": "lanee1x"
+            }
+        },
+        {
+            "Name": "Irredeemable",
+            "Links": {
+                "Twitch": "lrredeemable",
+                "Twitter": "ImIrredeemable"
+            }
+        },
+        {
+            "Name": "PixelTwink",
+            "Links": {
+                "Twitch": "pixeltwink",
+                "YouTube_ID": "UCSGaWtE7Ph0MCvi1kTDog6g",
+                "Twitter": "thepixeltwink"
+            }
+        },
+        {
+            "Name": "PREYxPURGE",
+            "Links": {
+                "Twitch": "preyxpurge",
+                "YouTube_ID": "UCAGlyOruNClitpZlqnJ_P0w",
+                "Twitter": "PREYxPURGE"
+            }
+        },
+        {
+            "Name": "LukeSpookz",
+            "Links": {
+                "Twitch": "lukespookz",
+                "Twitter": "LukeSpookz"
+            }
+        },
+        {
+            "Name": "UnseasonedAgua",
+            "Links": {
+                "Twitch": "unseasonedagua",
+                "Twitter": "UnseasonedAgua1"
+            }
+        },
+        {
+            "Name": "AverageFreddy",
+            "Links": {
+                "Twitch": "AverageFreddy",
+                "Twitter": "AverageFreddy",
+                "TikTok": "AverageFreddy"
+            }
+        },
+        {
+            "Name": "SpaceLion",
+            "Links": {
+                "Twitch": "SpaceLion",
+                "YouTube_ID": "UCG8PokEjmKJM3e-yRzHYYgQ",
+                "Twitter": "SpaceLionTV"
+            }
+        },
+        {
+            "Name": "LosingColour",
+            "Links": {
+                "Twitch": "losingcolour",
+                "YouTube_ID": "UCqt0PlBdivE9IZLkDo5pWIA",
+                "Twitter": "losingcolor"
+            }
+        },
+        {
+            "Name": "Granny",
+            "Links": {
+                "Twitch": "Granny",
+                "YouTube": "Grannydearest",
+                "Twitter": "deargranny"
+            }
+        },
+        {
+            "Name": "IceWatah",
+            "Links": {
+                "Twitch": "icewatah",
+                "Twitter": "IceWatah",
+                "TikTok": "icewatah"
+            }
+        },
+        {
+            "Name": "SailorJamez",
+            "Links": {
+                "Twitch": "sailorjamez",
+                "YouTube": "WhezzyBeardLover",
+                "Twitter": "SailorJamez"
+            }
+        },
+        {
+            "Name": "Jerb_Jerb",
+            "Links": {
+                "Twitch": "Jerb_Jerb",
+                "YouTube_ID": "UCGrLwnxLcKD9jKxpSmqaagA",
+                "Twitter": "Jerb_Jerb"
+            }
+        },
+        {
+            "Name": "JustinQT",
+            "Links": {
+                "Twitch": "justjustin",
+                "Twitter": "justjustinqt"
+            }
+        },
+        {
+            "Name": "CrashlieP",
+            "Links": {
+                "Twitch": "crashliep",
+                "YouTube": "UCFTfYgk3xldQ6j6SfyNSDXQ",
+                "Twitter": "crashliep"
+            }
+        },
+        {
+            "Name": "Dashy",
+            "Links": {
+                "Twitch": "Dasshhyy",
+                "Twitter": "DashyVHS"
+            }
+        },
+        {
+            "Name": "Cutiebootiee",
+            "Links": {
+                "Twitch": "cutiebootiee",
+                "Twitter": "CutiebootieeTTV"
+            }
+        },
+        {
+            "Name": "Isacoh",
+            "Links": {
+                "Twitch": "Isacoh",
+                "Twitter": "IsacohTV"
+            }
+        },
+        {
+            "Name": "HiDro",
+            "Links": {
+                "Twitch": "HiDro",
+                "YouTube": "HiDroOfficial",
+                "Twitter": "HiDroOfficial",
+                "TikTok": "hidroofficial"
+            }
+        },
+        {
+            "Name": "KodaHypnoFox",
+            "Links": {
+                "Twitch": "kodahypnofox",
+                "YouTube_ID": "UCK0g7stvFi-KyJaj8ecrtTg",
+                "Twitter": "KodaHypnoFox"
+            }
+        },
+        {
+            "Name": "Askar_an",
+            "Links": {
+                "Twitch": "askar_an",
+                "YouTube_ID": "UCuQLcKi3uw8eI4oLSrwg5Dw",
+                "Twitter": "Askar_anTV",
+                "TikTok": "askar_an"
+            }
+        },
+        {
+            "Name": "Ailisolren",
+            "Links": {
+                "Twitch": "ailisolren",
+                "Twitter": "Ailisolren"
+            }
+        },
+        {
+            "Name": "mrbluwu",
+            "Links": {
+                "Twitch": "mrbluwu",
+                "YouTube_ID": "UC0e0khtT1ACY8oDMJmvOYcQ",
+                "Twitter": "mrbluettv",
+                "TikTok": "mrbluwu"
+            }
+        },
+        {
+            "Name": "ZiggyNova",
+            "Links": {
+                "Twitch": "ziggynova",
+                "Twitter": "ziggynovattv",
+                "TikTok": "ziggynovattv"
+            }
+        },
+        {
+            "Name": "GreasyDreamland",
+            "Links": {
+                "Twitch": "greasydreamland",
+                "YouTube_ID": "UCUKQ6agwnr3r-2xRk2cb_1w",
+                "Twitter": "GreasyDreamland"
+            }
+        },
+        {
+            "Name": "TheEvilsWithin",
+            "Links": {
+                "Twitch": "theevilswithin",
+                "YouTube_ID": "UCPWcCx7wIwukPGCLQQOAebQ",
+                "Twitter": "theevilswithiin"
+            }
+        },
+        {
+            "Name": "JustGavinBennett",
+            "Links": {
+                "Twitch": "justgavinbennett",
+                "YouTube": "JustGavinBennett",
+                "Twitter": "JustGavNBennett",
+                "TikTok": "justgavinbennett"
+            }
+        },
+        {
+            "Name": "TangyCorpse",
+            "Links": {
+                "Twitter": "TangyCorpse"
+            }
+        },
+        {
+            "Name": "VHS Store",
+            "Links": {
+                "Twitter": "VHStheStore"
+            }
+        },
+        {
+            "Name": "MiniMishiii",
+            "Links": {
+                "Twitch": "minimishiii",
+                "YouTube": "minimishiiiASMR",
+                "Twitter": "minimishiii",
+                "TikTok": "minimishiii"
+            }
+        },
+        {
+            "Name": "Just_Izii",
+            "Links": {
+                "Twitch": "justizii",
+                "Twitter": "Just_Izii"
+            }
+        },
+        {
+            "Name": "NoFoxWereGiven",
+            "Links": {
+                "Twitch": "nofoxweregiven",
+                "Twitter": "NofoxweregivenF"
+            }
+        },
+        {
+            "Name": "Lou G Torres",
+            "Links": {
+                "Twitch": "lougtorres",
+                "YouTube": "LouGTorres",
+                "Twitter": "LouGTorres",
+                "TikTok": "lougtorres"
+            }
+        },
+        {
+            "Name": "Askar_an",
+            "Links": {
+                "Twitch": "askar_an",
+                "Twitter": "Askar_anTV",
+                "TikTok": "askar_an"
+            }
+        },
+        {
+            "Name": "Laughenstein",
+            "Links": {
+                "Twitch": "laughenstein",
+                "YouTube": "laughenstein",
+                "Twitter": "laughenstein"
+            }
+        },
+        {
+            "Name": "SpoopyKira",
+            "Links": {
+                "Twitch": "SpoopyKira"
+            }
+        },
+        {
+            "Name": "echoQ__",
+            "Links": {
+                "Twitch": "echoq__",
+                "Twitter": "echoq_"
+            }
+        },
+        {
+            "Name": "SheldunTV",
+            "Links": {
+                "Twitch": "shelduntv"
+            }
+        },
+        {
+            "Name": "DiazIzABot",
+            "Links": {
+                "Twitch": "diazizabot",
+                "Twitter": "DiazIzABot"
+            }
+        },
+        {
+            "Name": "ultimawehpen",
+            "Links": {
+                "Twitch": "ultimawehpen"
+            }
+        },
+        {
+            "Name": "thatkriis",
+            "Links": {
+                "Twitch": "thatkriis",
+                "YouTube": "thatkriis",
+                "Twitter": "thatkriis"
+            }
+        },
+        {
+            "Name": "Lukkettaaa",
+            "Links": {
+                "Twitch": "loshowdilukkettaaa"
+            }
+        },
+        {
+            "Name": "seVen4legendzZ",
+            "Links": {
+                "Twitch": "seven4legendzz",
+                "Twitter": "seVen4legendzZ"
+            }
+        },
+        {
+            "Name": "RymoWRLD",
+            "Links": {
+                "Twitch": "irymo",
+                "Twitter": "RymoWRLD"
+            }
+        },
+        {
+            "Name": "KiyoFurball",
+            "Links": {
+                "Twitch": "KiyoFurball",
+                "YouTube_ID": "UCehSnfnDj2m1HNZaEa3UMwQ",
+                "Twitter": "KiyoFurball"
+                }
+        },
+        {
+            "Name": "TheAlexSandwich",
+            "Links": {
+                "Twitch": "TheAlexSandwich",
+                "YouTube": "thealexsandwich"
+            }
+        },
+        {
+            "Name": "MalphasPlays",
+            "Links": {
+                "Twitch": "malphasplays",
+                "YouTube_ID": "UC1lGl9Qwip-oJ_fmXx1UW7A",
+                "Twitter": "MalphasPlays"
+            }
+        },
+        {
+            "Name": "rDipatrizio",
+            "Links": {
+                "Twitch": "raydipatrizio",
+                "Twitter": "rDipatrizio"
+            }
+        },
+        {
+            "Name": "Radical Lynx",
+            "Links": {
+                "Twitch": "radicallynx",
+                "YouTube": "UCt9-T2FUhNTprxxjDYu5Q2g",
+                "Twitter": "RadicalLynx"
+            }
+        }
+    ],
+    "FOTD_INDEX": 0,
+    "LIVE_NOW_LIST": [],
+    "LIVE_NOW_INDEX": 0
+}

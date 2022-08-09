@@ -1,0 +1,74 @@
+doctype html 
+html 
+    head 
+        title Creator Hub - Video Horror Stats
+        link(href="public/styles/index.css" rel="stylesheet")
+        link(href="public/styles/creatorhub.css" rel="stylesheet")
+        script(src="public/scripts/creatorhub.js")
+        script(src="https://embed.twitch.tv/embed/v1.js")
+    body(onload="mainHub()")
+        include header
+        h1#ContentType CREATOR HUB
+        div#contentpanel            
+            table#featuregrid
+                tr
+                    td
+                        h2#ContentSubheader FEATURE OF THE WEEK
+                        div#featuredpanel(class="twitchembed" align="center")
+                            <script type="text/javascript"> var options = { width: 600,height: 450,channel: "kelskii"}; var player = new Twitch.Player("featuredpanel", options);player.setVolume(0.5); </script>
+                    td
+                        h2#ContentSubheader LIVE NOW
+                        div#livenow(class="twitchembed" align="center")
+                            <script type="text/javascript"> var options = { width: 600,height: 450,channel: "memedewd"}; var player = new Twitch.Player("livenow", options);player.setVolume(0.5); </script>
+            h2#ContentSubheader ALL FEATURED CREATORS
+            table#creatorgrid
+                tr
+                    td
+                        div.CreatorCard
+                            img(src="public/images/teen/journey/gloria.png" width="150px" height="150px" align="center").CCImg
+                            h2.CCName [CREATOR NAME]
+                            hr
+                            h3.CCLinkHeader LINKS 
+                            table.CCLinks
+                                tr 
+                                    td
+                                        img(src="public/images/socials/twitch.png").CCLink
+                                    td
+                                        img(src="public/images/socials/youtube.png").CCLink
+                                    td
+                                        img(src="public/images/socials/twitter.png").CCLink
+                                    td 
+                                        img(src="public/images/socials/tiktok.png").CCLink
+                    td
+                        div.CreatorCard
+                            img(src="public/images/teen/journey/gloria.png" width="150px" height="150px").CCImg
+                            h2.CCName [CREATOR NAME]
+                            hr
+                            h3.CCLinkHeader LINKS 
+                            table.CCLinks
+                                tr 
+                                    td
+                                        img(src="public/images/socials/twitch.png").CCLink
+                                    td
+                                        img(src="public/images/socials/youtube.png").CCLink
+                                    td
+                                        img(src="public/images/socials/twitter.png").CCLink
+                                    td 
+                                        img(src="public/images/socials/tiktok.png").CCLink
+                    td
+                        div.CreatorCard
+                            img(src="public/images/teen/journey/gloria.png" width="150px" height="150px").CCImg
+                            h2.CCName [CREATOR NAME]
+                            hr
+                            h3.CCLinkHeader LINKS 
+                            table.CCLinks
+                                tr 
+                                    td
+                                        img(src="public/images/socials/twitch.png").CCLink
+                                    td
+                                        img(src="public/images/socials/youtube.png").CCLink
+                                    td
+                                        img(src="public/images/socials/twitter.png").CCLink
+                                    td 
+                                        img(src="public/images/socials/tiktok.png").CCLink
+            
