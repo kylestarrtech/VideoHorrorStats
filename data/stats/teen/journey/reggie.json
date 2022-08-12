@@ -2709,7 +2709,7 @@
             "8,0": {
                 "x": 8,
                 "y": 0,
-                "NodeType": "",
+                "NodeType": "Blank",
                 "CanTravel": {
                     "N": false,
                     "S": true,
@@ -3709,7 +3709,7 @@
             "8,4": {
                 "x": 8,
                 "y": 4,
-                "NodeType": "",
+                "NodeType": "Blank",
                 "CanTravel": {
                     "N": true,
                     "S": false,

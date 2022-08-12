@@ -74,46 +74,48 @@ function ParseJourney(journeyData) {
         
         addedStr += "<img src='public/images/journey/" + nodeType + ".png' width='50px' height='50px' class='journeyimage' onmouseenter=\"ShowJourneyToolTip('Tooltip_" + id + "')\" onmouseleave=\"HideJourneyToolTip('Tooltip_" + id + "')\">";
 
-        addedStr += "<div id='Tooltip_" + id + "' class='nodetooltip' hidden=''";
-
-        addedStr += ">";
-
-        let nodeTooltipData = UpdateNodeData(nodeData);
-
-        if (nodeTooltipData != null) {
-
-            let nodeTypeRefData = nodeTypeRef[nodeType];
-
-            if (nodeTooltipData["RelyOnAddedData"] == true) {
-                let perkProtoname = nodeData["Rewards"];
-
-                if (perkDatabase[perkProtoname] == undefined) {
-                    console.error(perkProtoname + " is not in the database!");
-                    perkDatabase[perkProtoname] = {
-                        Name: "NOT IN DATABASE",
-                        ProtoName: "NULL",
-                        Icon: "public/images/perks/lightningfast.png",
-                        Description: "This perk/mutation is not in the database! Please notify the developer of Video Horror Stats (@SHADERSOP)!"
+        if (nodeType != "Blank") {
+            addedStr += "<div id='Tooltip_" + id + "' class='nodetooltip' hidden=''";
+    
+            addedStr += ">";
+    
+            let nodeTooltipData = UpdateNodeData(nodeData);
+    
+            if (nodeTooltipData != null) {
+    
+                let nodeTypeRefData = nodeTypeRef[nodeType];
+    
+                if (nodeTooltipData["RelyOnAddedData"] == true) {
+                    let perkProtoname = nodeData["Rewards"];
+    
+                    if (perkDatabase[perkProtoname] == undefined) {
+                        console.error(perkProtoname + " is not in the database!");
+                        perkDatabase[perkProtoname] = {
+                            Name: "NOT IN DATABASE",
+                            ProtoName: "NULL",
+                            Icon: "public/images/perks/lightningfast.png",
+                            Description: "This perk/mutation is not in the database! Please notify the developer of Video Horror Stats (@SHADERSOP)!"
+                        }
                     }
+    
+                    addedStr += "<div class='NodeName'>" + perkDatabase[perkProtoname]["Name"];
+                    addedStr += "<div class='NodeType'>" + nodeTypeRefData["Type"] + "</div></div>";
+                } else {
+                    addedStr += "<div class='NodeName'>" + nodeTypeRefData["Type"] + "</div>"
                 }
-
-                addedStr += "<div class='NodeName'>" + perkDatabase[perkProtoname]["Name"];
-                addedStr += "<div class='NodeType'>" + nodeTypeRefData["Type"] + "</div></div>";
-            } else {
-                addedStr += "<div class='NodeName'>" + nodeTypeRefData["Type"] + "</div>"
+    
+                addedStr += "<hr>";
+    
+                if (nodeTooltipData["RelyOnAddedData"] == true) {
+                    let perkData = perkDatabase[nodeData["Rewards"]];
+    
+                    addedStr += "<div class='NodeDescription'>" + perkData["Description"] + "</div>";
+                } else {
+                    addedStr += "<div class='NodeDescription'>" + nodeTypeRefData["Description"] + "</div>";
+                }
             }
-
-            addedStr += "<hr>";
-
-            if (nodeTooltipData["RelyOnAddedData"] == true) {
-                let perkData = perkDatabase[nodeData["Rewards"]];
-
-                addedStr += "<div class='NodeDescription'>" + perkData["Description"] + "</div>";
-            } else {
-                addedStr += "<div class='NodeDescription'>" + nodeTypeRefData["Description"] + "</div>";
-            }
+            addedStr += "</div>"
         }
-        addedStr += "</div>"
 
         addedStr += "<div class='connectors'>";
 
