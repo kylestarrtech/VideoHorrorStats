@@ -2,10 +2,14 @@ html
     head 
         title Video Horror Stats Admin Login
         script(src="public/scripts/admin/login.js")
+        link(href="public/styles/index.css" rel="stylesheet")
+        link(href="public/styles/admin.css" rel="stylesheet")        
     body 
         h1 Video Horror Stats 
-        h2 Admin Login 
         
-        p API Key: 
-            input#keyInput(type="text")
-        button(onclick="TryLogin()") Login
+        div#BasePanel
+            h2 Admin Login 
+            p(style="color:#ff0000; font-weight:600;" hidden="true")#loginResult Incorrect Login!
+            p API Key: 
+                input#keyInput(type="password")
+            button(onclick="TryLogin()") Login

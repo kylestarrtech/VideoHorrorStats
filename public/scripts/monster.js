@@ -142,7 +142,16 @@ function GenerateStatsPage(categoryData) {
             finalStr += "</span></p>";
         }
 
-        finalStr += "<h2 class='PowerStatsHeader'>MUTATIONS</h2>"
+        let numPowerMutations = 0;
+        for (var mutation of categoryData.Mutations) {
+            if (mutation.PowerID == i) {
+                numPowerMutations++;
+            }
+        }
+        if (numPowerMutations > 0) {
+            console.log(categoryData.Mutations)
+            finalStr += "<h2 class='PowerStatsHeader'>MUTATIONS</h2>"
+        }
         
         finalStr += "</div>";
 

@@ -501,7 +501,7 @@
                 "Twitch": "KiyoFurball",
                 "YouTube_ID": "UCehSnfnDj2m1HNZaEa3UMwQ",
                 "Twitter": "KiyoFurball"
-                }
+            }
         },
         {
             "Name": "TheAlexSandwich",
@@ -534,7 +534,5 @@
             }
         }
     ],
-    "FOTD_INDEX": 0,
-    "LIVE_NOW_LIST": [],
-    "LIVE_NOW_INDEX": 0
+    "FOTD_INDEX": 58
 }

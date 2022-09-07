@@ -1,0 +1,63 @@
+h2 Welcome to the Creator Hub Admin Panel, <span id="usernameText">{NAME}</span>
+hr
+
+h2 Currently Selected: NONE
+table#CreatorPanel 
+    tbody
+        tr
+            td
+                p.Title Creators
+                hr
+
+                div#CreatorList
+                    
+
+            td
+                p.Title Data
+                hr
+                div#CreatorDataPanel
+                    div.CAdminParameter
+                        label.ParameterLabel Username: 
+                        input.ParameterInput
+                    br
+                    div.CAdminParameter
+                        label.ParameterLabel Is Rewinder?: 
+                            input(type="checkbox")
+                    br
+                    div.CAdminParameter
+                        label.ParameterLabel Primary Platform: 
+                        select.ParameterInput
+                            option N/A
+                            option Twitch
+                            option YouTube
+                    br
+                    div.CAdminParameter
+                        label.ParameterLabel Twitch: 
+                        input.ParameterInput
+                    br
+                    div.CAdminParameter
+                        label.ParameterLabel YouTube: 
+                        p YouTube Channel ID? 
+                            input(type="radio" name="YoutubeCType" value="ID")
+                        p YouTube Channel Name? 
+                            input(type="radio" name="YoutubeCType" value="Name")
+                        input.ParameterInput
+                    br
+                    div.CAdminParameter
+                        label.ParameterLabel Twitter: 
+                        input.ParameterInput
+                    br
+                    div.CAdminParameter
+                        label.ParameterLabel TikTok: 
+                        input.ParameterInput
+            td
+                p.Title Tools
+                hr
+
+                button.ToolButton Deselect Creator
+                br
+                button.ToolButton Add Creator
+                br
+                button.ToolButton Edit Creator
+                br
+                button.ToolButton Delete Creator
