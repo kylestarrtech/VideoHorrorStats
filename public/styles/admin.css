@@ -1,0 +1,88 @@
+#CreatorPanel {
+    width: 100%;
+}
+
+#CreatorList {
+    overflow-y: scroll;
+    height: 700px;
+}
+
+table {
+    height: 700px;
+}
+
+td {
+    width: 33%;
+    height: 100%;
+
+    vertical-align: top;
+    text-align: center;
+    
+    border-radius: 2px;
+    border-style: solid;
+    overflow-y: scroll
+}
+
+.Title {
+    font-weight: 600;
+    font-size: 20px;
+    display: inline;
+    
+}
+
+.ToolButton {
+    width: 98%;
+    height: 50px;
+    
+    margin: 2.5px 1% 2.5px 1%;
+
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    border-style: none;
+
+    outline-color: #ffffff;
+    outline-style: solid;
+    outline-width: 2px;
+
+    background-color: #8c009980;
+    
+}
+
+.ToolButton:hover {
+    background-color: #a700b6ad;
+}
+
+.CreatorButton {
+    width: 95%;
+    height: 35px;
+    
+    margin: 5px 1% 5px 1%;
+
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    border-style: none;
+
+    outline-color: #ffffff;
+    outline-style: solid;
+    outline-width: 1px;
+
+    background-color: #8c009980;
+    
+}
+
+.CreatorButton:hover {
+    background-color: #a700b6ad;
+}
+
+#CreatorDataPanel {
+    font-weight: 500;
+    text-shadow: 0px 0px 5px #000000;
+}
