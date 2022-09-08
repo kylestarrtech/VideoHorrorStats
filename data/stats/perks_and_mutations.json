@@ -6,19 +6,19 @@
         "Description": "This is a template description, and not a real perk. Increase your <span class='PerkDescI'>running speed</span> by <span class='PerkDescT1'>1%</span>/<span class='PerkDescT2'>2%</span>/<span class='PerkDescT3'>3%</span> while <span class='PerkDescI'>unarmed</span>."
     },
     "ID_PK_KillInhibit": {
-        "Name": "Crush Morale",
+        "Name": "Demoralize",
         "ProtoName": "KillInhibit",
         "Icon": "public/images/perks/crushmorale.png",
-        "Description": "When you <span class='PerkDescB'>Knockdown</span> or <span class='PerkDescB'>Kill</span> a teen all other active teens will become <span class='PerkDescB'>Inhibited</span> for the next <span class='PerkDescT1'>9</span>/<span class='PerkDescT2'>12</span>/<span class='PerkDescT3'>16</span> seconds. This Perk can only activate once every <span class='PerkDescBlue'>60</span> seconds."
+        "Description": "When you <span class='PerkDescB'>Knockdown</span> or <span class='PerkDescB'>Kill</span> a teen all other active teens will become <span class='PerkDescB'>Jammed</span> for the next <span class='PerkDescT1'>6</span>/<span class='PerkDescT2'>9</span>/<span class='PerkDescT3'>12</span> seconds. This Perk can only activate once every <span class='PerkDescBlue'>80</span> seconds."
     },
     "ID_PK_PickupDrop": {
-        "Name": "Pocket Punch",
+        "Name": "Gutter Punch",
         "ProtoName": "PickupDrop",
         "Icon": "public/images/perks/pocketpunch.png",
-        "Description": "When you <span class='PerkDescB'>Injure</span> a teen that is carrying a <span class='PerkDescB'>Pickup</span>, they will drop it on the ground. This Perk can only activate once every <span class='PerkDescT1'>300</span>/<span class='PerkDescT2'>200</span>/<span class='PerkDescT3'>100</span> seconds."
+        "Description": "When you <span class='PerkDescB'>Injure</span> a teen that is carrying a <span class='PerkDescB'>Pickup</span>, they will drop it on the ground. This Perk can only activate once every <span class='PerkDescT1'>400</span>/<span class='PerkDescT2'>250</span>/<span class='PerkDescT3'>0</span> seconds."
     },
     "ID_PK_ScreamRange": {
-        "Name": "Screecher",
+        "Name": "Revolt",
         "ProtoName": "ScreamRange",
         "Icon": "public/images/perks/screecher.png",
         "Description": "The monster's <span class='PerkDescB'>Scream</span> shockwave range is increased by <span class='PerkDescT1'>12%</span>/<span class='PerkDescT2'>24%</span>/<span class='PerkDescT3'>36%</span>."
@@ -27,19 +27,19 @@
         "Name": "Nitro Booster",
         "ProtoName": "SpeedBoost",
         "Icon": "public/images/monster/mutations/deathwire/nitrobooster.png",
-        "Description": "<span class='MutPOS'>+</span> After switching into <span class='PerkDescB'>Vehicle</span> mode you will move an additional <span class='PerkDescB'>200%</span> faster for <span class='PerkDescB'>2</span> seconds.<br><span class='MutNEG'>-</span> There is now an <span class='PerkDescB'>18 second</span> cooldown on <span class='PerkDescB'>Mode Swap</span> after exiting <span class='PerkDescB'>Vehicle</span> mode and <span class='PerkDescB'>Deathwire</span> can no longer enter <span class='PerkDescB'>Vehicle</span> mode while <span class='PerkDescB'>Recalibrating</span>."
+        "Description": "<span class='MutPOS'>+</span> After switching into <span class='PerkDescB'>Drift</span> mode you will move an additional <span class='PerkDescB'>160%</span> faster for <span class='PerkDescB'>1.4</span> seconds.<br><span class='MutNEG'>-</span> The time <span class='PerkDescB'>Death Drift</span> can't be used after hitting a teen is increased to <span class='PerkDescB'>10 seconds</span>."
     }, 
     "ID_PK_Eradicator_ElectricSurge_Expose": {
-        "Name": "Triangulation Matrix",
+        "Name": "Sensor Spike",
         "ProtoName": "Expose",
         "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
-        "Description": "<span class='MutPOS'>+</span> While Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Exposed</span>.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Deathwire</span> may only store <span class='PerkDescB'>1</span> use of <span class='PerkDescB'>Electric Surge</span> at a time."
+        "Description": "<span class='MutPOS'>+</span> While Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Exposed</span>.<br><span class='MutNEG'>-</span> The activation time of <span class='PerkDescB'>Voltage Vise</span> is increased by <span class='PerkDescB'>45%</span>."
     }, 
     "ID_PK_Eradicator_ScannerBeam_Armed": {
         "Name": "Armament Calibration",
         "ProtoName": "Armed",
         "Icon": "public/images/monster/mutations/deathwire/armamentcalibration.png",
-        "Description": "<span class='MutPOS'>+</span> The time that <span class='PerkDescB'>armed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>30%</span>.<br><span class='MutNEG'>-</span> The time that <span class='PerkDescB'>unarmed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Scanner Beam</span> is reduced by <span class='PerkDescB'>30%</span>."
+        "Description": "<span class='MutPOS'>+</span> The time that <span class='PerkDescB'>armed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Beam Matrix</span> is increased by <span class='PerkDescB'>30%</span>.<br><span class='MutNEG'>-</span> The time that <span class='PerkDescB'>unarmed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Beam Matrix</span> is reduced by <span class='PerkDescB'>30%</span>."
     },
     "ID_PK_HideSense": {
         "Name": "Hidden Agenda",
@@ -78,40 +78,40 @@
         "Description": "<span class='MutNEU'>*</span> <span class='PerkDescB'>Doll Teleport</span> will no longer use a selected <span class='PerkDescB'>Doll Trap</span>, but will instead always target the <span class='PerkDescB'>Doll Trap</span> that is farthest away from the <span class='PerkDescB'>Doll Master</span>.<br><span class='MutPOS'>+</span> <span class='PerkDescB'>Doll Teleport</span> focusing time is reduced by <span class='PerkDescB'>15%</span>."
     },
     "ID_PK_Eradicator_ElectricSurge_Inhibit": {
-        "Name": "Neural Disruptor",
+        "Name": "Circuit Breaker",
         "ProtoName": "Inhibit",
         "Icon": "public/images/monster/mutations/deathwire/neuraldisruptor.png",
-        "Description": "<span class='MutPOS'>+</span> When Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Inhibited</span> for <span class='PerkDescB'>20 seconds</span>.<br><span class='MutNEG'>-</span> The <span class='PerkDescB'>Overcharged</span> status lasts an additional <span class='PerkDescB'>1.5 seconds</span>."
+        "Description": "<span class='MutPOS'>+</span> When Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Jammed</span> for <span class='PerkDescB'>20 seconds</span>.<br><span class='MutNEG'>-</span> The <span class='PerkDescB'>Overcharged</span> status lasts an additional <span class='PerkDescB'>1.5 seconds</span>."
     },
     "ID_PK_Eradicator_ModeSwap_FastCharge": {
-        "Name": "Swift Cycle Module",
+        "Name": "Homicycle",
         "ProtoName": "FastCharge",
         "Icon": "public/images/monster/mutations/deathwire/swiftcyclemodule.png",
-        "Description": "<span class='MutPOS'>+</span> Decreases the focusing time required to enter <span class='PerkDescB'>Vehicle</span> mode by <span class='PerkDescB'>40%</span>.<br><span class='MutNEG'>-</span> The movement speed of <span class='PerkDescB'>Vehicle</span> mode is reduced by <span class='PerkDescB'>25%</span>."
+        "Description": "<span class='MutPOS'>+</span> Decreases the focusing time required to enter <span class='PerkDescB'>Drift</span> Mode by <span class='PerkDescB'>40%</span>.<br><span class='MutNEG'>-</span> The movement speed of <span class='PerkDescB'>Drift</span> Mode is reduced by <span class='PerkDescB'>25%</span>."
     },
     "ID_PK_Eradicator_ScannerBeam_WideArea": {
-        "Name": "Wide-Range Optics",
+        "Name": "Augmented Optics",
         "ProtoName": "WideArea",
         "Icon": "public/images/monster/mutations/deathwire/widerangeoptics.png",
-        "Description": "<span class='MutPOS'>+</span> The area scanned by the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>25%</span>.<br><span class='MutNEG'>-</span> The cooldown of the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>15%</span>."
+        "Description": "<span class='MutPOS'>+</span> The area scanned by <span class='PerkDescB'>Beam Matrix</span> is increased by <span class='PerkDescB'>30%</span>.<br><span class='MutNEG'>-</span> The cooldown of <span class='PerkDescB'>Beam Matrix</span> is increased by <span class='PerkDescB'>30%</span>."
     },
     "ID_PK_Eradicator_ModeSwap_FastSurgeCooldown": {
-        "Name": "Charging Belt",
+        "Name": "Overdriver",
         "ProtoName": "FastSurgeCooldown",
         "Icon": "public/images/monster/mutations/deathwire/chargingbelt.png",
-        "Description": "<span class='MutPOS'>+</span> While in <span class='PerkDescB'>Vehicle</span> mode your <span class='PerkDescB'>Electric Surge</span> cooldown recovers <span class='PerkDescB'>50%</span> faster.<br><span class='MutNEG'>-</span> While in <span class='PerkDescB'>Assault</span> mode your <span class='PerkDescB'>Electric Surge</span> cooldown recovers <span class='PerkDescB'>50%</span> slower."
+        "Description": "<span class='MutPOS'>+</span> While in <span class='PerkDescB'>Drift</span> Mode your <span class='PerkDescB'>Voltage Vise</span> cooldown recovers <span class='PerkDescB'>50%</span> faster.<br><span class='MutNEG'>-</span> While in <span class='PerkDescB'>Assault</span> Mode your <span class='PerkDescB'>Voltage Vise</span> cooldown recovers <span class='PerkDescB'>50%</span> slower."
     },
     "ID_PK_Eradicator_ScannerBeam_FastMoving": {
-        "Name": "Sentry Rigging",
+        "Name": "Terror Tracer",
         "ProtoName": "FastMoving",
         "Icon": "public/images/monster/mutations/deathwire/sentryrigging.png",
-        "Description": "<span class='MutPOS'>+</span> <span class='PerkDescB'>Deathwire's</span> movement speed while charging the <span class='PerkDescB'>Scanner Beam</span> is increased by <span class='PerkDescB'>200%</span>.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Deathwire</span> can no longer use the <span class='PerkDescB'>Scanner Beam</span> while in <span class='PerkDescB'>Assault</span> mode."
+        "Description": "<span class='MutPOS'>+</span> In <span class='PerkDescB'>Drift</span> Mode your movement speed when activating <span class='PerkDescB'>Beam Matrix</span> is increased by <span class='PerkDescB'>250%</span>.<br><span class='MutNEG'>-</span> In <span class='PerkDescB'>Assault</span> Mode your movement speed when activating <span class='PerkDescB'>Beam Matrix</span> is reduced by 80%."
     },
     "ID_PK_Eradicator_ElectricSurge_ExtraSurge": {
-        "Name": "Stigma Coil",
+        "Name": "Chaos Coil",
         "ProtoName": "ExtraSurge",
         "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
-        "Description": "<span class='MutPOS'>+</span> You may now store up to <span class='PerkDescB'>3</span> uses of <span class='PerkDescB'>Electric Surge</span> at a time.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Electric Surge</span> no longer affects unarmed Teens."
+        "Description": "<span class='MutPOS'>+</span> You may now store up to <span class='PerkDescB'>3</span> uses of <span class='PerkDescB'>Electric Surge</span> at a time.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Electric Surge</span> no longer affects unarmed teens."
     },
     "ID_PK_DollMaster_Summon_JumpRefresh": {
         "Name": "Rebound",
@@ -388,18 +388,18 @@
         "Name": "CraftMaster",
         "ProtoName": "CraftMaster",
         "Icon": "public/images/teen/perks/craftmaster.png",
-        "Description": "Each time another teen dies during a match <span class='PerkDescB'>CraftMaster</span> gains a token. Each token increases the speed at which you craft weapons by <span class='PerkDescT1'>2%</span>/<span class='PerkDescT2'>4%</span>/<span class='PerkDescT3'>6%</span>."
+        "Description": "while playing as reginald you become a craftmaster and <span class='PerkDescB'>INSTANTLY</span> craft all your weapons and kill the monster and win the video game... awesome..."
     },
     "ID_PK_StationVision": {
         "Name": "Station Vision",
         "ProtoName": "StationVision",
         "Icon": "public/images/teen/perks/stationvision.png",
-        "Description": "Increases the distance at which you can see the indicator of crafting stations by <span class='PerkDescT1'>50%</span>/<span class='PerkDescT2'>100%</span>/<span class='PerkDescT3'>at any distance</span>. The aura of stations that are in use by another teen will flash."
+        "Description": "you put on glasses and can now see what you're doing when you're crafting - so you craft faster. however the issue is if the perk is of a lower tier no good eye doctors will be covered by work benefits or insurance so you have to settle for an eye doctor that slightly fucks up your prescription."
     },
     "ID_PK_Multitasker": {
         "Name": "Multitasker",
         "ProtoName": "Multitasker",
         "Icon": "public/images/teen/perks/multitasker.png",
-        "Description": "While crafting a weapon at a station, the loss of crafting progress at other stations is reduced by <span class='PerkDescT1'>25%</span>/<span class='PerkDescT2'>50%</span>/<span class='PerkDescT3'>75%</span>."
+        "Description": "you are now capable of browsing the hellscape that is twitter.com while crafting a purify weapon (you need to balance the forces of good and evil)."
     }
 }

@@ -448,17 +448,56 @@
         }
     ],
     "Audio": {
-        "TensionTrack": {
-            "Base": "data/sounds/dollmaster/tension/base.ogg",
-            "Close": "data/sounds/dollmaster/tension/close.ogg",
-            "Closer": "data/sounds/dollmaster/tension/closer.ogg",
-            "Alarmed": "data/sounds/dollmaster/tension/alarmed.ogg",
-            "Chased": "data/sounds/dollmaster/tension/chased.ogg",
-            "DollBase": "data/sounds/dollmaster/tension/doll_base.ogg",
-            "DollClose": "data/sounds/dollmaster/tension/doll_close.ogg",
-            "DollCloser": "data/sounds/dollmaster/tension/doll_closer.ogg",
-            "DollAlarmed": "data/sounds/dollmaster/tension/doll_alarmed.ogg",
-            "DollChased": "data/sounds/dollmaster/tension/doll_chased.ogg"
-        }
+        "TENS": [
+            {
+                "Name": "Base (Body)",
+                "Page": 0,
+                "Path": "data/sounds/dollmaster/tension/base.ogg"
+            },
+            {
+                "Name": "Close (Body)",
+                "Page": 0,
+                "Path": "data/sounds/dollmaster/tension/close.ogg"
+            },
+            {
+                "Name": "Closer (Body)",
+                "Page": 0,
+                "Path": "data/sounds/dollmaster/tension/closer.ogg"
+            },
+            {
+                "Name": "Alarmed (Body)",
+                "Page": 0,
+                "Path": "data/sounds/dollmaster/tension/alarmed.ogg"
+            },
+            {
+                "Name": "Chased (Body)",
+                "Page": 0,
+                "Path": "data/sounds/dollmaster/tension/chased.ogg"
+            },{
+                "Name": "Base (Doll)",
+                "Page": 1,
+                "Path": "data/sounds/dollmaster/tension/doll_base.ogg"
+            },
+            {
+                "Name": "Close (Doll)",
+                "Page": 1,
+                "Path": "data/sounds/dollmaster/tension/doll_close.ogg"
+            },
+            {
+                "Name": "Closer (Doll)",
+                "Page": 1,
+                "Path": "data/sounds/dollmaster/tension/doll_closer.ogg"
+            },
+            {
+                "Name": "Alarmed (Doll)",
+                "Page": 1,
+                "Path": "data/sounds/dollmaster/tension/doll_alarmed.ogg"
+            },
+            {
+                "Name": "Chased (Doll)",
+                "Page": 1,
+                "Path": "data/sounds/dollmaster/tension/doll_chased.ogg"
+            }
+        ]
     }
 }

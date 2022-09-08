@@ -209,31 +209,89 @@
     ],
     "Mutations": [
         {
-            "Name": "",
+            "Name": "Nightmare",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/nightmare.png",
             "Stats": [
-                
+                {
+                    "Name": "Berserk Duration Bonus Multiplier",
+                    "Value": 0.35,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(14.85s)",
+                        "ToolTip": "The bonus duration applied to Berserk."
+                    }
+                },
+                {
+                    "Name": "Berserk Speed Penalty",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(2m/s)",
+                        "ToolTip": "The speed penalty applied to Werewolf when using Berserk with Nightmare equipped."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Grim",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/grim.png",
             "Stats": [
-                
+                {
+                    "Name": "Grim Shortened Cooldown",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The shortened cooldown for Berserk as provided by Grim when the previous Berserk expires without hitting a teen."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Vicious",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/vicious.png",
             "Stats": [
-                
+                {
+                    "Name": "Berserk Chain Extension",
+                    "Value": 9.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The extension applied to Berserk upon putting a teen into the Prone state."
+                    }
+                },
+                {
+                    "Name": "Berserk Cooldown Penalty",
+                    "Value": 0.20,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(24 -> 28.8s)",
+                        "ToolTip": "The cooldown penalty applied to the Berserk power."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Rabid",
+            "PowerID": 1,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Thunder",
             "PowerID": 1,
             "Icon": "",
             "Stats": [
@@ -241,7 +299,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Savage",
             "PowerID": 1,
             "Icon": "",
             "Stats": [
@@ -249,15 +307,7 @@
             ]
         },
         {
-            "Name": "",
-            "PowerID": 1,
-            "Icon": "",
-            "Stats": [
-                
-            ]
-        },
-        {
-            "Name": "",
+            "Name": "Greedy",
             "PowerID": 2,
             "Icon": "",
             "Stats": [
@@ -265,7 +315,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Obsessed",
             "PowerID": 2,
             "Icon": "",
             "Stats": [
@@ -273,7 +323,7 @@
             ]
         },
         {
-            "Name": "",
+            "Name": "Chronic",
             "PowerID": 2,
             "Icon": "",
             "Stats": [
@@ -282,12 +332,32 @@
         }
     ],
     "Audio": {
-        "TensionTrack": {
-            "Base": "data/sounds/werewolf/tension/base.ogg",
-            "Close": "data/sounds/werewolf/tension/close.ogg",
-            "Closer": "data/sounds/werewolf/tension/closer.ogg",
-            "Alarmed": "data/sounds/werewolf/tension/alarmed.ogg",
-            "Chased": "data/sounds/werewolf/tension/chased.ogg"
-        }
+        "TENS": [
+            {
+                "Name": "Base",
+                "Page": 0,
+                "Path": "data/sounds/werewolf/tension/base.ogg"
+            },
+            {
+                "Name": "Close",
+                "Page": 0,
+                "Path": "data/sounds/werewolf/tension/close.ogg"
+            },
+            {
+                "Name": "Closer",
+                "Page": 0,
+                "Path": "data/sounds/werewolf/tension/closer.ogg"
+            },
+            {
+                "Name": "Alarmed",
+                "Page": 0,
+                "Path": "data/sounds/werewolf/tension/alarmed.ogg"
+            },
+            {
+                "Name": "Chased",
+                "Page": 0,
+                "Path": "data/sounds/werewolf/tension/chased.ogg"
+            }
+        ]
     }
 }

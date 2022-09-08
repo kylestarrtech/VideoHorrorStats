@@ -324,12 +324,32 @@
         }
     ],
     "Audio": {
-        "TensionTrack": {
-            "Base": "data/sounds/wart/tension/base.ogg",
-            "Close": "data/sounds/wart/tension/close.ogg",
-            "Closer": "data/sounds/wart/tension/closer.ogg",
-            "Alarmed": "data/sounds/wart/tension/alarmed.ogg",
-            "Chased": "data/sounds/wart/tension/chased.ogg"
-        }
+        "TENS": [
+            {
+                "Name": "Base",
+                "Page": 0,
+                "Path": "data/sounds/wart/tension/base.ogg"
+            },
+            {
+                "Name": "Close",
+                "Page": 0,
+                "Path": "data/sounds/wart/tension/close.ogg"
+            },
+            {
+                "Name": "Closer",
+                "Page": 0,
+                "Path": "data/sounds/wart/tension/closer.ogg"
+            },
+            {
+                "Name": "Alarmed",
+                "Page": 0,
+                "Path": "data/sounds/wart/tension/alarmed.ogg"
+            },
+            {
+                "Name": "Chased",
+                "Page": 0,
+                "Path": "data/sounds/wart/tension/chased.ogg"
+            }
+        ]
     }
 }

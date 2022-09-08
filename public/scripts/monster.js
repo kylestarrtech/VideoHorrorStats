@@ -113,6 +113,20 @@ function GenerateStatsPage(categoryData) {
 
     finalStr += "</div>";
     
+    finalStr += "<h2 class='PowerStatsHeader'>TENSION TRACK</h2>" +
+        "<hr class='StatsDivisor'>" +
+        "<div class='StatsCategory'>";
+    
+    let c = 0;
+    for (var track of categoryData.Audio.TENS) {
+        finalStr += "<p class='StatsDescriptor'>" +
+        track.Name +
+        ": " +
+        "<audio controls='controls'><source src='" + track.Path + "' type='audio/ogg'></audio></p>";
+    }
+
+    finalStr += "</div>";
+
     finalStr += "<h2 class='PowerStatsHeader'>POWERS</h2>" +
         "<hr class='StatsDivisor'>";
 
