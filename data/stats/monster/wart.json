@@ -2,6 +2,9 @@
     "Name": "W.A.R.T.",
     "Quote": "Evolution is unstoppable.",
     "Icon": "public/images/monster/journey/wart-full2.png",
+    "Perks": [
+        "ID_PK_CrowdReveal", "ID_PK_Gluttony", "ID_PK_Lethality"
+    ],
     "Base_Stats": [
         {
             "Name": "Movement Speed Multiplier",
@@ -279,11 +282,11 @@
                     }
                 },
                 {
-                    "Name": "Leap Cooldown Bonus",
-                    "Value": 0.25,
+                    "Name": "Leap Cooldown Penalty",
+                    "Value": 0.30,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(8.75s)",
+                        "Suffix": "(9.45)",
                         "ToolTip": "The penalty applied by Bombshell to the cooldown on W.A.R.T.`s Leap power."
                     }
                 }
@@ -319,7 +322,156 @@
             "PowerID": 0,
             "Icon": "public/images/monster/mutations/wart/kinetic.png",
             "Stats": [
-                
+                {
+                    "Name": "Leap Cooldown Bonus",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(4.75s)",
+                        "ToolTip": "The leap cooldown reduction multiplier applied to Leap when using Kinetic."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Immune",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/wart/immune.png",
+            "Stats": [
+                {
+                    "Name": "Acid Armor Cooldown Bonus Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(32s -> 27.2s)",
+                        "ToolTip": "The bonus multiplier applied to Acid Armor`s cooldown when using Immune."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Fluid",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/wart/fluid.png",
+            "Stats": [
+                {
+                    "Name": "Movement Speed Multiplier",
+                    "Value": 0.05,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5.6m/s -> 5.88m/s)",
+                        "ToolTip": "The movement speed bonus applied to W.A.R.T. when using Acid Armor with Fluid equipped."
+                    }
+                },
+                {
+                    "Name": "Acid Armor Focus Time Penalty",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.5s -> 1.8s)",
+                        "ToolTip": "The penalty multiplier applied to Acid Armor`s focus time when using Fluid."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Toxic",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/wart/toxic.png",
+            "Stats": [
+                {
+                    "Name": "Life Loss Bonus Multiplier",
+                    "Value": 0.08,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(22.2%/hit -> 24%/hit)",
+                        "ToolTip": "The additional life loss multiplier given to W.A.R.T. when hitting a teen with Acid Armor while using Toxic."
+                    }
+                },
+                {
+                    "Name": "Leap Ability Lockout Time",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The ability lockout applied to Leap after hitting a teen with Acid Armor while using Toxic."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Detect",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/wart/detect.png",
+            "Stats": [
+                {
+                    "Name": "Echolocation Cooldown Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(35s -> 43.75s)",
+                        "ToolTip": "The cooldown penalty applied to Echolocation when using Detect."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Mimic",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/wart/mimic.png",
+            "Stats": [
+                {
+                    "Name": "Trailing Afterimage Frequency",
+                    "Value": 0.2,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "(5/sec)",
+                        "ToolTip": "The frequency at which Mimic will apply another Afterimage to teens during the time Echolocation is active"
+                    }
+                },
+                {
+                    "Name": "Mimic Tracking Time",
+                    "Value": 1.3,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time Mimic will continuously track teens after using Echolocation."
+                    }
+                },
+                {
+                    "Name": "Mimic Focus Time Penalty Multiplier",
+                    "Value": 0.3,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.8s -> 2.34s)",
+                        "ToolTip": "The penalty multiplier applied to Echolocation`s focus time when using Mimic."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Deafen",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/wart/deafen.png",
+            "Stats": [
+                {
+                    "Name": "Deafen Duration",
+                    "Value": 4.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time teens are Deafened after Echolocation is used with Deafen equipped."
+                    }
+                },
+                {
+                    "Name": "Acid Armor Ability Lockout",
+                    "Value": 4.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The ability lockout applied to Acid Armor after using Echolocation with Deafen equipped."
+                    }
+                }
             ]
         }
     ],

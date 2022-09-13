@@ -5,6 +5,10 @@
     --background: #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--background) url('backgrounds/base.png') fixed top center no-repeat;
     background-size:cover;

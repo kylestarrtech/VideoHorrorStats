@@ -1,7 +1,10 @@
 {
     "Name": "DEATHWIRE",
-    "Quote": "CROSS HAIR. CROSS FIRE. CROSS WIRED.",
+    "Quote": "Ready to Eviscerate",
     "Icon": "public/images/monster/journey/deathwire-full2.png",
+    "Perks": [
+        "ID_PK_PickupDrop", "ID_PK_KillInhibit", "ID_PK_ScreamRange"
+    ],
     "Base_Stats": [
         {
             "Name": "Movement Speed Multiplier (Assault Mode)",
@@ -40,7 +43,7 @@
         },
         {
             "Name": "Lunge Speed",
-            "Value": 8.47,
+            "Value": 8.45,
             "Unit": "m/s",
             "Misc": {
                 "ToolTip": "The speed at which Deathwire moves during a lunge."
@@ -250,7 +253,7 @@
                     "Value": 1,
                     "Unit": "s",
                     "Misc": {
-                        "ToolTip": "The delay before Beam Matrix plays audio while scanning - it's essentially the \"ding\" noise you hear when teens are Exposed."
+                        "ToolTip": "The delay before Beam Matrix plays audio while scanning - it`s essentially the \"ding\" noise you hear when teens are Exposed."
                     }
                 },
                 {
@@ -277,15 +280,15 @@
         {
             "Name": "Nitro Booster",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/nitrobooster.png",
             "Stats": [
                 {
                     "Name": "Death Drift Movement Speed Multiplier",
-                    "Value": 1.6,
+                    "Value": 1,
                     "Unit": "",
                     "Misc": {
                         "ToolTip": "The movement speed bonus applied to Deathwire when running Nitro Booster and having entered Drift Mode.",
-                        "Suffix": "(11.14m/s)"
+                        "Suffix": "<br>(6.72m/s -> 6.72m/s???)"
                     }
                 },
                 {
@@ -299,7 +302,7 @@
                 },
                 {
                     "Name": "Death Drift Ability Lockout Penalty",
-                    "Value": 10,
+                    "Value": 7.5,
                     "Unit": "s",
                     "Misc": {
                         "ToolTip": "The time Death Drift is set to cooldown after hitting a teen when running Nitro Booster.",
@@ -311,24 +314,24 @@
         {
             "Name": "Homicycle",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/swiftcyclemodule.png",
             "Stats": [
                 {
                     "Name": "Death Drift Focus Time Bonus Multiplier",
                     "Value": 1.4,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "The multiplier applied to Death Drift's focus time when running Homicycle.",
+                        "ToolTip": "The multiplier applied to Death Drift`s focus time when running Homicycle.",
                         "Suffix": ""
                     }
                 },
                 {
                     "Name": "Death Drift Movement Speed Penalty",
-                    "Value": 0.75,
+                    "Value": 0.8,
                     "Unit": "",
                     "Misc": {
                         "ToolTip": "The movement speed penalty applied to Drift Mode when running Homicycle.",
-                        "Suffix": ""
+                        "Suffix": "(20% -> 16%)"
                     }
                 }
             ]
@@ -336,7 +339,7 @@
         {
             "Name": "Overdriver",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/chargingbelt.png",
             "Stats": [
                 {
                     "Name": "Drift Mode Voltage Vise Cooldown Bonus",
@@ -361,7 +364,7 @@
         {
             "Name": "Risk Radar",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/armamentcalibration.png",
             "Stats": [
                 {
                     "Name": "Armed Teen Exposed Duration Bonus",
@@ -386,7 +389,7 @@
         {
             "Name": "Terror Tracer",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/sentryrigging.png",
             "Stats": [
                 {
                     "Name": "Drift Mode Movement Bonus Multiplier",
@@ -411,14 +414,14 @@
         {
             "Name": "Augmented Optics",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/widerangeoptics.png",
             "Stats": [
                 {
                     "Name": "Beam Matrix Scan Area Bonus Multiplier",
                     "Value": 1.3,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "The multiplier applied to Beam Matrix's scan area.",
+                        "ToolTip": "The multiplier applied to Beam Matrix`s scan area.",
                         "Suffix": ""
                     }
                 },
@@ -436,7 +439,7 @@
         {
             "Name": "Chaos Coil",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/chaoscoil.png",
             "Stats": [
                 {
                     "Name": "Voltage Vise Maximum Charges",
@@ -452,7 +455,7 @@
         {
             "Name": "Sensor Spike",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
             "Stats": [
                 {
                     "Name": "Voltage Vise Cooldown Time Penalty Multiplier",
@@ -468,7 +471,7 @@
         {
             "Name": "Circuit Breaker",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/deathwire/neuraldisruptor.png",
             "Stats": [
                 {
                     "Name": "Circuit Breaker Jammed Duration",
@@ -494,6 +497,11 @@
     "Audio": {
         "TENS": [
             {
+                "Name": "Menu Theme",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/theme.ogg"
+            },
+            {
                 "Name": "Base",
                 "Page": 0,
                 "Path": "data/sounds/deathwire/tension/base.ogg"
@@ -507,11 +515,6 @@
                 "Name": "Closer",
                 "Page": 0,
                 "Path": "data/sounds/deathwire/tension/closer.ogg"
-            },
-            {
-                "Name": "Alarmed",
-                "Page": 0,
-                "Path": "data/sounds/deathwire/tension/alarmed.ogg"
             },
             {
                 "Name": "Chased",

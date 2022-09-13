@@ -2,6 +2,10 @@
     "Name": "DOLL MASTER",
     "Quote": "Toy with your prey.",
     "Icon": "public/images/monster/journey/dollmaster-full2.png",
+    "Perks": [
+        "ID_PK_Vigilance", "ID_PK_HideSense", "ID_PK_EvilPickupUseReveal"
+    ],
+
     "Base_Stats": [
         {
             "Name": "Movement Speed Multiplier",
@@ -487,11 +491,6 @@
                 "Name": "Closer (Doll)",
                 "Page": 1,
                 "Path": "data/sounds/dollmaster/tension/doll_closer.ogg"
-            },
-            {
-                "Name": "Alarmed (Doll)",
-                "Page": 1,
-                "Path": "data/sounds/dollmaster/tension/doll_alarmed.ogg"
             },
             {
                 "Name": "Chased (Doll)",

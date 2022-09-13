@@ -1,7 +1,13 @@
 var contentPanel;
 var categories = ["data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json", "data/stats/monster/deathwire.json"]
 
+var perksPath = "data/stats/perks_and_mutations.json";
+var perks;
+
 var selectedCategoryIndex = 0;
+
+var cX = 0;
+var cY = 0;
 
 var tooltipTimeouts = []
 
@@ -18,6 +24,7 @@ function mainMonster() {
         selectedCategoryIndex = proposedIndex;
     }
 
+    GetPerks();
     GetCategoryData(selectedCategoryIndex);
 }
 
@@ -32,8 +39,19 @@ function GetCategoryData(index) {
     xhttp.send();
 }
 
+function GetPerks() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            perks = JSON.parse(xhttp.responseText);
+        }
+    }
+    xhttp.open("GET", perksPath, false);
+    xhttp.send();
+}
+
 function LoadCategory(categoryData) {
-    contentPanel.innerHTML = "<div class='StatsCategory'>" + GenerateStatsPage(categoryData);
+    contentPanel.innerHTML = "<div class='StatsCategory' id='MAINSTATSCATEGORY'>" + GenerateStatsPage(categoryData);
     BuildMutations(categoryData);
 }
 
@@ -49,6 +67,41 @@ function UpdateSelectedCategory(index) {
 }
 
 function BuildMutations(categoryData) {
+    console.log(categoryData);
+    console.log(categoryData.Mutations);
+    for (var mutation of categoryData.Mutations) {
+        console.log(mutation.PowerID);
+        let powerTarget = document.getElementById("MUTATIONTABLEROW" + mutation.PowerID);
+
+        let finalStr = "";
+
+        finalStr += "<td><div>" +
+        "<img class='MutationImage' src='" + mutation.Icon + "'>" +
+        "<h2 class='StatsTitle'>" + mutation.Name + "</h2>" +
+        "<hr class='StatsDivisor'>";
+
+        for (var mutationStat of mutation.Stats) {
+            finalStr += "<p class='StatsDescriptor' ";
+
+            if (mutationStat.Misc.ToolTip) {
+                finalStr += "onmouseenter=\"ShowToolTip('" + mutationStat.Misc.ToolTip + "')\"" +
+                            "onmouseleave='HideToolTip()'";
+            }
+    
+            finalStr += ">" + mutationStat.Name +
+                ": <span class='StatsNumber'>" + mutationStat.Value + mutationStat.Unit;
+            if (mutationStat.Misc.Suffix) {
+                finalStr += " " + mutationStat.Misc.Suffix;
+            }
+    
+            finalStr += "</span></p>";    
+        }
+
+        powerTarget.innerHTML += finalStr;
+    }
+}
+
+function BuildMutationsLegacy(categoryData) {
     console.log(categoryData);
     console.log(categoryData.Mutations);
     for (var mutation of categoryData.Mutations) {
@@ -113,7 +166,7 @@ function GenerateStatsPage(categoryData) {
 
     finalStr += "</div>";
     
-    finalStr += "<h2 class='PowerStatsHeader'>TENSION TRACK</h2>" +
+    finalStr += "<h2 class='PowerStatsHeader'>AUDIO</h2>" +
         "<hr class='StatsDivisor'>" +
         "<div class='StatsCategory'>";
     
@@ -122,7 +175,7 @@ function GenerateStatsPage(categoryData) {
         finalStr += "<p class='StatsDescriptor'>" +
         track.Name +
         ": " +
-        "<audio controls='controls'><source src='" + track.Path + "' type='audio/ogg'></audio></p>";
+        "<audio controls='controls' style='width: 100%;'><source src='" + track.Path + "' type='audio/ogg'></audio></p>";
     }
 
     finalStr += "</div>";
@@ -164,15 +217,51 @@ function GenerateStatsPage(categoryData) {
         }
         if (numPowerMutations > 0) {
             console.log(categoryData.Mutations)
-            finalStr += "<h2 class='PowerStatsHeader'>MUTATIONS</h2>"
+            finalStr += "<h2 class='PowerStatsHeader'>MUTATIONS</h2>";
+            finalStr += "<table><tbody class='MutationTable'><tr class='MutationRow' id='MUTATIONTABLEROW" + i + "'>" +
+            "</tr></tbody></table>";
         }
-        
+
         finalStr += "</div>";
 
         i++;
     }
+
+    finalStr += "<h2 class='PowerStatsHeader'>PERKS</h2><hr class='StatsDivisor'>";
+
+    finalStr += "<table class='PerkTable'><tbody class='PerkTable'><tr class='PerkRow'>"
+
+    for (var perk of categoryData.Perks) {
+        let perkData = perks[perk];
+
+        finalStr += "<td>";
+
+        finalStr += "<img src='" + perkData.Icon + "' class='PerkImage'>";
+        finalStr += "<h2 class='PerkTitle'>" + perkData.Name + "</h2><hr class='StatsDivisor'>";
+        
+        finalStr += "<div class='PerkDescriptionContainer'><span class='PerkDescription'>" + perkData.Description + "</span></div>"
+
+        finalStr += "</td>"
+            
+    }
+
+    finalStr += "</tr></tbody></table>";
     
     return finalStr;
+}
+
+function getCursorPosition(event) {
+    cX = event.clientX;
+    cY = event.clientY;
+
+    UpdateToolTipPosition();
+}
+
+function UpdateToolTipPosition() {
+    let tooltip = document.getElementById("ToolTip");
+
+    tooltip.style.top = (cY + 5 + document.documentElement.scrollTop) + "px";
+    tooltip.style.left = (cX + 5) + "px";
 }
 
 function ShowToolTip(tooltipText) {

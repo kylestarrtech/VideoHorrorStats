@@ -58,6 +58,20 @@ function GetStats(categoryData) {
     return finalStr;
 }
 
+function getCursorPosition(event) {
+    cX = event.clientX;
+    cY = event.clientY;
+
+    UpdateToolTipPosition();
+}
+
+function UpdateToolTipPosition() {
+    let tooltip = document.getElementById("ToolTip");
+
+    tooltip.style.top = (cY + 5 + document.documentElement.scrollTop) + "px";
+    tooltip.style.left = (cX + 5) + "px";
+}
+
 function ShowToolTip(tooltipText) {
     let tooltip = document.getElementById("ToolTip");
 

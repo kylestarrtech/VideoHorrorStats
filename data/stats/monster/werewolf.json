@@ -2,13 +2,16 @@
     "Name": "WEREWOLF",
     "Quote": "Your inner beast unleashed.",
     "Icon": "public/images/monster/journey/werewolf-full2.png",
+    "Perks": [
+        "ID_PK_Ferocity", "ID_PK_ExtendSubdued", "ID_PK_ProneReveal"
+    ],
     "Base_Stats": [
         {
             "Name": "Movement Speed Multiplier",
-            "Value": 1.16,
+            "Value": 1.14,
             "Unit": "",
             "Misc": {
-                "Suffix": "(5.8m/s)",
+                "Suffix": "(5.7m/s)",
                 "ToolTip": "Werewolf`s movement speed multiplier."
             }
         },
@@ -22,7 +25,7 @@
         },
         {
             "Name": "Lunge Speed",
-            "Value": 8.76,
+            "Value": 8.61,
             "Unit": "m/s",
             "Misc": {
                 "ToolTip": "The speed at which Werewolf moves during a lunge."
@@ -44,10 +47,10 @@
             "Stats": [
                 {
                     "Name": "Berserk Speed Multiplier",
-                    "Value": 0.24,
+                    "Value": 0.26,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(7.2m/s)",
+                        "Suffix": "(7.18m/s)",
                         "ToolTip": "The bonus speed Werewolf acquires while using Berserk."
                     }
                 },
@@ -65,7 +68,7 @@
                     "Value": 0.14,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(4.46m/s)",
+                        "Suffix": "(4.56m/s)",
                         "ToolTip": "The extra multiplier added to Werewolf`s movement speed while recovering from a missed attack."
                     }
                 },
@@ -79,7 +82,7 @@
                 },
                 {
                     "Name": "Berserk Cooldown",
-                    "Value": 24,
+                    "Value": 20,
                     "Unit": "s",
                     "Misc": {
                         "ToolTip": "The default cooldown of Werewolf`s Berserk."
@@ -100,6 +103,15 @@
                     "Misc": {
                         "Suffix": "(3m/s)",
                         "ToolTip": "The multiplier applied to Werewolf`s movement speed while focusing Berserk."
+                    }
+                },
+                {
+                    "Name": "Berserk Ability Lockout",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The ability lockout applied to Berserk after hitting a teen."
                     }
                 }
             ]
@@ -173,7 +185,7 @@
                 },
                 {
                     "Name": "Hunt Duration",
-                    "Value": 25,
+                    "Value": 20,
                     "Unit": "s",
                     "Misc": {
                         "ToolTip": "The duration Hunt will stay active for after being activated by Werewolf."
@@ -181,7 +193,7 @@
                 },
                 {
                     "Name": "Hunt Cooldown",
-                    "Value": 55,
+                    "Value": 45,
                     "Unit": "s",
                     "Misc": {
                         "ToolTip": "The base cooldown of Werewolf`s Hunt."
@@ -224,10 +236,10 @@
                 },
                 {
                     "Name": "Berserk Speed Penalty",
-                    "Value": 0.4,
+                    "Value": 0.15,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(2m/s)",
+                        "Suffix": "(7.18m/s -> 6.105m/s)",
                         "ToolTip": "The speed penalty applied to Werewolf when using Berserk with Nightmare equipped."
                     }
                 }
@@ -239,12 +251,21 @@
             "Icon": "public/images/monster/mutations/werewolf/grim.png",
             "Stats": [
                 {
-                    "Name": "Grim Shortened Cooldown",
-                    "Value": 2.5,
-                    "Unit": "s",
+                    "Name": "Berserk Focus Time Bonus Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": "The shortened cooldown for Berserk as provided by Grim when the previous Berserk expires without hitting a teen."
+                        "Suffix": "(0.8s -> 0.534s)",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "Berserk Cooldown Bonus Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(20s -> 17s)",
+                        "ToolTip": "The cooldown bonus multiplier applied to Berserk when Grim is equipped."
                     }
                 }
             ]
@@ -265,10 +286,10 @@
                 },
                 {
                     "Name": "Berserk Cooldown Penalty",
-                    "Value": 0.20,
+                    "Value": 0.25,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(24 -> 28.8s)",
+                        "Suffix": "(20s -> 25s)",
                         "ToolTip": "The cooldown penalty applied to the Berserk power."
                     }
                 }
@@ -277,15 +298,24 @@
         {
             "Name": "Rabid",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/rabid.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Howl Cooldown Reduction Multiplier",
+                    "Value": 0.15,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "Suffix": "(28s -> 23.8s)",
+                        "ToolTip": "The cooldown reduction multiplier applied to Howl when using Rabid."
+                    }
+                },
+                {
+                    "Name": "Howl Range Reduction Multiplier",
+                    "Value": 0.1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(30m -> 27m)",
+                        "ToolTip": "The range reduction applied to Howl when running Rabid."
                     }
                 }
             ]
@@ -293,41 +323,126 @@
         {
             "Name": "Thunder",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/thunder.png",
             "Stats": [
-                
+                {
+                    "Name": "Howl Deafen Time",
+                    "Value": 4.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The deafen time applied to teens when Howl is used while using Thunder."
+                    }
+                },
+                {
+                    "Name": "Howl Cooldown Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(28s -> 33.6s)",
+                        "ToolTip": "The cooldown penalty applied to the Howl power when using Thunder."
+                    }
+                }
             ]
         },
         {
             "Name": "Savage",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/savage.png",
             "Stats": [
-                
+                {
+                    "Name": "Savage Duration",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The duration of time the Savage status effect is applied to Werewolf after escaping weapon damage."
+                    }
+                },
+                {
+                    "Name": "Howl Focus Time Bonus Multiplier",
+                    "Value": 0.8,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1s -> 0.2s)",
+                        "ToolTip": "The focus time reduction multiplier applied to Howl with the Savage status effect applied to Werewolf."
+                    }
+                },
+                {
+                    "Name": "Howl Focus Time Penalty Multiplier",
+                    "Value": 0.33,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1s -> 1.33s)",
+                        "ToolTip": "The focus time penalty applied to Howl when Savage is equipped and Werewolf does not have the Savage status effect."
+                    }
+                }
             ]
         },
         {
             "Name": "Greedy",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/greedy.png",
             "Stats": [
-                
+                {
+                    "Name": "Greedy Hunt Range Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(24m -> 30m)",
+                        "ToolTip": "The range multiplier applied to Hunt when using Greedy."
+                    }
+                },
+                {
+                    "Name": "Greedy Hunt Frequency Penalty",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The frequency penalty applied to Hunt when Greedy is equipped."
+                    }
+                }
             ]
         },
         {
             "Name": "Obsessed",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/obsessed.png",
             "Stats": [
-                
+                {
+                    "Name": "Hunt Depletion Rate Bonus Multiplier",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The depletion rate multiplier applied to Hunt when teens are detected nearby and Obsessed is equipped."
+                    }
+                },
+                {
+                    "Name": "Hunt Depletion Rate Penalty Multiplier",
+                    "Value": 0.3,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The depletion rate penalty multiplier applied to Hunt when no teens detected nearby and Obsessed is equipped."
+                    }
+                }
             ]
         },
         {
             "Name": "Chronic",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/werewolf/chronic.png",
             "Stats": [
-                
+                {
+                    "Name": "Hunt Ability Lockout",
+                    "Value": 22,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The ability lockout applied to Hunt when Chronic is equipped."
+                    }
+                }
             ]
         }
     ],

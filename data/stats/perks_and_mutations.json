@@ -2,25 +2,25 @@
     "Template": {
         "Name": "All Systems Go",
         "ProtoName": "AllSystemsGo",
-        "Icon": "public/images/perks/allsystemsgo.png",
+        "Icon": "public/images/monster/perks/allsystemsgo.png",
         "Description": "This is a template description, and not a real perk. Increase your <span class='PerkDescI'>running speed</span> by <span class='PerkDescT1'>1%</span>/<span class='PerkDescT2'>2%</span>/<span class='PerkDescT3'>3%</span> while <span class='PerkDescI'>unarmed</span>."
     },
     "ID_PK_KillInhibit": {
         "Name": "Demoralize",
         "ProtoName": "KillInhibit",
-        "Icon": "public/images/perks/crushmorale.png",
+        "Icon": "public/images/monster/perks/crushmorale.png",
         "Description": "When you <span class='PerkDescB'>Knockdown</span> or <span class='PerkDescB'>Kill</span> a teen all other active teens will become <span class='PerkDescB'>Jammed</span> for the next <span class='PerkDescT1'>6</span>/<span class='PerkDescT2'>9</span>/<span class='PerkDescT3'>12</span> seconds. This Perk can only activate once every <span class='PerkDescBlue'>80</span> seconds."
     },
     "ID_PK_PickupDrop": {
         "Name": "Gutter Punch",
         "ProtoName": "PickupDrop",
-        "Icon": "public/images/perks/pocketpunch.png",
+        "Icon": "public/images/monster/perks/pocketpunch.png",
         "Description": "When you <span class='PerkDescB'>Injure</span> a teen that is carrying a <span class='PerkDescB'>Pickup</span>, they will drop it on the ground. This Perk can only activate once every <span class='PerkDescT1'>400</span>/<span class='PerkDescT2'>250</span>/<span class='PerkDescT3'>0</span> seconds."
     },
     "ID_PK_ScreamRange": {
         "Name": "Revolt",
         "ProtoName": "ScreamRange",
-        "Icon": "public/images/perks/screecher.png",
+        "Icon": "public/images/monster/perks/screecher.png",
         "Description": "The monster's <span class='PerkDescB'>Scream</span> shockwave range is increased by <span class='PerkDescT1'>12%</span>/<span class='PerkDescT2'>24%</span>/<span class='PerkDescT3'>36%</span>."
     },
     "ID_PK_Eradicator_ModeSwap_SpeedBoost": {
@@ -36,7 +36,7 @@
         "Description": "<span class='MutPOS'>+</span> While Teens are <span class='PerkDescB'>Shocked</span> they will also be <span class='PerkDescB'>Exposed</span>.<br><span class='MutNEG'>-</span> The activation time of <span class='PerkDescB'>Voltage Vise</span> is increased by <span class='PerkDescB'>45%</span>."
     }, 
     "ID_PK_Eradicator_ScannerBeam_Armed": {
-        "Name": "Armament Calibration",
+        "Name": "Risk Radar",
         "ProtoName": "Armed",
         "Icon": "public/images/monster/mutations/deathwire/armamentcalibration.png",
         "Description": "<span class='MutPOS'>+</span> The time that <span class='PerkDescB'>armed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Beam Matrix</span> is increased by <span class='PerkDescB'>30%</span>.<br><span class='MutNEG'>-</span> The time that <span class='PerkDescB'>unarmed</span> teens are <span class='PerkDescB'>Exposed</span> by the <span class='PerkDescB'>Beam Matrix</span> is reduced by <span class='PerkDescB'>30%</span>."
@@ -44,7 +44,7 @@
     "ID_PK_HideSense": {
         "Name": "Hidden Agenda",
         "ProtoName": "HideSense",
-        "Icon": "public/images/mutations/hiddenagenda.png",
+        "Icon": "public/images/monster/perks/hiddenagenda.png",
         "Description": "<span class='PerkDescT1'>4 seconds</span>/<span class='PerkDescT2'>2 seconds</span>/<span class='PerkDescT3'>0 seconds</span> after a teen leaves a <span class='PerkDescB'>hiding place</span> the aura of the <span class='PerkDescB'>hiding place</span> will be revealed to you for <span class='PerkDescBlue'>6 seconds</span>"
     },
     "ID_PK_DollMaster_Summon_LongDuration": {
@@ -56,7 +56,7 @@
     "ID_PK_Vigilance": {
         "Name": "Ambush",
         "ProtoName": "Vigilance",
-        "Icon": "public/images/mutations/ambush.png",
+        "Icon": "public/images/monster/perks/ambush.png",
         "Description": "When a <span class='PerkDescRed'>Blunder</span> occurs while a teen is crafting, that teen will be <span class='PerkDescRed'>Exposed</span> for <span class='PerkDescT1'>3 seconds</span>/<span class='PerkDescT2'>5 seconds</span>/<span class='PerkDescT3'>7 seconds</span>."
     },
     "ID_PK_DollMaster_Trap_ImprovedDetect": {
@@ -68,7 +68,7 @@
     "ID_PK_EvilPickupUseReveal": {
         "Name": "Deadly Bite",
         "ProtoName": "PickupUseReveal",
-        "Icon": "public/images/perks/deadlybite.png",
+        "Icon": "public/images/monster/perks/deadlybite.png",
         "Description": "When a teen uses a <span class='PerkDescB'>Candy Bar</span>, you will be <span class='PerkDescB'>Alerted</span> and they will be <span class='PerkDescRed'>Exposede</span> for <span class='PerkDescT1'>2 seconds</span>/<span class='PerkDescT2'>3.5 seconds</span>/<span class='PerkDescT3'> 5 seconds</span>. This can only activate once every <span class='PerkDescT1'>150 seconds</span>/<span class='PerkDescT2'>90 secpmds</span>/<span class='PerkDescT3'>30 seconds</span>."
     },
     "ID_PK_DollMaster_Teleport_NoTargeting": {
@@ -110,7 +110,7 @@
     "ID_PK_Eradicator_ElectricSurge_ExtraSurge": {
         "Name": "Chaos Coil",
         "ProtoName": "ExtraSurge",
-        "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
+        "Icon": "public/images/monster/mutations/deathwire/chaoscoil.png",
         "Description": "<span class='MutPOS'>+</span> You may now store up to <span class='PerkDescB'>3</span> uses of <span class='PerkDescB'>Electric Surge</span> at a time.<br><span class='MutNEG'>-</span> <span class='PerkDescB'>Electric Surge</span> no longer affects unarmed teens."
     },
     "ID_PK_DollMaster_Summon_JumpRefresh": {
@@ -153,19 +153,19 @@
     "ID_PK_CrowdReveal": {
         "Name": "Easy Target",
         "ProtoName": "CrowdReveal",
-        "Icon": "public/images/mutations/easytarget.png",
+        "Icon": "public/images/monster/perks/easytarget.png",
         "Description": "When an active teen more than <span class='PerkDescBlue'>28 meters</span> from you gets within <span class='PerkDescYellow'>10 meters</span> of <span class='PerkDescOrange'>2</span> other active teens, you will be <span class='PerkDescB'>alerted</span> and these teens will be <span class='PerkDescRed'>Exposed</span> for <span class='PerkDescPink'>4 seconds</span>. This can only activate once every <span class='PerkDescT1'>120 seconds</span>/<span class='PerkDescT2'>90 seconds</span>/<span class='PerkDescT3'>60 seconds</span>."
     },
     "ID_PK_Gluttony": {
         "Name": "All Consuming",
         "ProtoName": "Gluttony",
-        "Icon": "public/images/mutations/allconsuming.png",
+        "Icon": "public/images/monster/perks/allconsuming.png",
         "Description": "Fuel your <span class='PerkDescB'>Rage</span> <span class='PerkDescT1'>15% faster</span>/<span class='PerkDescT2'>30% faster</span>/<span class='PerkDescT3'>45% faster</span> when <span class='PerkDescB'>Feasting</span>."
     },
     "ID_PK_Lethality": {
         "Name": "Lethal Weapon",
         "ProtoName": "Lethality",
-        "Icon": "public/images/mutations/lethalweapon.png",
+        "Icon": "public/images/monster/perks/lethalweapon.png",
         "Description": "Increases the <span class='PerkDescB'>Life</span> loss inflicted when teens are <span class='PerkDescB'>Injured</span> by your <span class='PerkDescB'>Basic Attack</span> by <span class='PerkDescT1'>4%</span>/<span class='PerkDescT2'>8%</span>/<span class='PerkDescT3'>12%</span>of the base amount."
     },
     "ID_PK_Toad_AcidArmor_HitBonus": {

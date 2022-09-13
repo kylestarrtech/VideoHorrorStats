@@ -6,11 +6,8 @@ html
         link(href="public/styles/teen.css" rel="stylesheet")
         script(src="public/scripts/index.js")
         script(src="public/scripts/teen.js")
-    body(onload="mainTeen()")
+    body(onload="mainTeen()" onmousemove="getCursorPosition(event)")
         include header
         h1#ContentType TEEN STATS
         div#ToolTip
         div#contentpanel
-
-
-            

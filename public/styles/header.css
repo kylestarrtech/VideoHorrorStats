@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-#headerDivider {
+.headerDivider {
     width: 50%;
     color: #ffffff;
     animation: widen 1s;
