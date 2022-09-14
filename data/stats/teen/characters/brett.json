@@ -1,0 +1,16 @@
+{
+    "Type": "CHARACTER",
+    "Name": "Brett",
+    "Age": 17,
+    "Pronouns": [
+        "he", "him"
+    ],
+    "Icon": "public/images/teen/journey/brett2.png",
+    "Quote": "There is no second place.",
+    "Description": "All heads turn when Brett cruises by in his shiny red sports car. The quarterback heart-throb is born to impress with his confident smirk and expensive clothes. He's a classic jock. Except for the fact he hates football and the pressure to be the all-American star for his first generation immigrant parents.",
+    "Potential": "Champion",
+    "PotentialIcon": "public/images/teen/potential/champion.png",
+    "Perks": [
+        "ID_PK_Hardy", "ID_PK_SlowDying", "ID_PK_KeepWeapon"
+    ]
+}

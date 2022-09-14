@@ -1,4 +1,5 @@
 {
+    "Type": "STATSCATEGORY",
     "Name": "PINGS AND COMMUNICATIONS",
     "Icon": "public/images/teen/statcategories/comms.png",
     "Description": "This section dictates specifically values related to teammate communication (Walkie Talkies not included - that will be in the items section!).<br><br>Mainly pings will be here - but any other values that are added in relation to teen communication will be put in this",
@@ -27,7 +28,7 @@
                     "Value": 0.2,
                     "Unit": "s",
                     "Misc": {
-                        "ToolTip": "The amount of time one has between clicks for a ping to be considered a cautionary ping."
+                        "ToolTip": "The amount of time one has between clicks for a ping to be considered an urgent ping."
                     }
                 },
                 {
@@ -52,6 +53,14 @@
                     "Unit": "",
                     "Misc": {
                         "ToolTip": "The amount of penalty added to the ping penalty timer per ping."
+                    }
+                },
+                {
+                    "Name": "Ping Visibility Base Radius",
+                    "Value": 10,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The minimum amount of distance you can be before a ping will begin to fade in visibility."
                     }
                 }
             ]

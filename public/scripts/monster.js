@@ -148,7 +148,7 @@ function GenerateStatsPage(categoryData) {
         "<hr class='StatsDivisor'>";
 
     for (var baseStat of categoryData.Base_Stats) {
-        finalStr += "<p class='StatsDescriptor' ";
+        finalStr += "<p class='StatsDescriptor'";
 
         if (baseStat.Misc.ToolTip) {
             finalStr += "onmouseenter=\"ShowToolTip('" + baseStat.Misc.ToolTip + "')\"" +

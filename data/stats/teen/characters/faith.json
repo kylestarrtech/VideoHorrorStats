@@ -1,0 +1,16 @@
+{
+    "Type": "CHARACTER",
+    "Name": "Faith",
+    "Age": 14,
+    "Pronouns": [
+        "she", "her"
+    ],
+    "Icon": "public/images/teen/journey/faith2.png",
+    "Quote": "True love can heal the darkest heart.",
+    "Description": "A proud perfectionist and Student Council president, Faith is always there to lend a hand. She recently joined the Video Horror Society after taking a Junior Clerk position at Video Video. She doesn't like horror movies at all but she adores clubs including Chess Club, Knitting Club, Junior Debate Team, and Closet Romantics of America.",
+    "Potential": "Healer",
+    "PotentialIcon": "public/images/teen/potential/healer.png",
+    "Perks": [
+        "ID_PK_HealMaster", "ID_PK_InjuryVision", "ID_PK_ReviveMaster"
+    ]
+}

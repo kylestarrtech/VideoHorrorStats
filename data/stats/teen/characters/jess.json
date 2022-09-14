@@ -1,0 +1,16 @@
+{
+    "Type": "CHARACTER",
+    "Name": "Jess",
+    "Age": 16,
+    "Pronouns": [
+        "she", "her"
+    ],
+    "Icon": "public/images/teen/journey/jess2.png",
+    "Quote": "What are you looking at?",
+    "Description": "With her masterful eye roll and quiet apathy, Jess doesn't put much stock in other people's opinions. She joined the Video Horror Society before the Bonvini case broke, collecting cult B-movies and classic film noir. She can usually be found skipping class and listening to every band you've never heard of.",
+    "Potential": "Assassin",
+    "PotentialIcon": "public/images/teen/potential/assassin.png",
+    "Perks": [
+        "ID_PK_CrouchMaster", "ID_PK_FailMaster", "ID_PK_Augur"
+    ]
+}

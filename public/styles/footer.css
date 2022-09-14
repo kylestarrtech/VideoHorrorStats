@@ -40,13 +40,3 @@
     letter-spacing: 1px;
     height: 75px;
 }
-
-#DISCLAIMERTEXT {
-    color: #ffffff50;
-    font-family: 'Roboto';
-    font-weight: 200;
-    text-align: center;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}

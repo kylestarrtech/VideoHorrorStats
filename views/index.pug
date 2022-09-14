@@ -3,9 +3,10 @@ html
     head 
         title Video Horror Stats (VHS)
         link(href="public/styles/index.css" rel="stylesheet")
-        script(src="public/scripts/index.js")
-    body(onload="main()")
+        script(src="public/scripts/index.js" )
+    body(onload="mainIndex()")
         include header
         h1#ContentType HOME
         div#contentpanel
             include home
+        include disclaimer

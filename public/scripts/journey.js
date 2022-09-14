@@ -10,9 +10,34 @@ var nodeTypeRefPath = "data/stats/journey/nodetypes.json"
 
 function mainJourney() {
     document.getElementById("actSelect").value = "1";
+
+    const urlParams = new URLSearchParams(window.location.search);
+    
+    if (urlParams.has('journeyID')) {
+        let proposedIndex = parseInt(urlParams.get('journeyID'));
+        if (proposedIndex < 0 || proposedIndex >= journeyPaths.length) {
+            proposedIndex = 0;
+        }
+        selectedJourney = proposedIndex;
+    }
+
+    if (urlParams.has('actID')) {
+        let proposedIndex = parseInt(urlParams.get('actID'));
+        if (proposedIndex < 1 || proposedIndex > 3) {
+            proposedIndex = 1;
+        }
+        selectedAct = proposedIndex;
+        document.getElementById("actSelect").value = selectedAct;
+    }
+
     GetPerkData();
     GetNodeTypeReferences();
     GetJourneyData(selectedJourney);
+}
+
+function UpdateParameters() {
+    var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?journeyID=' + selectedJourney + '&actID=' + selectedAct;
+    window.history.pushState({path:newurl},'',newurl);
 }
 
 function GetPerkData() {
@@ -157,11 +182,13 @@ function UpdateAct() {
     let value = document.getElementById("actSelect").value;
     selectedAct = value;
     GetJourneyData(selectedJourney);
+    UpdateParameters();
 }
 
 function UpdateSelectedJourney(newJourneyIndex) {
     selectedJourney = newJourneyIndex;
     GetJourneyData(selectedJourney);
+    UpdateParameters();
 }
 
 function ShowJourneyToolTip(tooltip_id) {

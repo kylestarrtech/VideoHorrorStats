@@ -1,6 +1,6 @@
 {
     "Name": "DEATHWIRE",
-    "Quote": "Ready to Eviscerate",
+    "Quote": "Ready to Eviscerate.",
     "Icon": "public/images/monster/journey/deathwire-full2.png",
     "Perks": [
         "ID_PK_PickupDrop", "ID_PK_KillInhibit", "ID_PK_ScreamRange"

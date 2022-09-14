@@ -1,0 +1,16 @@
+{
+    "Type": "CHARACTER",
+    "Name": "Gloria",
+    "Age": 16,
+    "Pronouns": [
+        "she", "her"
+    ],
+    "Icon": "public/images/teen/journey/gloria2.png",
+    "Quote": "We have the Power of Positivity!",
+    "Description": "As Pine Bluff High's cheer captain, Gloria is as energetic as you can get. She is a talented dancer, and fashion trendsetter. She loves watching horror movies at slumber parties which she is often invited to due to her popularity and charm. Even her Video Horror Society membership has VIP gold status. Nobody would ever guess what she's dealing with at home.",
+    "Potential": "Leader",
+    "PotentialIcon": "public/images/teen/potential/leader.png",
+    "Perks": [
+        "ID_PK_Motivator", "ID_PK_TeenVision", "ID_PK_Spry"
+    ]
+}

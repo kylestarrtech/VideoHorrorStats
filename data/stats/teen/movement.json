@@ -1,4 +1,5 @@
 {
+    "Type": "STATSCATEGORY",
     "Name": "BASE MOVEMENT",
     "Icon": "public/images/teen/statcategories/movement.png",
     "Description": "Teen Movement is based purely on the running speed. Walking and crouching simply provide modifiers for this speed. Additionally, the speeds of Monsters are also simply multipliers of Teen run speed.<br><br>These stats displayed below will not include speeds while doing certain actions - those can be found in said action's appropriate section.<br><br>Below are some simple movement stats:",
@@ -11,7 +12,7 @@
                     "Value": 5.0,
                     "Unit": "m/s",
                     "Misc": {
-                        "ToolTip": ""
+                        "ToolTip": "The default run speed of a teen."
                     }
                 },
                 {
@@ -20,7 +21,7 @@
                     "Unit": "",
                     "Misc": {
                         "Suffix": "(2.5m/s)",
-                        "ToolTip": ""
+                        "ToolTip": "The multiplier applied to teen movement speed when walking."
                     }
                 },
                 {
@@ -29,7 +30,7 @@
                     "Unit": "",
                     "Misc": {
                         "Suffix": "(1.25m/s)",
-                        "ToolTip": ""
+                        "ToolTip": "The multiplier applied to teen movement speed when crouching."
                     }
                 },
                 {
@@ -38,7 +39,7 @@
                     "Unit": "",
                     "Misc": {
                         "Suffix": "(0.75m/s)",
-                        "ToolTip": ""
+                        "ToolTip": "The multiplier applied to teen movement speed when in the Prone state."
                     }
                 },
                 {
@@ -46,6 +47,7 @@
                     "Value": 6.25,
                     "Unit": "m/s",
                     "Misc": {
+                        "ToolTip": "The movement speed of Spectrals."
                     }
                 },
                 {

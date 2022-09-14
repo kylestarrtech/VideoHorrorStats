@@ -1,4 +1,5 @@
 {
+    "Type": "STATSCATEGORY",
     "Name": "LIFE AND HEALING",
     "Icon": "public/images/teen/statcategories/healing.png",
     "Description": "The values here will use the solid numbers in the files - but the percentages will also be shown on the side to reflect moreso what would exist in a real match.",
@@ -11,7 +12,8 @@
                     "Value": 225,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(100%)"
+                        "Suffix": "(100%)",
+                        "ToolTip": "The base and maximum amount of Life a teen has upon spawn."
                     }
                 },
                 {
@@ -20,7 +22,7 @@
                     "Unit": "",
                     "Misc": {
                         "Suffix": "(26.67%)",
-                        "ToolTip": "The base amount of life a teen receives when revived with the Book of the Dead."
+                        "ToolTip": "The base amount of Life a teen receives when revived with the Book of the Dead."
                     }
                 },
                 {
@@ -28,7 +30,8 @@
                     "Value": 50,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(22.2%)"
+                        "Suffix": "(22.2%)",
+                        "ToolTip": "The amount of Life a teen loses by default when being Injured by the monster."
                     }
                 },
                 {
@@ -36,7 +39,8 @@
                     "Value": 50,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(22.2%)"
+                        "Suffix": "(22.2%)",
+                        "ToolTip": "The amount of Life a teen loses by default upon Knockdown."
                     }
                 },
                 {
@@ -44,7 +48,8 @@
                     "Value": 0.5,
                     "Unit": "/s",
                     "Misc": {
-                        "Suffix": "(0.22%/s)"
+                        "Suffix": "(0.22%/s)",
+                        "ToolTip": "The rate of Life loss a teen experiences whilst in the Prone state."
                     }
                 },
                 {
@@ -54,6 +59,15 @@
                     "Misc": {
                         "Suffix": "(13.3%)",
                         "ToolTip": "The maximum health you can have to be considered at Critical Health."
+                    }
+                },
+                {
+                    "Name": "Busted Hit Counter",
+                    "Value": 6,
+                    "Unit": " hits",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The number of hits that need to be present on your hit counter in order to become Busted for the remainder of the match."
                     }
                 }
             ]
@@ -66,6 +80,8 @@
                     "Value": 24.62,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for a teen to heal themselves with a MedKit."
                     }
                 },
                 {
@@ -73,6 +89,8 @@
                     "Value": 16,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for a teen to heal another teen."
                     }
                 },
                 {
@@ -80,6 +98,8 @@
                     "Value": 11.94,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for 2 other teens to heal another teen."
                     }
                 },
                 {
@@ -87,6 +107,8 @@
                     "Value": 9.70,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for 3 other teens to heal another teen."
                     }
                 },
                 {
@@ -94,6 +116,8 @@
                     "Value": 9.6,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for 1 teen to revive another teen."
                     }
                 },
                 {
@@ -101,6 +125,8 @@
                     "Value": 6.4,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for 2 other teens to revive another teen."
                     }
                 },
                 {
@@ -108,6 +134,8 @@
                     "Value": 4.8,
                     "Unit": "s",
                     "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time it takes for 3 other teens to revive another teen."
                     }
                 }
             ]

@@ -1,0 +1,9 @@
+{
+    "Announcements": [
+        {
+            "Title": "Welcome to Video Horror Stats!",
+            "Date": "09/14/2022",
+            "Description": "<p>At long last, welcome to the launch of Video Horror Stats! This has been a passion project of mine for months and it feels great to finally get it out into the world!</p><hr><p>Now - you might be wondering - <b>what exactly <i>IS</i> Video Horror Stats?</b> Well, let me explain!:</p><p>Video Horror Stats is a website designed first and foremost for players of Video Horror Society looking to up their game and dive deeper into the numbers that balance (or sometimes try their best to!) the game we all love and enjoy. I built a Google Docs document initially with SkelXton and Bjorksnase, however - I felt the document was never to the standard I wanted it to be - not because the document wasn't good, but because Google Docs was clearly not the right platform for this type of task. So, with that - <b>I set out to build my own website specifically for this purpose.</b></p><p>It's worth noting I already had web development and design knowledge prior to taking on this project - so I had a great start, but I learned a ton throughout the process. This site is built from scratch using Node.JS, Pug, and Express as the backend and normal, plain-jane HTML, CSS, and Javascript as the frontend.</p><p>I think it goes without saying this site is still incomplete. I will be working on it as well, adding weapons, more teen stats, maps .etc in the future - however in the meantime:</p><p>1. Track the development progress at the <a href='https://trello.com/b/uspug5y7/video-horror-stats'>Trello</a> page</p><p>2. Enjoy the site!</p><h3>Stay tuned, Horror Friends...</h3><h3>- Kyle</h3>"
+        }
+    ]
+}

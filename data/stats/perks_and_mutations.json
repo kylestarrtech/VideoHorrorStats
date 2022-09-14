@@ -384,22 +384,10 @@
         "Icon": "public/images/teen/perks/magictouch.png",
         "Description": "Increases the speed at which you revive a prone teen by <span class='PerkDescT1'>10%</span>/<span class='PerkDescT2'>20%</span>/<span class='PerkDescT3'>30%</span>.<br><br>A revived teen will regain <span class='PerkDescT1'>2%</span>/<span class='PerkDescT2'>4%</span>/<span class='PerkDescT3'>6%</span> of their total base <span class='PerkDescB'>Life</span>. This effect will not stack when assisted by other users of this perk."
     },
-    "ID_PK_CraftMaster": {
-        "Name": "CraftMaster",
-        "ProtoName": "CraftMaster",
-        "Icon": "public/images/teen/perks/craftmaster.png",
-        "Description": "while playing as reginald you become a craftmaster and <span class='PerkDescB'>INSTANTLY</span> craft all your weapons and kill the monster and win the video game... awesome..."
-    },
-    "ID_PK_StationVision": {
-        "Name": "Station Vision",
-        "ProtoName": "StationVision",
-        "Icon": "public/images/teen/perks/stationvision.png",
-        "Description": "you put on glasses and can now see what you're doing when you're crafting - so you craft faster. however the issue is if the perk is of a lower tier no good eye doctors will be covered by work benefits or insurance so you have to settle for an eye doctor that slightly fucks up your prescription."
-    },
-    "ID_PK_Multitasker": {
-        "Name": "Multitasker",
-        "ProtoName": "Multitasker",
-        "Icon": "public/images/teen/perks/multitasker.png",
-        "Description": "you are now capable of browsing the hellscape that is twitter.com while crafting a purify weapon (you need to balance the forces of good and evil)."
+    "UNKNOWN": {
+        "Name": "UNKNOWN",
+        "ProtoName": "N/A",
+        "Icon": "public/images/teen/perks/unknown.png",
+        "Description": "To be revealed!"
     }
 }

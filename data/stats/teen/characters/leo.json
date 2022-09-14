@@ -1,0 +1,16 @@
+{
+    "Type": "CHARACTER",
+    "Name": "Leo",
+    "Age": 18,
+    "Pronouns": [
+        "he", "him"
+    ],
+    "Icon": "public/images/teen/journey/leo2.png",
+    "Quote": "Rules are meant to be broken.",
+    "Description": "Anger issues, doesn't play well with others, no respect for authority are all things Leo's teachers used to say when he actually went to school. These days he runs his imprisoned uncle's video store where he has become a self-professed film critic. He spends his time 'educating' customers by screening his favorite gore-fests or blasting Wicked Vile at full volume.",
+    "Potential": "Rebel",
+    "PotentialIcon": "public/images/teen/potential/rebel.png",
+    "Perks": [
+        "ID_PK_EssenceVision", "ID_PK_PickupVision", "ID_PK_MedkitMaster"
+    ]
+}

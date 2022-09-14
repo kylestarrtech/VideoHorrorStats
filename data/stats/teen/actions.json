@@ -1,4 +1,5 @@
 {
+    "Type": "STATSCATEGORY",
     "Name": "ACTIONS AND AURAS",
     "Icon": "public/images/teen/statcategories/actions.png",
     "Description": "This section will be dedicated to the details of various actions alongside certain miscellaneous numbers related to aura reading.",
@@ -15,8 +16,17 @@
                     }
                 },
                 {
+                    "Name": "Teen Heal Range",
+                    "Value": 0.35,
+                    "Unit": "m",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The range a teen has to be in to another teen (or a MedKit) to have the ability to heal."
+                    }
+                },
+                {
                     "Name": "Teen Revive Range",
-                    "Value": 1.5,
+                    "Value": 1,
                     "Unit": "m",
                     "Misc": {
                         "ToolTip": "The maximum range you can be to a dead teen to begin the revival interaction with the Book of the Dead."
@@ -24,7 +34,7 @@
                 },
                 {
                     "Name": "Teen Pickup Range",
-                    "Value": 0.5,
+                    "Value": 0.7,
                     "Unit": "m",
                     "Misc": {
                         "ToolTip": "The maximum range you can be to a prone teen to begin the pickup interaction."
@@ -61,10 +71,18 @@
                 },
                 {
                     "Name": "Dead Teen Aura Range",
-                    "Value": 6,
+                    "Value": 10,
                     "Unit": "m",
                     "Misc": {
                         "ToolTip": "The range at which a teen can see the aura of a dead teen."
+                    }
+                },
+                {
+                    "Name": "Crafting Station Vision Range",
+                    "Value": 20,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The range at which a teen can see the icon of a Crafting Station."
                     }
                 }
             ]

@@ -10,7 +10,7 @@ html
     body(onload="mainMonster()" onmousemove="getCursorPosition(event)")
         include header
         h1#ContentType MONSTER STATS
-        div#ToolTip
+        div#ToolTip(hidden="")
         div.MonsterButtons
             button.MonsterSelect(onclick="UpdateSelectedCategory(0)")
                 img(src="public/images/monster/werewolf.png" height="125px")
@@ -22,3 +22,4 @@ html
                 img(src="public/images/monster/deathwire.png" height="125px")
         div#contentpanel
         include footer
+        include disclaimer

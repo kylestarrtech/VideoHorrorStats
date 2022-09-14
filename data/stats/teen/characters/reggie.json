@@ -1,0 +1,16 @@
+{
+    "Type": "CHARACTER",
+    "Name": "Reggie",
+    "Age": 12,
+    "Pronouns": [
+        "he", "him"
+    ],
+    "Icon": "public/images/teen/journey/reggie2.png",
+    "Quote": "In every puzzle lies its own solution.",
+    "Description": "In AV club they call him sir, in gym class he's Wedgie, at Mensa meetings he's The Whiz Kid, but his mom just calls him Reggie. A passionate puzzler, Reggie's obsession with the Bonvini conspiracy brought him to the society. Bullies tease him for skipping 2 grades, but Reggie's sharp mind always keeps him one step ahead of trouble.",
+    "Potential": "Genius",
+    "PotentialIcon": "public/images/teen/potential/genius.png",
+    "Perks": [
+        "UNKNOWN", "UNKNOWN", "UNKNOWN"
+    ]
+}

@@ -1,5 +1,3 @@
-server.js
 data/stats/monster/anomaly.json
 data/sounds/anomaly
-authorizationChecker.json
 .gitignore
