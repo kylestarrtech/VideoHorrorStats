@@ -1,5 +1,6 @@
 {
     "Name": "ACTIONS AND AURAS",
+    "Icon": "public/images/teen/statcategories/actions.png",
     "Description": "This section will be dedicated to the details of various actions alongside certain miscellaneous numbers related to aura reading.",
     "StatCategories": [
         {

@@ -1,5 +1,6 @@
 {
     "Name": "PINGS AND COMMUNICATIONS",
+    "Icon": "public/images/teen/statcategories/comms.png",
     "Description": "This section dictates specifically values related to teammate communication (Walkie Talkies not included - that will be in the items section!).<br><br>Mainly pings will be here - but any other values that are added in relation to teen communication will be put in this",
     "StatCategories": [
         {

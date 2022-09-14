@@ -68,8 +68,8 @@
     ],
     "Powers": [
         {
-            "Name": "Leap",
-            "Icon": "public/images/monster/powers/dollmaster/leap.png",
+            "Name": "Jump",
+            "Icon": "public/images/monster/powers/dollmaster/jump.png",
             "Stats": [
                 {
                     "Name": "Leap Speed Multiplier",
@@ -379,79 +379,235 @@
     ],
     "Mutations": [
         {
-            "Name": "",
+            "Name": "Tricky",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/tricky.png",
             "Stats": [
-                
+                {
+                    "Name": "Tricky Detection Radius",
+                    "Value": 11,
+                    "Unit": "m",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The maximum distance a teen may be from a Doll Trap in order for the Doll Trap icon to turn orange and twitch."
+                    }
+                },
+                {
+                    "Name": "Tricky Doll Trap Reduction Amount",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5 -> 4)",
+                        "ToolTip": "The amount of Doll Traps removed from Doll Master`s maximum Doll Trap capacity when running Tricky."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Offspring",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/offspring.png",
             "Stats": [
-                
+                {
+                    "Name": "Offspring Doll Trap Increase Amount",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5 -> 6)",
+                        "ToolTip": "The amount of Doll Traps added to Doll Master`s maximum Doll Trap capacity when using Offspring."
+                    }
+                },
+                {
+                    "Name": "Doll Trap Alarmed Radius Reduction Multiplier",
+                    "Value": 0.9,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(0.0175m -> 0.00175m)",
+                        "ToolTip": "The reduction multiplier applied to a Doll Trap`s Alarmed Radius when using Offspring"
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Haunted",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/haunted.png",
             "Stats": [
-                
+                {
+                    "Name": "Doll Trap Disarm Exposed Time",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time a teen will be Exposed when disarming a Doll Trap when Doll Master is using Haunted."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Cooldown Bonus Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(12s -> 9s)",
+                        "ToolTip": "The cooldown bonus multiplier applied to Doll Possession when running Haunted."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Frolic",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/frolic.png",
             "Stats": [
-                
+                {
+                    "Name": "Doll Possession Duration Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(30s -> 37.5s)",
+                        "ToolTip": "The multiplier applied to the Doll Possession duration when running Frolic."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Focus Time Penalty Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.4s -> 2.1s)",
+                        "ToolTip": "The multiplier applied to the Doll Possession focus time when running Frolic."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Rebound",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/rebound.png",
             "Stats": [
-                
+                {
+                    "Name": "Doll Possession Initial Jump Cooldown",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "(8s -> 2s)",
+                        "ToolTip": "The initial cooldown for Jump when using Rebound."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Duration Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(30s -> 24s)",
+                        "ToolTip": "The penalty multiplier applied to Doll Possession`s duration when using Rebound."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Double Cross",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/doublecross.png",
             "Stats": [
-                
+                {
+                    "Name": "Doll Possession Additional Jump Charges",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1 -> 2)",
+                        "ToolTip": "The amount of additional Jump charges given when running Double Cross."
+                    }
+                },
+                {
+                    "Name": "Doll Possession Doll Run Speed Penalty Multiplier",
+                    "Value": 0.02,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5.6m/s -> 5.49m/s)",
+                        "ToolTip": "The penalty multiplier applied to Doll movement speed when running Double Cross."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Outcast",
             "PowerID": 3,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/outcast.png",
             "Stats": [
-                
+                {
+                    "Name": "Doll Teleport Focus Time Bonus Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1s -> 0.85s)",
+                        "ToolTip": "The cooldown of Doll Teleport when running Outcast."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Slippery",
             "PowerID": 3,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/slippery.png",
             "Stats": [
-                
+                {
+                    "Name": "Secondary Doll Teleport Window",
+                    "Value": 4,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time Doll Master has before performing a secondary Doll Teleport while using Slippery."
+                    }
+                },
+                {
+                    "Name": "Doll Teleport Focus Time Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1s -> 1.25s)",
+                        "ToolTip": "The focus time multiplier applied to Doll Teleport when running Slippery."
+                    }
+                }
             ]
         },
         {
-            "Name": "",
+            "Name": "Aggressive",
             "PowerID": 3,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/dollmaster/aggressive.png",
             "Stats": [
-                
+                {
+                    "Name": "Aggressive Doll Teleport Attack Window",
+                    "Value": 8,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The window of time Doll Master has to hit a teen to activate Aggressive."
+                    }
+                },
+                {
+                    "Name": "Aggressive Doll Teleport Reduced Cooldown",
+                    "Value": 12,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "(60s -> 12s)",
+                        "ToolTip": "The cooldown applied to Doll Teleport after successfully hitting a teen within the Aggressive Doll Teleport attack window."
+                    }
+                },
+                {
+                    "Name": "Doll Teleport Cooldown Penalty Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(60s -> 69s)",
+                        "ToolTip": "The cooldown penalty multiplier applied to Doll Teleport when running Aggressive."
+                    }
+                }
             ]
         }
     ],
     "Audio": {
+        "Pages": [
+            "Body", "Doll"
+        ],
         "TENS": [
             {
                 "Name": "Base (Body)",

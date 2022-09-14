@@ -1,5 +1,6 @@
 {
     "Name": "LIFE AND HEALING",
+    "Icon": "public/images/teen/statcategories/healing.png",
     "Description": "The values here will use the solid numbers in the files - but the percentages will also be shown on the side to reflect moreso what would exist in a real match.",
     "StatCategories": [
         {

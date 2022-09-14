@@ -9,5 +9,33 @@ html
     body(onload="mainTeen()" onmousemove="getCursorPosition(event)")
         include header
         h1#ContentType TEEN STATS
+        div.TeenButtons
+            button.TeenSelect(onclick="UpdateSelectedCategory(0)")
+                img(src="public/images/teen/journey/gloria2.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedCategory(1)")
+                img(src="public/images/teen/journey/brett2.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedCategory(2)")
+                img(src="public/images/teen/journey/leo2.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedCategory(3)")
+                img(src="public/images/teen/journey/jess2.png" height="125px")
+            button.TeenSelect(onclick="UpdateSelectedCategory(4)")
+                img(src="public/images/teen/journey/faith2.png" height="125px")
+        hr(style="opacity:0;")
+        div.ActionButtons
+            button.ActionSelect(onclick="UpdateSelectedCategory(5)")
+                h3.ActionHeader ACTIONS
+                img(src="public/images/teen/statcategories/actions.png" height="70px")
+            button.ActionSelect(onclick="UpdateSelectedCategory(6)")
+                h3.ActionHeader COMMS
+                img(src="public/images/teen/statcategories/comms.png" height="75px")
+            button.ActionSelect(onclick="UpdateSelectedCategory(7)")
+                h3.ActionHeader HEALING
+                img(src="public/images/teen/statcategories/healing.png" height="75px")
+            button.ActionSelect(onclick="UpdateSelectedCategory(8)")
+                h3.ActionHeader MOVEMENT
+                img(src="public/images/teen/statcategories/movement.png" height="75px")
+
+
         div#ToolTip
         div#contentpanel
+        include footer

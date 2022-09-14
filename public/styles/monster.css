@@ -105,7 +105,7 @@
     left: 0px;
     opacity: 1;
 
-    filter: blur(4px);
+    filter: blur(2px);
 
     background-color: #31003180;
 
@@ -148,7 +148,7 @@
 }
 
 .MutationRow td {
-    background-color: #75007580;
+    background-color: #75007540;
     border-style: solid;
     box-shadow: 0px 0px 10px #00eeff80;
     border-radius: 20px;
