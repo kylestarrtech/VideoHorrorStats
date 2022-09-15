@@ -298,7 +298,7 @@
         "Name": "Team Spirit",
         "ProtoName": "Motivator",
         "Icon": "public/images/teen/perks/teamspirit.png",
-        "Description": "Other teens within <span class='PerkDescBlue'>12 meters</span> of you gain a <span class='PerkDescT1'>6%</span>/<span class='PerkDescT2'>9%</span>/<span class='PerkDescT3'>12%</span> speed increase to <span class='PerkDescB'>Healing</span>, <span class='PerkDescB'>Reviving</span>, <span class='PerkDescB'>Resurrecting</span> or <span class='PerkDescB'>Disarming</span> actions.<br>This bonus does not stack witha dditional users of this Perk."
+        "Description": "Other teens within <span class='PerkDescBlue'>12 meters</span> of you gain a <span class='PerkDescT1'>6%</span>/<span class='PerkDescT2'>9%</span>/<span class='PerkDescT3'>12%</span> speed increase to <span class='PerkDescB'>Healing</span>, <span class='PerkDescB'>Reviving</span>, <span class='PerkDescB'>Resurrecting</span> or <span class='PerkDescB'>Disarming</span> actions.<br>This bonus does not stack with additional users of this Perk."
     },
     "ID_PK_TeenVision": {
         "Name": "Friend Zone",
