@@ -1,0 +1,54 @@
+.StigmaTable {
+    background-color: #31003160;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+    margin-top: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position:relative;
+}
+
+.WeaponRow {
+    background-color: #68006860;
+
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-style: solid;
+    box-shadow: 0px 0px 5px #00eeffff;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+    
+}
+
+.WeaponCard {
+    width: 128px;
+}
+
+.StigmaCard {
+}
+
+.StigmaCardContainer {
+    width: 25%;
+}
+
+.WeaponCardContainer {
+    width: 25%;
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+}
+
+.StigmaRowTable {
+    width: 100%;
+}

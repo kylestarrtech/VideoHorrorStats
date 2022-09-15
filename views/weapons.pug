@@ -1,0 +1,68 @@
+doctype html 
+html 
+    head 
+        title Weapons - Video Horror Stats
+        link(href="public/styles/index.css" rel="stylesheet")
+        link(href="public/styles/teen.css" rel="stylesheet")
+        link(href="public/styles/weapons.css" rel="stylesheet")
+        script(src="public/scripts/index.js")
+        script(src="public/scripts/weapons.js")
+    body(onload="mainMonster()" onmousemove="getCursorPosition(event)")
+        include header
+        h1#ContentType WEAPON STATS
+        div#ToolTip(hidden="")
+        table.StigmaTable 
+            tbody
+                tr.StigmaRow
+                    td 
+                        table.StigmaRowTable
+                            tbody 
+                                tr.WeaponRow
+                                    td.StigmaCardContainer
+                                        img.StigmaCard(src='public/images/stigmas/burn.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/burn/flamethrower.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/burn/firebomb.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/burn/solarflare.png')
+                    td 
+                        table.StigmaRowTable
+                            tbody 
+                                tr.WeaponRow
+                                    td.StigmaCardContainer
+                                        img.StigmaCard(src='public/images/stigmas/purify.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/purify/cross.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/purify/holyslingshot.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/purify/holystaff.png')
+                tr.StigmaRow
+                    td
+                        table.StigmaRowTable
+                            tbody 
+                                tr.WeaponRow
+                                    td.StigmaCardContainer
+                                        img.StigmaCard(src='public/images/stigmas/curse.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/curse/cursedsword.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/curse/infernaleye.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/curse/enigma.png')
+                    td
+                        table.StigmaRowTable
+                            tbody 
+                                tr.WeaponRow
+                                    td.StigmaCardContainer
+                                        img.StigmaCard(src='public/images/stigmas/shock.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/shock/raygun.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/shock/rccopter.png')
+                                    td.WeaponCardContainer
+                                        img.WeaponCard(src='public/images/weapons/shock/shocksphere.png')
+        div#contentpanel
+        include footer
+        include disclaimer
