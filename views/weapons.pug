@@ -7,16 +7,16 @@ html
         link(href="public/styles/weapons.css" rel="stylesheet")
         script(src="public/scripts/index.js")
         script(src="public/scripts/weapons.js")
-    body(onload="mainMonster()" onmousemove="getCursorPosition(event)")
+    body(onload="mainWeapons()" onmousemove="getCursorPosition(event)")
         include header
         h1#ContentType WEAPON STATS
         div#ToolTip(hidden="")
         table.StigmaTable 
             tbody
                 tr.StigmaRow
-                    td 
+                    td.StigmaTData
                         table.StigmaRowTable
-                            tbody 
+                            tbody.SRTBody 
                                 tr.WeaponRow
                                     td.StigmaCardContainer
                                         img.StigmaCard(src='public/images/stigmas/burn.png')
@@ -26,22 +26,22 @@ html
                                         img.WeaponCard(src='public/images/weapons/burn/firebomb.png')
                                     td.WeaponCardContainer
                                         img.WeaponCard(src='public/images/weapons/burn/solarflare.png')
-                    td 
+                    td.StigmaTData
                         table.StigmaRowTable
-                            tbody 
+                            tbody.SRTBody 
                                 tr.WeaponRow
                                     td.StigmaCardContainer
                                         img.StigmaCard(src='public/images/stigmas/purify.png')
                                     td.WeaponCardContainer
-                                        img.WeaponCard(src='public/images/weapons/purify/cross.png')
+                                        img.WeaponCard(src='public/images/weapons/purify/radiantcross.png')
                                     td.WeaponCardContainer
                                         img.WeaponCard(src='public/images/weapons/purify/holyslingshot.png')
                                     td.WeaponCardContainer
-                                        img.WeaponCard(src='public/images/weapons/purify/holystaff.png')
+                                        img.WeaponCard(src='public/images/weapons/purify/sacredstaff.png')
                 tr.StigmaRow
-                    td
+                    td.StigmaTData
                         table.StigmaRowTable
-                            tbody 
+                            tbody.SRTBody 
                                 tr.WeaponRow
                                     td.StigmaCardContainer
                                         img.StigmaCard(src='public/images/stigmas/curse.png')
@@ -51,9 +51,9 @@ html
                                         img.WeaponCard(src='public/images/weapons/curse/infernaleye.png')
                                     td.WeaponCardContainer
                                         img.WeaponCard(src='public/images/weapons/curse/enigma.png')
-                    td
+                    td.StigmaTData
                         table.StigmaRowTable
-                            tbody 
+                            tbody.SRTBody 
                                 tr.WeaponRow
                                     td.StigmaCardContainer
                                         img.StigmaCard(src='public/images/stigmas/shock.png')

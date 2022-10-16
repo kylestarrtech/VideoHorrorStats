@@ -101,41 +101,6 @@ function BuildMutations(categoryData) {
     }
 }
 
-function BuildMutationsLegacy(categoryData) {
-    console.log(categoryData);
-    console.log(categoryData.Mutations);
-    for (var mutation of categoryData.Mutations) {
-        console.log(mutation.PowerID);
-        let powerTarget = document.getElementById("POWERSTATSCATEGORY" + mutation.PowerID);
-
-        let finalStr = "";
-
-        finalStr += "<div class='StatsCategory'>" +
-        "<img class='MutationImage' src='" + mutation.Icon + "'>" +
-        "<h2 class='StatsTitle'>" + mutation.Name + "</h2>" +
-        "<hr class='StatsDivisor'>";
-
-        for (var mutationStat of mutation.Stats) {
-            finalStr += "<p class='StatsDescriptor' ";
-
-            if (mutationStat.Misc.ToolTip) {
-                finalStr += "onmouseenter=\"ShowToolTip('" + mutationStat.Misc.ToolTip + "')\"" +
-                            "onmouseleave='HideToolTip()'";
-            }
-    
-            finalStr += ">" + mutationStat.Name +
-                ": <span class='StatsNumber'>" + mutationStat.Value + mutationStat.Unit;
-            if (mutationStat.Misc.Suffix) {
-                finalStr += " " + mutationStat.Misc.Suffix;
-            }
-    
-            finalStr += "</span></p>";    
-        }
-
-        powerTarget.innerHTML += finalStr;
-    }
-}
-
 function GenerateStatsPage(categoryData) {
     var finalStr = "";
 

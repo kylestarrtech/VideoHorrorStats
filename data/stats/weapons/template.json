@@ -1,0 +1,99 @@
+{
+    "Name": "",
+    "Stigma": "",
+    "Stigma_ID": 0,
+    "Icon": "",
+    "Stats": [
+        {
+            "Name": "",
+            "Value": 0,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "",
+                "ToolTip": ""
+            }
+        }
+    ],
+    "Mods": [
+        {
+            "Name": "",
+            "Level": 0,
+            "Description": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "Level": 0,
+            "Description": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "Level": 0,
+            "Description": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "Level": 0,
+            "Description": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "Level": 0,
+            "Description": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

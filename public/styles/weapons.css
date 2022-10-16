@@ -2,22 +2,36 @@
     background-color: #31003160;
     border-style: solid;
     box-shadow: 0px 0px 10px #00eeff80;
-    border-radius: 20px;
-    border-width: 5px;
     border-color: #00eeff;
+    border-width: 5px;
+    border-radius: 20px;
 
     margin-top: 10px;
     width: 75%;
+    height: 180px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     position:relative;
 }
 
+.WeaponTitle {
+    font-size: 64px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+    text-shadow: 5px 0px 0px #ff00ff, -5px 0px 0px #00ffff, 0px 0px 32px #ffffff;
+    letter-spacing: 10px;
+}
+
 .WeaponRow {
     background-color: #68006860;
 
     width: 100%;
+    height:100%;
     margin-left: auto;
     margin-right: auto;
     
@@ -30,10 +44,15 @@
 }
 
 .WeaponCard {
-    width: 128px;
+    width: 80%;
 }
 
 .StigmaCard {
+
+}
+
+.StigmaCard:hover {
+    
 }
 
 .StigmaCardContainer {
@@ -42,13 +61,114 @@
 
 .WeaponCardContainer {
     width: 25%;
+    height: 100%;
     border-style: solid;
     box-shadow: 0px 0px 10px #00eeff80;
     border-radius: 20px;
     border-width: 5px;
     border-color: #00eeff;
+
+    cursor: pointer;
+}
+
+.WeaponCardContainer:hover {
+    animation-name: WeaponSelectHover;
+    animation-duration: 0.25s;
 }
 
 .StigmaRowTable {
     width: 100%;
+    height: 100%;
+}
+
+.SRTBody {
+    height: 100%;
+}
+
+.StigmaTData {
+    height: 100%;
+}
+
+.StigmaImage {
+    width: 500px;
+    margin-left: 0;
+    margin-right: auto;
+    position:absolute; 
+    top: 0px;
+    left: 0px;
+    opacity: 0.1;
+    z-index: -2;
+
+    animation-name: StigmaImageFadeIn;
+    animation-duration: 0.75s;
+}
+
+.WeaponStatsHeader {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    text-shadow: 5px 0px 0px #ff00ff, -5px 0px 0px #00ffff, 0px 0px 32px #ffffff;
+    letter-spacing: 10px;
+}
+
+.WeaponCategory {
+    border-style: solid;
+    box-shadow: 0px 0px 10px #00eeff80;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #00eeff;
+
+    margin-top: 10px;
+    width: 67%;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+@keyframes WeaponSelectHover {
+    from {
+        background-color: #31003170;
+        border-color: #00eeff;
+    }
+    30% {
+        background-color: #4e004890;
+        border-color: #410404;
+    }
+    60% {
+        background-color: #31003175;
+        border-color: #310031;
+    }
+    100% {
+        background-color: #31003180;
+        border-color: #00eeff;
+    }
+}
+
+@keyframes WeaponSelectFadeIn {
+    from {
+        left: -15px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 0.75;
+    }
+}
+
+@keyframes StigmaImageFadeIn {
+    from {
+        left: -15px;
+        opacity: 0;
+    }
+    to {
+        left: 0px;
+        opacity: 0.1;
+    }
 }

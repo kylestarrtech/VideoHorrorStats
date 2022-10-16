@@ -142,7 +142,7 @@ app.post('/admin/dev/announcements/postnewannouncement', (req, res) => {
 
   var announcements = JSON.parse(fs.readFileSync('public/announcements/announcements.json'));
   
-  announcements.Announcements.push(req.body);
+  announcements.Announcements.unshift(req.body);
 
   fs.writeFileSync('public/announcements/announcements.json', JSON.stringify(announcements));
 
