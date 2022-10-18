@@ -35,10 +35,10 @@
                 },
                 {
                     "Name": "Crawl Speed Multiplier",
-                    "Value": 0.15,
+                    "Value": 0.2,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(0.75m/s)",
+                        "Suffix": "(1m/s)",
                         "ToolTip": "The multiplier applied to teen movement speed when in the Prone state."
                     }
                 },

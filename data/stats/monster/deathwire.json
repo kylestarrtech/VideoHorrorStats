@@ -120,6 +120,24 @@
                         "Suffix": "(3.4m/s)",
                         "ToolTip": "The multiplier applied to Deathwire when focusing Voltage Vise."
                     }
+                },
+                {
+                    "Name": "Juiced Duration",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The duration Deathwire is Juiced after successfully shocking a teen with Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Juiced Charge Boost Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The charge boost applied to Voltage Vise while Deathwire is Juiced."
+                    }
                 }
             ]
         },
@@ -272,6 +290,15 @@
                         "Suffix": "(1.375m/s)",
                         "ToolTip": "The multiplier applied to Deathwire`s movement speed while focusing Beam Matrix."
                     }
+                },
+                {
+                    "Name": "Beam Matrix Ability Lockout",
+                    "Value": 8,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time Deathwire is locked out of Beam Matrix after successfully hitting a teen."
+                    }
                 }
             ]
         }
@@ -288,7 +315,7 @@
                     "Unit": "",
                     "Misc": {
                         "ToolTip": "The movement speed bonus applied to Deathwire when running Nitro Booster and having entered Drift Mode.",
-                        "Suffix": "<br>(6.72m/s -> 6.72m/s???)"
+                        "Suffix": "<br>(6.72m/s -> 6.72m/s instantly)"
                     }
                 },
                 {

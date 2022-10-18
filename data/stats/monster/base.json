@@ -1,0 +1,145 @@
+{
+    "Name": "BASE MONSTER STATS",
+    "Quote": "Evil Never Dies.",
+    "Icon": "public/images/header/monster/base.png",
+    "Perks": [
+    ],
+    "Powers": [
+        {
+            "Name": "Pings",
+            "Icon": "public/images/teen/statcategories/comms.png",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Scream",
+            "Icon": "public/images/monster/base/scream.png",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Banished",
+            "Icon": "public/images/monster/base/incorporeal.png",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Miscellaneous",
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "Audio": {
+        "TENS": [
+        ]
+    }
+}
