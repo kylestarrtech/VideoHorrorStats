@@ -35,6 +35,8 @@ function mainWeapons() {
         }
         selectedWeaponIndex = proposedIndex;
     }
+
+    GetCategoryData(selectedWeaponIndex);
 }
 
 function GetCategoryData(index) {
