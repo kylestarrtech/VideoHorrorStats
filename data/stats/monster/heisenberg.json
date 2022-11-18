@@ -1,0 +1,547 @@
+{
+    "Name": "HEISENBERG",
+    "Quote": "Say my name.",
+    "Icon": "public/images/monster/journey/heisenberg-full2.png",
+    "Perks": [
+        "ID_PK_PickupDrop", "ID_PK_KillInhibit", "ID_PK_ScreamRange"
+    ],
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.10,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.5m/s)",
+                "ToolTip": "Heisenberg`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of Heisenberg`s Tension Track."
+            }
+        },
+        {
+            "Name": "Tension Track Fulminate of Mercury Multiplier",
+            "Value": 0.1,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(39.60m)",
+                "ToolTip": "The multiplier applied to Heisenberg`s Tension Track radius when charging his Hg(CNO)2 attack."
+            }
+        },
+        {
+            "Name": "Lunge Speed",
+            "Value": 8.45,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Heisenberg moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 3.92,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Heisenberg moves while recovering from a missed lunge."
+            }
+        }
+    ],
+    "Powers": [
+        {
+            "Name": "Voltage Vise",
+            "Icon": "public/images/monster/powers/deathwire/voltagevise.png",
+            "Stats": [
+                {
+                    "Name": "Voltage Vise Maximum Charges",
+                    "Value": 2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum default number of Voltage Vise charges Deathwire may have at a time."
+                    }
+                },
+                {
+                    "Name": "Voltage Vise Overcharge Time",
+                    "Value": 7,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The Overcharge value applied to teens when Shocked with Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Voltage Vise Base Cooldown",
+                    "Value": 15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown required for Deathwire to gain a charge of Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Voltage Vise Stun Time",
+                    "Value": 2.6,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time teens are stunned when Electrocuted by Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Voltage Vise Speed Penalty",
+                    "Value": 0.35,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.75m/s)",
+                        "ToolTip": "The speed penalty applied to teens who are Electrocuted by Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Voltage Vise Range",
+                    "Value": 18,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range of an Voltage Vise shockwave."
+                    }
+                },
+                {
+                    "Name": "Voltage Vise Focus Speed Multiplier",
+                    "Value": 0.68,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(3.4m/s)",
+                        "ToolTip": "The multiplier applied to Deathwire when focusing Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Juiced Duration",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The duration Deathwire is Juiced after successfully shocking a teen with Voltage Vise."
+                    }
+                },
+                {
+                    "Name": "Juiced Charge Boost Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The charge boost applied to Voltage Vise while Deathwire is Juiced."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Death Drift",
+            "Icon": "public/images/monster/powers/deathwire/deathdrift.png",
+            "Stats": [
+                {
+                    "Name": "Drift to Assault Focus Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(5m/s)",
+                        "ToolTip": "The multiplier applied to Deathwire`s movement speed when charging Death Drift while in Drift Mode."
+                    }
+                },
+                {
+                    "Name": "Assault to Drift Focus Speed Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.25m/s)",
+                        "ToolTip": "The multiplier applied to Deathwire`s movement speed when charging Death Drift while in Assault Mode."
+                    }
+                },
+                {
+                    "Name": "Drift to Assault Focus Time",
+                    "Value": 0.66,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time required for Deathwire to focus Death Drift while in Drift Mode."
+                    }
+                },
+                {
+                    "Name": "Assault to Drift Focus Time",
+                    "Value": 1.2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time required for Deathwire to focus Death Drift while in Assault Mode."
+                    }
+                },
+                {
+                    "Name": "Death Drift Incorporeal Focus Time",
+                    "Value": 0.35,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time required for Deathwire to focus Death Drift while Incorporeal (Banished)."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Beam Matrix",
+            "Icon": "public/images/monster/powers/deathwire/beammatrix.png",
+            "Stats": [
+                {
+                    "Name": "Beam Matrix Reveal Time",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time teens affected by Beam Matrix are Exposed."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Cooldown",
+                    "Value": 22,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The default cooldown of Deathwire`s Beam Matrix."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Movespeed Bonus Multiplier",
+                    "Value": 0.35,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(6.75m/s or 7.56m/s)",
+                        "ToolTip": "The multiplier applied to Deathwire`s movement speed when scanning with Beam Matrix."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Open Time",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it visually takes for Deathwire`s Beam Matrix to open in the UI."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Warmup Time",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it visually takes for Deathwire`s Beam Matrix to warmup."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Fadeout Time",
+                    "Value": 0.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes visually for Deathwire`s Beam Matrix to fade out."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Scan Time",
+                    "Value": 0.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time Deathwire`s Beam Matrix scans teens."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Range",
+                    "Value": 200,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The detection range of Deathwire`s Beam Matrix."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Scan Angle",
+                    "Value": 30,
+                    "Unit": "°",
+                    "Misc": {
+                        "ToolTip": "The angle of Deathwire`s Beam Matrix."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Audio Delay",
+                    "Value": 1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The delay before Beam Matrix plays audio while scanning - it`s essentially the \"ding\" noise you hear when teens are Exposed."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Focus Time",
+                    "Value": 1.2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time required for Deathwire to focus Beam Matrix before it activates."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Focus Speed Multiplier",
+                    "Value": 0.275,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.375m/s)",
+                        "ToolTip": "The multiplier applied to Deathwire`s movement speed while focusing Beam Matrix."
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Ability Lockout",
+                    "Value": 8,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time Deathwire is locked out of Beam Matrix after successfully hitting a teen."
+                    }
+                }
+            ]
+        }
+    ],
+    "Mutations": [
+        {
+            "Name": "Nitro Booster",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/deathwire/nitrobooster.png",
+            "Stats": [
+                {
+                    "Name": "Death Drift Movement Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The movement speed bonus applied to Deathwire when running Nitro Booster and having entered Drift Mode.",
+                        "Suffix": "<br>(6.72m/s -> 6.72m/s instantly)"
+                    }
+                },
+                {
+                    "Name": "Death Drift Movement Bonus Duration",
+                    "Value": 1.4,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of the movement speed bonus applied to Deathwire when running Nitro Booster and having entered Drift Mode.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Death Drift Ability Lockout Penalty",
+                    "Value": 7.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time Death Drift is set to cooldown after hitting a teen when running Nitro Booster.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Homicycle",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/deathwire/swiftcyclemodule.png",
+            "Stats": [
+                {
+                    "Name": "Death Drift Focus Time Bonus Multiplier",
+                    "Value": 1.4,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to Death Drift`s focus time when running Homicycle.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Death Drift Movement Speed Penalty",
+                    "Value": 0.8,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The movement speed penalty applied to Drift Mode when running Homicycle.",
+                        "Suffix": "(20% -> 16%)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Overdriver",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/deathwire/chargingbelt.png",
+            "Stats": [
+                {
+                    "Name": "Drift Mode Voltage Vise Cooldown Bonus",
+                    "Value": 1.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The cooldown bonus multiplier applied to the Voltage Vise cooldown when in Drift Mode.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Assault Mode Voltage Vise Cooldown Penalty",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The cooldown penalty multiplier applied to the Voltage Vise cooldown when in Assault Mode.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Risk Radar",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/deathwire/armamentcalibration.png",
+            "Stats": [
+                {
+                    "Name": "Armed Teen Exposed Duration Bonus",
+                    "Value": 1.3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus duration applied to the aura reading when Beam Matrix exposes an armed teen.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Unarmed Teen Exposed Duration Penalty",
+                    "Value": 0.7,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty duration applied to the aura reading when Beam Matrix exposes an unarmed teen.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Terror Tracer",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/deathwire/sentryrigging.png",
+            "Stats": [
+                {
+                    "Name": "Drift Mode Movement Bonus Multiplier",
+                    "Value": 2.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "Movement speed bonus applied to Deathwire when in Drift Mode while focusing Beam Matrix",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Assault Mode Movement Penalty Multiplier",
+                    "Value": 0.8,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "Movement speed penalty applied to Deathwire when in Assault Mode while focusing Beam Matrix",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Augmented Optics",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/deathwire/widerangeoptics.png",
+            "Stats": [
+                {
+                    "Name": "Beam Matrix Scan Area Bonus Multiplier",
+                    "Value": 1.3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to Beam Matrix`s scan area.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Beam Matrix Cooldown Time Penalty Multiplier",
+                    "Value": 0.7,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the Beam Matrix cooldown.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Chaos Coil",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/deathwire/chaoscoil.png",
+            "Stats": [
+                {
+                    "Name": "Voltage Vise Maximum Charges",
+                    "Value": 3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum number of Voltage Vise charges Deathwire may carry while running Chaos Coil.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Sensor Spike",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/deathwire/triangulationmatrix.png",
+            "Stats": [
+                {
+                    "Name": "Voltage Vise Cooldown Time Penalty Multiplier",
+                    "Value": 0.55,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The cooldown penalty multiplier applied to Voltage Vise when running Sensor Spike.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Circuit Breaker",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/deathwire/neuraldisruptor.png",
+            "Stats": [
+                {
+                    "Name": "Circuit Breaker Jammed Duration",
+                    "Value": 20,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time teens will be Jammed for when Shocked by Voltage Vise with the Circuit Breaker mutation.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Circuit Breaker Overcharged Penalty",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The extra time added to the Overcharged status effect by Circuit Breaker.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "Audio": {
+        "Pages": [
+            "Music", "Voice Lines"
+        ],
+        "TENS": [
+            {
+                "Name": "Menu Theme",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/theme.ogg"
+            },
+            {
+                "Name": "Base",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/base.ogg"
+            },
+            {
+                "Name": "Close",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/close.ogg"
+            },
+            {
+                "Name": "Closer",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/closer.ogg"
+            },
+            {
+                "Name": "Chased",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/chased.ogg"
+            }
+        ]
+    }
+}

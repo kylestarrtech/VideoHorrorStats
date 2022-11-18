@@ -1,5 +1,5 @@
 var contentPanel;
-var categories = ["data/stats/monster/base.json", "data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json", "data/stats/monster/deathwire.json"]
+var categories = ["data/stats/monster/base.json", "data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json", "data/stats/monster/deathwire.json", "data/stats/monster/heisenberg.json"]
 
 var perksPath = "data/stats/perks_and_mutations.json";
 var perks;
