@@ -185,6 +185,8 @@ function GenerateStatsPage(categoryData, isMonster) {
         
         finalStr += "</div>";
         
+    } else {
+        finalStr += "<div class='notmonster-spacer'></div>";
     }
     
     if (isMonster) {
