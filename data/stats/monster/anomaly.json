@@ -1,0 +1,501 @@
+{
+    "Name": "ANOMALY",
+    "Quote": "What is that... that <b>thing</b>?...",
+    "Icon": "public/images/monster/journey/anomaly-full-5-preview.png",
+    "Perks": [
+        "ID_PK_FeastDrainEssence", "ID_PK_HealSense", "ID_PK_IncorporealMaster"
+    ],
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.14,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.7m/s)",
+                "ToolTip": "Anomaly`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of Anomaly`s Tension Track."
+            }
+        },
+        {
+            "Name": "Lunge Speed",
+            "Value": 8.61,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Anomaly moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 3.99,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Anomaly moves while recovering from a missed lunge."
+            }
+        }
+    ],
+    "Powers": [
+        {
+            "Name": "Disperse",
+            "Icon": "public/images/monster/powers/anomaly/disperse.png",
+            "Stats": [
+                {
+                    "Name": "Disperse Movement Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The movement speed multiplier applied to Anomaly while using Disperse.",
+                        "Suffix": "(100% extra)"
+                    }
+                },
+                {
+                    "Name": "Disperse Base Cooldown",
+                    "Value": 15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown time of Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Charge Time To Disperse",
+                    "Value": 1.1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to enter Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Charge Time From Disperse",
+                    "Value": 0,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to exit Disperse early.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Goop Shockwave Range",
+                    "Value": 4,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The range of the Disperse Goop Shockwave when Anomaly exits Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Base Duration",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base duration of Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Goop Duration",
+                    "Value": 1.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time a teen is <b>Gooped</b> after Anomaly emerges from Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Gooped Speed Penalty",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The speed penalty teens experience while <b>Gooped</b>.",
+                        "Suffix": "(2.5m/s)"
+                    }
+                },
+                {
+                    "Name": "Disperse Minimum Time Required",
+                    "Value": 1.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The minimum amount of time Anomaly is required to be in Disperse before exiting early.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Mimicry",
+            "Icon": "public/images/monster/powers/anomaly/mimicry.png",
+            "Stats": [
+                {
+                    "Name": "Mimic Base Duration",
+                    "Value": 14,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The maximum duration Anomaly may mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Base Cooldown",
+                    "Value": 40,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown time of Mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Charge Time To Mimic",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to enter Mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Charge Time From Mimic",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to exit Mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Run Duration Penalty Multiplier",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to Anomaly when using Mimicry for its longest duration.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Break Flinch Time",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time Anomaly is flinched after being broken out of Mimicry by a weapon.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Scour",
+            "Icon": "public/images/monster/powers/anomaly/scour.png",
+            "Stats": [
+                {
+                    "Name": "Scour Seconds to Expose All",
+                    "Value": 8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes for Anomaly to <b>Expose</b> all teens with Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Base Cooldown",
+                    "Value": 36,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown time of Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Speed Ramp Time",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes for the Scour Radius to begin ramping upwards in speed.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Speed Ramp Base Speed Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The base multiplier speed applied to the scour radius when beginning Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Charge Time To Scour",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to enter Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Charge Time From Scour",
+                    "Value": 0,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to exit Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Exposed Duration",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of lingering time a teen is Exposed post-Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Duration",
+                    "Value": 15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The maximum duration Anomaly can be in Scour.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "Mutations": [
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 0,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 1,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 1,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 1,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 2,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 2,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "",
+            "PowerID": 2,
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "",
+                    "Value": 0,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "Audio": {
+        "TENS": [
+        ]
+    }
+}

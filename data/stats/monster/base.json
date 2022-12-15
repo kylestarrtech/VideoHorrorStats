@@ -2,6 +2,7 @@
     "Name": "BASE MONSTER STATS",
     "Quote": "Evil Never Dies.",
     "Icon": "public/images/header/monster/base.png",
+    "IsMonster": false,
     "Perks": [
     ],
     "Powers": [
@@ -10,30 +11,21 @@
             "Icon": "public/images/teen/statcategories/comms.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Maximum Monster Pings",
+                    "Value": 3,
                     "Unit": "",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The maximum number of pings a monster can create."
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Monster Ping Auto-Replace Distance",
+                    "Value": 5,
+                    "Unit": "m",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The minimum distance 2 pings can be from each other to be separate."
                     }
                 }
             ]
@@ -43,30 +35,75 @@
             "Icon": "public/images/monster/base/scream.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Monster Scream Rage Gain",
+                    "Value": 33.3,
+                    "Unit": "%",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The amount of rage the monster gains for activating a post-hit scream."
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Monster Post-Hit Scream Max Range",
+                    "Value": 28,
+                    "Unit": "m",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The range of the monster's post-hit scream."
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Monster Respawn Scream Max Range",
+                    "Value": 28,
+                    "Unit": "m",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The range of the monster's respawn scream."
+                    }
+                },
+                {
+                    "Name": "Monster Scream Start Radius",
+                    "Value": 1,
+                    "Unit": "m",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The starting range of the monster's scream."
+                    }
+                },
+                {
+                    "Name": "Monster Post-Hit Scream Shockwave Amount",
+                    "Value": 6,
                     "Unit": "",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The amount of shockwaves that are emitted from the monster's location during the post-hit scream."
+                    }
+                },
+                {
+                    "Name": "Monster Respawn Scream Shockwave Amount",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of shockwaves that are emitted from the monster's location during the respawn scream."
+                    }
+                },
+                {
+                    "Name": "Monster Scream Shockwave Delay",
+                    "Value": 0.55,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The delay applied before a monster shockwave begins."
+                    }
+                },
+                {
+                    "Name": "Monster Scream Cooldown Bonus Multiplier",
+                    "Value": 2.25,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The multiplier applied to monster power recovery during the monster's scream."
                     }
                 }
             ]
@@ -76,63 +113,39 @@
             "Icon": "public/images/monster/base/incorporeal.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Incorporeal Movement Speed Multiplier",
+                    "Value": 1.6,
                     "Unit": "",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The speed multiplier applied to a monster who is Banished."
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Base Incorporeal Time",
+                    "Value": 14,
+                    "Unit": "s",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The base amount of time a monster is Banished before exiting their incorporeal state."
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Minimum Incorporeal Time",
+                    "Value": 5,
+                    "Unit": "s",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "Miscellaneous",
-            "Icon": "",
-            "Stats": [
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The minimum amount of time a monster can be incorporeal. Used in the situation where various banishment modifiers stack to reach under this minimum."
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Incorporeal Vault Speed Multiplier",
+                    "Value": 2,
                     "Unit": "",
                     "Misc": {
                         "Suffix": "",
-                        "ToolTip": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The multiplier applied to monster vault speed when Banished."
                     }
                 }
             ]

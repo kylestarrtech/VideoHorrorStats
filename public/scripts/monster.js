@@ -1,5 +1,6 @@
 var contentPanel;
-var categories = ["data/stats/monster/base.json", "data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json", "data/stats/monster/deathwire.json", "data/stats/monster/heisenberg.json"]
+var categories = ["data/stats/monster/base.json", "data/stats/monster/werewolf.json", "data/stats/monster/wart.json", "data/stats/monster/dollmaster.json", "data/stats/monster/deathwire.json", "data/stats/monster/heisenberg.json",
+ "data/stats/monster/anomaly.json"]
 
 var perksPath = "data/stats/perks_and_mutations.json";
 var perks;
@@ -138,6 +139,14 @@ function BuildMutationsLegacy(categoryData) {
 
 function GenerateStatsPage(categoryData, isMonster) {
     console.log("IS MONSTER?: " + isMonster);
+
+    if (isMonster == undefined) {
+        isMonster =  true;
+        if (categoryData.IsMonster != undefined) {
+            isMonster = categoryData.IsMonster;
+        }
+    }
+
     var finalStr = "";
 
     finalStr += "<div class='MonsterImageParent'><img class='MonsterImage' src='" + 
@@ -170,20 +179,21 @@ function GenerateStatsPage(categoryData, isMonster) {
 
         finalStr += "</div>";
 
-        
-        finalStr += "<h2 class='PowerStatsHeader'>AUDIO</h2>" +
-        "<hr class='StatsDivisor'>" +
-        "<div class='StatsCategory'>";
-        
-        let c = 0;
-        for (var track of categoryData.Audio.TENS) {
-            finalStr += "<p class='StatsDescriptor'>" +
-            track.Name +
-            ": " +
-            "<audio controls='controls' style='width: 100%;'><source src='" + track.Path + "' type='audio/ogg'></audio></p>";
+        if (categoryData.Audio.TENS.length != 0) {
+            finalStr += "<h2 class='PowerStatsHeader'>AUDIO</h2>" +
+            "<hr class='StatsDivisor'>" +
+            "<div class='StatsCategory'>";
+            
+            let c = 0;
+            for (var track of categoryData.Audio.TENS) {
+                finalStr += "<p class='StatsDescriptor'>" +
+                track.Name +
+                ": " +
+                "<audio controls='controls' style='width: 100%;'><source src='" + track.Path + "' type='audio/ogg'></audio></p>";
+            }
+            
+            finalStr += "</div>";
         }
-        
-        finalStr += "</div>";
         
     } else {
         finalStr += "<div class='notmonster-spacer'></div>";

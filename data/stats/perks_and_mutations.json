@@ -381,8 +381,44 @@
     "ID_PK_ReviveMaster": {
         "Name": "Magic Touch",
         "ProtoName": "ReviveMaster",
-        "Icon": "public/images/teen/perks/magictouch.png",
+        "Icon": "public/images/monster/perks/magictouch.png",
         "Description": "Increases the speed at which you revive a prone teen by <span class='PerkDescT1'>10%</span>/<span class='PerkDescT2'>20%</span>/<span class='PerkDescT3'>30%</span>.<br><br>A revived teen will regain <span class='PerkDescT1'>2%</span>/<span class='PerkDescT2'>4%</span>/<span class='PerkDescT3'>6%</span> of their total base <span class='PerkDescB'>Life</span>. This effect will not stack when assisted by other users of this perk."
+    },
+    "ID_PK_FeastDrainEssence": {
+        "Name": "Devour Spirit",
+        "ProtoName": "FeastDrainEssence",
+        "Icon": "public/images/monster/perks/feastdrainessence.png",
+        "Description": "Feasting on teens will cause them to lose <span class='PerkDescB'>Luma</span> at a rate of <span class='PerkDescT1'>2.5%</span>/<span class='PerkDescT2'>5%</span>/<span class='PerkDescT3'>7.5%</span> per second."
+    },
+    "ID_PK_HealSense": {
+        "Name": "Mending Malice",
+        "ProtoName": "HealSense",
+        "Icon": "public/images/monster/perks/healsense.png",
+        "Description": "While you are within <span class='PerkDescT1'>12</span>/<span class='PerkDescT2'>20</span>/<span class='PerkDescT3'>28</span> meters of a teen that is performing any <span class='PerkDescB'>Healing</span> action, they will be <span class='PerkDescRed'>Exposed</span>."
+    },
+    "ID_PK_IncorporealMaster": {
+        "Name": "Formless Insight",
+        "ProtoName": "IncorporealMaster",
+        "Icon": "public/images/monster/perks/incorporealmaster.png",
+        "Description": "While <span class='PerkDescRed'>Banished</span>, the speed at which you move is increased by <span class='PerkDescT1'>0%</span>/<span class='PerkDescT2'>30%</span>/<span class='PerkDescT3'>60%</span> and any crafting station a teen is crafting at will become <span class='PerkDescB'>highlighted</span>."
+    },
+    "ID_PK_Technician": {
+        "Name": "Steady Hand",
+        "ProtoName": "Technician",
+        "Icon": "public/images/teen/perks/technician.png",
+        "Description": "<span class='PerkDescT1'>When you are the only active teen</span>/<span class='PerkDescT2'>When there are two or fewer active teens</span>/<span class='PerkDescT3'>When there are three or fewer active teens</span>, the distance at which you can be heard while crafting along is reduced by <span class='PerkDescBlue>30%</span>"
+    },
+    "ID_PK_CraftMaster": {
+        "Name": "Arcade Hero",
+        "ProtoName": "CraftMaster",
+        "Icon": "public/images/teen/perks/craftmaster.png",
+        "Description": "Each time another teen dies during a match <span class='PerkDescB'>Arcade Hero</span> gains a token. Each token increases the speed at which you craft weapons by <span class='PerkDeskT1'>2%</span>/<span class='PerkDeskT2'>4%</span>/<span class='PerkDeskT3'>6%</span>."
+    },
+    "ID_PK_Multitasker": {
+        "Name": "All Systems Go",
+        "ProtoName": "Multitasker",
+        "Icon": "public/images/teen/perks/multitasker.png",
+        "Description": "While crafting a weapon at a station, the loss of crafting progress at other stations is reduced by <span class='PerkDeskT1'>25%</span>/<span class='PerkDeskT2'>50%</span>/<span class='PerkDeskT3'>75%</span>."
     },
     "UNKNOWN": {
         "Name": "UNKNOWN",
