@@ -1,6 +1,6 @@
 {
     "Name": "ANOMALY",
-    "Quote": "What is that... that <b>thing</b>?...",
+    "Quote": "What is that... that <b>thing</b>?!...",
     "Icon": "public/images/monster/journey/anomaly-full-5-preview.png",
     "Perks": [
         "ID_PK_FeastDrainEssence", "ID_PK_HealSense", "ID_PK_IncorporealMaster"
@@ -269,226 +269,199 @@
     ],
     "Mutations": [
         {
-            "Name": "",
+            "Name": "Ripple",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/ripple.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Disperse Maximum Afterimage Distance",
+                    "Value": 8,
+                    "Unit": "m",
                     "Misc": {
-                        "ToolTip": "",
+                        "ToolTip": "The maximum amount of distance a teen can be in order to have an Afterimage shown at the start of Disperse.",
                         "Suffix": ""
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Disperse Afterimage Duration",
+                    "Value": 4,
+                    "Unit": "s",
                     "Misc": {
-                        "ToolTip": "",
+                        "ToolTip": "The duration of the Disperse afterimage.",
                         "Suffix": ""
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Gooper",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/gooper.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Disperse Goop Shockwave Range Multiplier",
+                    "Value": 0.2,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
+                        "ToolTip": "The multiplier applied to the Disperse Shockwave Range while running Gooper.",
+                        "Suffix": "(4.8 meters)"
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Elusive",
             "PowerID": 0,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/elusive.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Disperse Mimicking Cooldown Reduction Multiplier",
+                    "Value": 0.5,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
+                        "ToolTip": "The multiplier applied to the initial Disperse cooldown when Disperse is used while Mimicking.",
+                        "Suffix": "(7.5s)"
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Disperse Non-Mimicking Cooldown Penalty Multiplier",
+                    "Value": 0.2,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
+                        "ToolTip": "The penalty multiplier applied to the initial Disperse cooldown when Disperse is used while not Mimicking",
+                        "Suffix": "(18s)"
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Malign",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/malign.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Mimickry Cooldown Reduction",
+                    "Value": 0.1,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
+                        "ToolTip": "The cooldown reduction multiplier applied to Mimicry when using Malign.",
+                        "Suffix": "(36s)"
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Committed",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/committed.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Committed Base Movement Speed Multiplier",
+                    "Value": 1,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
+                        "ToolTip": "The base movement speed multiplier applied to Anomaly while mimicking.",
+                        "Suffix": "(5m/s)"
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Infectious",
             "PowerID": 1,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/infectious.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Mimicry Busted Hit Window",
+                    "Value": 1.5,
+                    "Unit": "s",
                     "Misc": {
-                        "ToolTip": "",
+                        "ToolTip": "The maximum window between exiting a mimic and hitting a teen required to give a teen the <b>Busted</b> status effect.",
                         "Suffix": ""
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Mimicry Busted Duration",
+                    "Value": 60,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time a teen is <b>Busted</b> for when hit within the hit window while Anomaly is running Infectious.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimicry Focus Time Penalty Multiplier",
+                    "Value": 0.25,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
+                        "ToolTip": "The focus time penalty multiplier applied to Mimicry while running Infectious.",
+                        "Suffix": "(1.875s)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Seething",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/anomaly/seething.png",
+            "Stats": [
+                {
+                    "Name": "Seething Rage Gain",
+                    "Value": 1,
+                    "Unit": "%/s",
+                    "Misc": {
+                        "ToolTip": "The amount of Rage Anomaly gains while Scouring and running Seething.",
                         "Suffix": ""
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Startling",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/startling.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Startling Jammed Extension Duration",
+                    "Value": 2,
+                    "Unit": "s",
                     "Misc": {
-                        "ToolTip": "",
+                        "ToolTip": "The extension applied to the <b>Jammed</b> status effect when using Scour.",
                         "Suffix": ""
                     }
                 },
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Startling Teen Speed Bonus Extension Duration",
+                    "Value": 2,
+                    "Unit": "s",
                     "Misc": {
-                        "ToolTip": "",
+                        "ToolTip": "The extension applied to the speed bonus armed teens receive when using Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Startling Teen Speed Bonus Multiplier",
+                    "Value": 0.15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to armed teens when Anomaly is Scouring and for the extension window afterwards.",
                         "Suffix": ""
                     }
                 }
             ]
         },
         {
-            "Name": "",
+            "Name": "Slinking",
             "PowerID": 2,
-            "Icon": "",
+            "Icon": "public/images/monster/mutations/anomaly/slinking.png",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Slinking Movement Speed Multiplier",
+                    "Value": 0.35,
                     "Unit": "",
                     "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
-                    }
-                }
-            ]
-        },
-        {
-            "Name": "",
-            "PowerID": 2,
-            "Icon": "",
-            "Stats": [
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
-                    }
-                },
-                {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
-                    "Misc": {
-                        "ToolTip": "",
-                        "Suffix": ""
+                        "ToolTip": "The movement speed multiplier applied to Anomaly while Scouring and running Slinking.",
+                        "Suffix": "(2m/s)"
                     }
                 }
             ]

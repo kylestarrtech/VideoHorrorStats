@@ -53,7 +53,14 @@ function GetPerks() {
 
 function LoadCategory(categoryData, isMonster) {
     contentPanel.innerHTML = "<div class='StatsCategory' id='MAINSTATSCATEGORY'>" + GenerateStatsPage(categoryData, isMonster);
-    if (isMonster) { BuildMutations(categoryData); }
+    let isMonsterDecisionMaker = isMonster;
+    if (isMonsterDecisionMaker == undefined) {
+        isMonsterDecisionMaker = true;
+        if (categoryData.IsMonster != undefined) {
+            isMonsterDecisionMaker = categoryData.IsMonster;
+        }
+    }
+    if (isMonsterDecisionMaker) { BuildMutations(categoryData); }
 }
 
 function UpdateParameters() {
@@ -67,6 +74,18 @@ function UpdateSelectedCategory(index, isMonster) {
     UpdateParameters();
 }
 
+function BuildMutationsGrid(categoryData) {
+    console.log(categoryData);
+    console.log(categoryData.Mutations);
+
+    let mutationGridDiv = document.createElement("div");
+    mutationGridDiv.classList.add("mutations-grid");
+
+    for (var mutation of categoryData.Mutations) {
+
+    }
+}
+
 function BuildMutations(categoryData) {
     console.log(categoryData);
     console.log(categoryData.Mutations);
@@ -77,41 +96,6 @@ function BuildMutations(categoryData) {
         let finalStr = "";
 
         finalStr += "<td><div>" +
-        "<img class='MutationImage' src='" + mutation.Icon + "'>" +
-        "<h2 class='StatsTitle'>" + mutation.Name + "</h2>" +
-        "<hr class='StatsDivisor'>";
-
-        for (var mutationStat of mutation.Stats) {
-            finalStr += "<p class='StatsDescriptor' ";
-
-            if (mutationStat.Misc.ToolTip) {
-                finalStr += "onmouseenter=\"ShowToolTip('" + mutationStat.Misc.ToolTip + "')\"" +
-                            "onmouseleave='HideToolTip()'";
-            }
-    
-            finalStr += ">" + mutationStat.Name +
-                ": <span class='StatsNumber'>" + mutationStat.Value + mutationStat.Unit;
-            if (mutationStat.Misc.Suffix) {
-                finalStr += " " + mutationStat.Misc.Suffix;
-            }
-    
-            finalStr += "</span></p>";    
-        }
-
-        powerTarget.innerHTML += finalStr;
-    }
-}
-
-function BuildMutationsLegacy(categoryData) {
-    console.log(categoryData);
-    console.log(categoryData.Mutations);
-    for (var mutation of categoryData.Mutations) {
-        console.log(mutation.PowerID);
-        let powerTarget = document.getElementById("POWERSTATSCATEGORY" + mutation.PowerID);
-
-        let finalStr = "";
-
-        finalStr += "<div class='StatsCategory'>" +
         "<img class='MutationImage' src='" + mutation.Icon + "'>" +
         "<h2 class='StatsTitle'>" + mutation.Name + "</h2>" +
         "<hr class='StatsDivisor'>";
