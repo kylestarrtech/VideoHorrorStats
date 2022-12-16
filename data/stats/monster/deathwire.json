@@ -173,7 +173,7 @@
                 },
                 {
                     "Name": "Assault to Drift Focus Time",
-                    "Value": 1.2,
+                    "Value": 1.1,
                     "Unit": "s",
                     "Misc": {
                         "ToolTip": "The time required for Deathwire to focus Death Drift while in Assault Mode."
