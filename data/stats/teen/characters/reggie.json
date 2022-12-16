@@ -11,6 +11,6 @@
     "Potential": "Genius",
     "PotentialIcon": "public/images/teen/potential/genius.png",
     "Perks": [
-        "UNKNOWN", "UNKNOWN", "UNKNOWN"
+        "ID_PK_Multitasker", "ID_PK_CraftMaster", "ID_PK_Technician"
     ]
 }

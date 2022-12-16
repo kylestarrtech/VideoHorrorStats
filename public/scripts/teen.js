@@ -1,5 +1,5 @@
 var contentPanel;
-var categories = ["data/stats/teen/characters/gloria.json", "data/stats/teen/characters/brett.json", "data/stats/teen/characters/leo.json", "data/stats/teen/characters/jess.json", "data/stats/teen/characters/faith.json", "data/stats/teen/actions.json", "data/stats/teen/comms.json", "data/stats/teen/healing.json", "data/stats/teen/movement.json"]
+var categories = ["data/stats/teen/characters/gloria.json", "data/stats/teen/characters/brett.json", "data/stats/teen/characters/leo.json", "data/stats/teen/characters/jess.json", "data/stats/teen/characters/faith.json", "data/stats/teen/actions.json", "data/stats/teen/comms.json", "data/stats/teen/healing.json", "data/stats/teen/movement.json", "data/stats/teen/characters/reggie.json"]
 
 var perksPath = "data/stats/perks_and_mutations.json";
 var perks;
