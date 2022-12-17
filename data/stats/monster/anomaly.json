@@ -1,6 +1,6 @@
 {
     "Name": "ANOMALY",
-    "Quote": "What is that... that <b>thing</b>?!...",
+    "Quote": "Trust no one",
     "Icon": "public/images/monster/journey/anomaly-full-5-preview.png",
     "Perks": [
         "ID_PK_FeastDrainEssence", "ID_PK_HealSense", "ID_PK_IncorporealMaster"
