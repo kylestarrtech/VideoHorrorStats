@@ -1,0 +1,474 @@
+{
+    "Name": "ANOMALY",
+    "Quote": "Trust no one",
+    "Icon": "public/images/monster/journey/anomaly-full-5-preview.png",
+    "Perks": [
+        "ID_PK_FeastDrainEssence", "ID_PK_HealSense", "ID_PK_IncorporealMaster"
+    ],
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.14,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.7m/s)",
+                "ToolTip": "Anomaly`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of Anomaly`s Tension Track."
+            }
+        },
+        {
+            "Name": "Lunge Speed",
+            "Value": 8.61,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Anomaly moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 3.99,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Anomaly moves while recovering from a missed lunge."
+            }
+        }
+    ],
+    "Powers": [
+        {
+            "Name": "Disperse",
+            "Icon": "public/images/monster/powers/anomaly/disperse.png",
+            "Stats": [
+                {
+                    "Name": "Disperse Movement Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The movement speed multiplier applied to Anomaly while using Disperse.",
+                        "Suffix": "(100% extra)"
+                    }
+                },
+                {
+                    "Name": "Disperse Base Cooldown",
+                    "Value": 15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown time of Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Charge Time To Disperse",
+                    "Value": 1.1,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to enter Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Charge Time From Disperse",
+                    "Value": 0,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to exit Disperse early.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Goop Shockwave Range",
+                    "Value": 4,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The range of the Disperse Goop Shockwave when Anomaly exits Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Base Duration",
+                    "Value": 2.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base duration of Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Goop Duration",
+                    "Value": 1.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time a teen is <b>Gooped</b> after Anomaly emerges from Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Gooped Speed Penalty",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The speed penalty teens experience while <b>Gooped</b>.",
+                        "Suffix": "(2.5m/s)"
+                    }
+                },
+                {
+                    "Name": "Disperse Minimum Time Required",
+                    "Value": 1.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The minimum amount of time Anomaly is required to be in Disperse before exiting early.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Mimicry",
+            "Icon": "public/images/monster/powers/anomaly/mimicry.png",
+            "Stats": [
+                {
+                    "Name": "Mimic Base Duration",
+                    "Value": 14,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The maximum duration Anomaly may mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Base Cooldown",
+                    "Value": 40,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown time of Mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Charge Time To Mimic",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to enter Mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Charge Time From Mimic",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to exit Mimic.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Run Duration Penalty Multiplier",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to Anomaly when using Mimicry for its longest duration.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimic Break Flinch Time",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time Anomaly is flinched after being broken out of Mimicry by a weapon.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Scour",
+            "Icon": "public/images/monster/powers/anomaly/scour.png",
+            "Stats": [
+                {
+                    "Name": "Scour Seconds to Expose All",
+                    "Value": 8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes for Anomaly to <b>Expose</b> all teens with Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Base Cooldown",
+                    "Value": 36,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown time of Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Speed Ramp Time",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes for the Scour Radius to begin ramping upwards in speed.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Speed Ramp Base Speed Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The base multiplier speed applied to the scour radius when beginning Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Charge Time To Scour",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to enter Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Charge Time From Scour",
+                    "Value": 0,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time it takes Anomaly to exit Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Exposed Duration",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of lingering time a teen is Exposed post-Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Scour Duration",
+                    "Value": 15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The maximum duration Anomaly can be in Scour.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        }
+    ],
+    "Mutations": [
+        {
+            "Name": "Ripple",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/anomaly/ripple.png",
+            "Stats": [
+                {
+                    "Name": "Disperse Maximum Afterimage Distance",
+                    "Value": 8,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum amount of distance a teen can be in order to have an Afterimage shown at the start of Disperse.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Disperse Afterimage Duration",
+                    "Value": 4,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of the Disperse afterimage.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Gooper",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/anomaly/gooper.png",
+            "Stats": [
+                {
+                    "Name": "Disperse Goop Shockwave Range Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to the Disperse Shockwave Range while running Gooper.",
+                        "Suffix": "(4.8 meters)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Elusive",
+            "PowerID": 0,
+            "Icon": "public/images/monster/mutations/anomaly/elusive.png",
+            "Stats": [
+                {
+                    "Name": "Disperse Mimicking Cooldown Reduction Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to the initial Disperse cooldown when Disperse is used while Mimicking.",
+                        "Suffix": "(7.5s)"
+                    }
+                },
+                {
+                    "Name": "Disperse Non-Mimicking Cooldown Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the initial Disperse cooldown when Disperse is used while not Mimicking",
+                        "Suffix": "(18s)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Malign",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/anomaly/malign.png",
+            "Stats": [
+                {
+                    "Name": "Mimickry Cooldown Reduction",
+                    "Value": 0.1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The cooldown reduction multiplier applied to Mimicry when using Malign.",
+                        "Suffix": "(36s)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Committed",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/anomaly/committed.png",
+            "Stats": [
+                {
+                    "Name": "Committed Base Movement Speed Multiplier",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The base movement speed multiplier applied to Anomaly while mimicking.",
+                        "Suffix": "(5m/s)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Infectious",
+            "PowerID": 1,
+            "Icon": "public/images/monster/mutations/anomaly/infectious.png",
+            "Stats": [
+                {
+                    "Name": "Mimicry Busted Hit Window",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The maximum window between exiting a mimic and hitting a teen required to give a teen the <b>Busted</b> status effect.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimicry Busted Duration",
+                    "Value": 60,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time a teen is <b>Busted</b> for when hit within the hit window while Anomaly is running Infectious.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Mimicry Focus Time Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The focus time penalty multiplier applied to Mimicry while running Infectious.",
+                        "Suffix": "(1.875s)"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Seething",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/anomaly/seething.png",
+            "Stats": [
+                {
+                    "Name": "Seething Rage Gain",
+                    "Value": 1,
+                    "Unit": "%/s",
+                    "Misc": {
+                        "ToolTip": "The amount of Rage Anomaly gains while Scouring and running Seething.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Startling",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/anomaly/startling.png",
+            "Stats": [
+                {
+                    "Name": "Startling Jammed Extension Duration",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The extension applied to the <b>Jammed</b> status effect when using Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Startling Teen Speed Bonus Extension Duration",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The extension applied to the speed bonus armed teens receive when using Scour.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Startling Teen Speed Bonus Multiplier",
+                    "Value": 0.15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to armed teens when Anomaly is Scouring and for the extension window afterwards.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Slinking",
+            "PowerID": 2,
+            "Icon": "public/images/monster/mutations/anomaly/slinking.png",
+            "Stats": [
+                {
+                    "Name": "Slinking Movement Speed Multiplier",
+                    "Value": 0.35,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The movement speed multiplier applied to Anomaly while Scouring and running Slinking.",
+                        "Suffix": "(2m/s)"
+                    }
+                }
+            ]
+        }
+    ],
+    "Audio": {
+        "TENS": [
+        ]
+    }
+}

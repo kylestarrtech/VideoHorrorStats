@@ -43,7 +43,7 @@ app.get('/journeys', (req, res) => {
 })
 
 app.get('/weapons', (req, res) => {
-  res.render('weapons.pug')
+  res.render('wip.pug')
 })
 
 app.get('/creatorhub', (req, res) => {

@@ -550,7 +550,7 @@
                     "W": false
                 },
                 "Cost": "CPV:CT_Nerd:PNT_Aura:1",
-                "Rewards": "ID_PK_StationVision"
+                "Rewards": "ID_PK_Technician"
             },
             "PlotTwist1": {
                 "x": 2,
@@ -1827,7 +1827,7 @@
                     "W": false
                 },
                 "Cost": "CPV:CT_Nerd:PNT_Aura:2",
-                "Rewards": "ID_PK_StationVision"
+                "Rewards": "ID_PK_Technician"
             },
             "PerkPoint3": {
                 "x": 3,
@@ -2629,7 +2629,7 @@
                     "W": false
                 },
                 "Cost": "CPV:CT_Nerd:PNT_Aura:2",
-                "Rewards": "ID_PK_StationVision"
+                "Rewards": "ID_PK_Technician"
             },
             "5,0": {
                 "x": 5,

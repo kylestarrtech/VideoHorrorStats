@@ -35,10 +35,10 @@
                 },
                 {
                     "Name": "Crawl Speed Multiplier",
-                    "Value": 0.15,
+                    "Value": 0.2,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "(0.75m/s)",
+                        "Suffix": "(1m/s)",
                         "ToolTip": "The multiplier applied to teen movement speed when in the Prone state."
                     }
                 },
@@ -73,6 +73,15 @@
                     "Unit": "s",
                     "Misc": {
                         "ToolTip": "The duration of the movement speed boost that is applied after being attacked by the Monster."
+                    }
+                },
+                {
+                    "Name": "Default Stagger Movement Penalty Multiplier",
+                    "Value": 0.33,
+                    "Unit": "",
+                    "Misc": {
+                        "Suffix": "(1.65m/s)",
+                    "ToolTip": "The movement speed penalty multiplier applied to teen movement speed while Staggered."
                     }
                 }
             ]

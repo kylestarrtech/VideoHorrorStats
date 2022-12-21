@@ -12,14 +12,18 @@ html
         h1#ContentType MONSTER STATS
         div#ToolTip(hidden="")
         div.MonsterButtons
-            button.MonsterSelect(onclick="UpdateSelectedCategory(0)")
+            button.MonsterSelect(onclick="UpdateSelectedCategory(0, false)")
+                img(src="public/images/header/monster/base.png" height="125px")
+            button.MonsterSelect(onclick="UpdateSelectedCategory(1, true)")
                 img(src="public/images/monster/werewolf.png" height="125px")
-            button.MonsterSelect(onclick="UpdateSelectedCategory(1)")
+            button.MonsterSelect(onclick="UpdateSelectedCategory(2, true)")
                 img(src="public/images/monster/wart.png" height="125px")
-            button.MonsterSelect(onclick="UpdateSelectedCategory(2)")
+            button.MonsterSelect(onclick="UpdateSelectedCategory(3, true)")
                 img(src="public/images/monster/dollmaster.png" height="125px")
-            button.MonsterSelect(onclick="UpdateSelectedCategory(3)")
+            button.MonsterSelect(onclick="UpdateSelectedCategory(4, true)")
                 img(src="public/images/monster/deathwire.png" height="125px")
+            button.MonsterSelect(onclick="UpdateSelectedCategory(6, true)")
+                img(src="public/images/monster/anomaly.png" height="125px")
         div#contentpanel
         include footer
         include disclaimer

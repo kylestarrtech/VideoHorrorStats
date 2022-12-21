@@ -1,0 +1,237 @@
+{
+    "Name": "HEISENBERG",
+    "Quote": "Say my name.",
+    "Icon": "public/images/monster/journey/heisenberg-full2.png",
+    "Perks": [
+        "UNKNOWN", "UNKNOWN", "UNKNOWN"
+    ],
+    "Base_Stats": [
+        {
+            "Name": "Movement Speed Multiplier",
+            "Value": 1.10,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(5.5m/s)",
+                "ToolTip": "Heisenberg`s movement speed multiplier."
+            }
+        },
+        {
+            "Name": "Tension Track Size",
+            "Value": 36,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of Heisenberg`s Tension Track."
+            }
+        },
+        {
+            "Name": "Tension Track Fulminate of Mercury Multiplier",
+            "Value": 0.1,
+            "Unit": "",
+            "Misc": {
+                "Suffix": "(39.60m)",
+                "ToolTip": "The multiplier applied to Heisenberg`s Tension Track radius when charging his Hg(CNO)2 attack."
+            }
+        },
+        {
+            "Name": "Lunge Speed",
+            "Value": 8.45,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Heisenberg moves during a lunge."
+            }
+        },
+        {
+            "Name": "Lunge Recovery Speed",
+            "Value": 3.92,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed at which Heisenberg moves while recovering from a missed lunge."
+            }
+        }
+    ],
+    "Powers": [
+        {
+            "Name": "Fulminate of Mercury",
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "Fulminate of Mercury Charges",
+                    "Value": 3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum detonation charges of Fulminate of Mercury Heisenberg may carry."
+                    }
+                },
+                {
+                    "Name": "Fulminate of Mercury Focus Time",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time required for Heisenberg to focus Fulminate of Mercury"
+                    }
+                },
+                {
+                    "Name": "Fulminate of Mercury Max Range",
+                    "Value": 30,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range Heisenberg may throw a detonation charge."
+                    }
+                },
+                {
+                    "Name": "Fulminate of Mercury Detonation Charge Speed",
+                    "Value": 10,
+                    "Unit": "m/s",
+                    "Misc": {
+                        "ToolTip": "The speed of Heisenberg`s Fulminate of Mercury detonation charge."
+                    }
+                },
+                {
+                    "Name": "Fulminate of Mercury Base Cooldown",
+                    "Value": 15,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The base cooldown for Heisenberg`s Fulminate of Mercury."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "The One Who Knocks",
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "The One Who Knocks Focus Time",
+                    "Value": 2,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The time required for Heisenberg to focus The One Who Knocks."
+                    }
+                },
+                {
+                    "Name": "The One Who Knocks Minimum Teen Range",
+                    "Value": 5,
+                    "Unit": "m",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The minimum range a Blue Sky Portal may spawn from any teen."
+                    }
+                },
+                {
+                    "Name": "The One Who Knocks Maximum Teen Range",
+                    "Value": 5,
+                    "Unit": "m",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The maximum range a Blue Sky Portal may spawn from any teen."
+                    }
+                },
+                {
+                    "Name": "The One Who Knocks Chance To Speak",
+                    "Value": 25,
+                    "Unit": "%",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The likelihood of Heisenberg announcing his presence via a Blue Sky Portal with a voiceline such as `I am the danger.` and `Say my name.`"
+                    }
+                },
+                {
+                    "Name": "The One Who Knocks Teleport Time",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The amount of time Heisenberg takes to teleport to a Blue Sky Portal."
+                    }
+                },
+                {
+                    "Name": "The One Who Knocks Cooldown",
+                    "Value": 30,
+                    "Unit": "s",
+                    "Misc": {
+                        "Suffix": "",
+                        "ToolTip": "The base cooldown for Heisenberg`s The One Who Knocks."
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Crawl Space",
+            "Icon": "",
+            "Stats": [
+                {
+                    "Name": "Crawl Space Focus Time",
+                    "Value": 0.75,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The time required for Heisenberg to focus Crawl Space."
+                    }
+                },
+                {
+                    "Name": "Crawl Space Cooldown",
+                    "Value": 12,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The base cooldown for Heisenberg`s Crawl Space."
+                    }
+                },
+                {
+                    "Name": "Crawl Space Maximum Charges",
+                    "Value": 2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum amount of dichlorodiethyl sulfide charges Heisenberg may carry."
+                    }
+                },
+                {
+                    "Name": "Crawl Space Maximum Range",
+                    "Value": 20,
+                    "Unit": "m",
+                    "Misc": {
+                        "ToolTip": "The maximum range Heisenberg may throw a dichlorodiethyl sulfide charge."
+                    }
+                },
+                {
+                    "Name": "Crawl Space Chemical Laceration Time",
+                    "Value": 5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time teens have <b>Chemical Laceration</b> when stepping into dichlorodiethyl sulfide gas."
+                    }
+                }
+            ]
+        }
+    ],
+    "Mutations": [
+
+    ],
+    "Audio": {
+        "Pages": [
+            "Music"
+        ],
+        "TENS": [
+            {
+                "Name": "Base",
+                "Page": 0,
+                "Path": "data/sounds/deathwire/tension/base.ogg"
+            },
+            {
+                "Name": "Close",
+                "Page": 0,
+                "Path": "data/sounds/heisenberg/tension/close.ogg"
+            },
+            {
+                "Name": "Closer",
+                "Page": 0,
+                "Path": "data/sounds/heisenberg/tension/closer.ogg"
+            },
+            {
+                "Name": "Chased",
+                "Page": 0,
+                "Path": "data/sounds/heisenberg/tension/chased.ogg"
+            }
+        ]
+    }
+}
