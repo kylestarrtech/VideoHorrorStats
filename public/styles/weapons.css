@@ -82,9 +82,6 @@
     box-shadow: -1px 0px 0px #00ffffff, 1px 0px 0px #ff00ffff;
 }
 
-.StigmaIconDivider::after {
-}
-
 .WeaponTitle {
     font-size: 64px;
     text-align: center;
@@ -115,14 +112,6 @@
 
 .WeaponCard {
     width: 80%;
-}
-
-.StigmaCard {
-
-}
-
-.StigmaCard:hover {
-    
 }
 
 .StigmaCardContainer {
@@ -157,10 +146,6 @@
 
 .StigmaTData {
     height: 100%;
-}
-
-.StigmaImage {
-    
 }
 
 .WeaponImage {
