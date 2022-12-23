@@ -115,11 +115,17 @@
 .MonsterButtons {
     margin-left: 4.5%;
     margin-right: 4.5%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 91%;
+    align-items: center;
+    justify-items: center;
 }
 
 .MonsterSelect {
     background-color: #31003180;
-    width: 15.6%;
+    width: 90%;
     
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -129,16 +135,64 @@
     border-style: solid;
     box-shadow: 0px 0px 10px #00eeff80;
     border-radius: 20px;
-    border-width: 5px;
+    border-width: 3px;
     border-color: #00eeff;
+    
+    transition: all 0.25s;
 
     cursor: pointer;
 }
 
-.MonsterSelect:hover {
-    animation-name: MonsterSelectHover;
-    animation-duration: 0.25s;
+.MonsterSelect img {
+    height: 125px;
+    transition: all 0.2s;
 }
+
+.MonsterSelect:hover {
+    background-color: #361836d5;
+    box-shadow: 0px 0px 10px #ff00bf80, -2px 0px 0px #00ffffff, 2px 0px 0px #ff00ffff;
+    border-color: #0099ff;
+
+    width: 100%;
+    height: 100%;
+}
+
+.MonsterSelect:hover img {
+    height: 135px;
+}
+
+.MonsterSelect:active {
+    background-color: #361836d5;
+    box-shadow: 0px 0px 10px #ff00bf80, -1px 0px 0px #00ffffff, 1px 0px 0px #ff00ffff;
+    border-color: #00c3ff;
+
+    width: 95%;
+    height: 95%;
+}
+
+.MonsterSelect:active img {
+    height: 130px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .MonsterButtons {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .MonsterButtons {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .MonsterButtons {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 
 .notmonster-spacer {
     width: 100%;

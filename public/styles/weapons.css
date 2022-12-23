@@ -1,9 +1,9 @@
 .StigmaFlexContainer {
     background-color: #31003160;
     border-style: solid;
-    box-shadow: 0px 0px 10px #00eeff80;
+    box-shadow: 0px 0px 0px #00eeff80;
     border-color: #00eeff;
-    border-width: 5px;
+    border-width: 0px;
     border-radius: 20px;
 
     display: grid;
@@ -20,12 +20,19 @@
     position:relative;
 }
 
+@media only screen and (max-width: 1280px) {
+    .StigmaFlexContainer {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
 .WeaponFlexContainer {
     background-color: #31003160;
     border-style: solid;
-    box-shadow: 0px 0px 10px #00eeff80;
+    box-shadow: 0px 0px 0px #00eeff80;
     border-color: #00eeff;
-    border-width: 5px;
+    border-width: 0px;
     border-radius: 10px;
 
     height: auto;
@@ -189,6 +196,331 @@
     text-align: center;
     z-index: 2;
     position: relative;
+}
+
+.weapon-stats-panel {
+    background-color: #13001393;
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.weapon-title-text {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.weapon-stigma-img {
+    height: 90px;
+}
+
+.weapon-base-stats-panel {
+    width: 95%;
+
+    display: grid;
+    grid-template-columns: 4fr 10fr;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+    .weapon-base-stats-panel {
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr;
+        justify-content: unset;
+        gap: 5px;
+        width: 100%;
+        margin: 5%;
+    }
+}
+
+.weapon-thumbnail {
+    text-align: center;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.weapon-stats-subtitle {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 0px;
+    color: #ffffff;
+    text-shadow: 4px 0px 0px #ff00ff, -4px 0px 0px #00ffff, 0px 0px 10px #ffffff;
+    letter-spacing: 10px;
+}
+
+.weapon-statscategory {
+    width: 95%;
+    height: max-content;
+    margin: 2.5%;
+    padding-bottom: 2.5%;
+
+    background-color: #31003170;
+    border-radius: 10px;
+    text-align: center;
+
+    transition: all 0.5s;
+}
+
+.weapon-description {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
+    font-size: 28px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 4px #ffffff;
+
+    cursor: default;
+
+    user-select: none;
+}
+
+.weapon-stat-descriptor {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 4px #ffffff;
+
+    user-select: none;
+}
+
+.weapon-stat-container {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: auto;
+    
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+    gap: 3px;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+
+.weapon-stat-container:hover {
+    background-color: #ffffff80;
+    box-shadow: 0px 0px 10px #ffffff80;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.stats-table {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3px;
+}
+
+.weapon-stat-container div {
+    background-color: #00000080;
+
+    transition: all 0.25s;
+}
+
+.weapon-stat-container:hover .weapon-stat-descriptor {
+    font-weight: 500;
+}
+
+.weapon-stat-number {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 6px #ffffff;
+}
+
+.weapon-mod-flex {
+    width: 90%;
+    padding: 1%;
+    margin: auto;
+
+    background-color: #00000080;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: auto;
+}
+
+.weapon-mod-button {
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    border-style: none;
+
+    border-radius: 10px;
+
+    background-color: #31003170;
+
+    transition: all 0.25s;
+}
+
+.weapon-mod-button img {
+    width: 90%;
+    border-radius: 10px;
+
+    filter: grayscale(0.75) blur(1px);
+
+    transition: all 0.25s;
+}
+
+.weapon-mod-button:hover {
+    width: 140px;
+    height: 140px;
+
+    border-radius: 30px;
+
+    background-color: #b94bb970;
+    box-shadow: 0px 0px 20px #ff00ea;
+
+    cursor: pointer;
+}
+
+.weapon-mod-button:hover img {
+    width: 95%;
+    border-radius: 30px;
+
+    filter: grayscale(0.1) blur(0px);
+
+    box-shadow: 0px 0px 10px #ffffff80;
+}
+
+.weapon-mod-button:active {
+    width: 134px;
+    height: 134px;
+
+    border-radius: 15px;
+
+    background-color: #b94bb970;
+    box-shadow: 0px 0px 10px #ff00ea;
+
+    cursor: pointer;
+}
+
+.weapon-mod-button:active img {
+    width: 92.5%;
+    border-radius: 15px;
+
+    filter: grayscale(0.25) blur(0px);
+
+    box-shadow: 0px 0px 5px #ffffff80;
+}
+
+.selected-weapon-mod {
+    width: 134px;
+    height: 134px;
+
+    border-radius: 15px;
+
+    background-color: #e441e48a;
+    box-shadow: 0px 0px 12.5px #ff00eaff;
+
+    cursor: default;
+}
+
+.selected-weapon-mod img {
+    width: 92.5%;
+    border-radius: 15px;
+
+    box-shadow: 0px 0px 25px #ffffffff;
+
+    filter: grayscale(0) blur(0px);
+}
+
+.weapon-mod-level {
+    text-align: right;
+    float: right;
+    font-weight: 300;
+    color: #ffffff80;
+
+    font-size: 1.5rem;
+
+    text-transform: uppercase;
+}
+
+.weapon-mod-stats-icon {
+    border-radius: 10px;
+}
+
+.weapon-mod-stats-grid-container {
+    width: 95%;
+    height: fit-content;
+    margin: 2.5%;
+    margin-bottom: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.weapon-mod-description-container {
+    height: 100%;
+    background-color: #00000050;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: auto;
+}
+
+.weapon-mod-stats-container {
+    height: 100%;
+    background-color: #00000050;
+    border-radius: 10px;
+    padding: 2.5%;
+    margin: auto;
+    margin-bottom: 0px
+}
+
+.weapon-mod-description {
+    font-weight: 400;
+    font-size: 1.4rem;
+
+    text-shadow: 1px 0px 0px #ff00ff, -1px 0px 0px #00ffff, 0px 0px 6px #ffffff;
+}
+
+@media only screen and (max-width: 1150px) {
+    .weapon-mod-stats-grid-container {
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .weapon-mod-stats-container {
+        height: fit-content;
+        width: 95%;
+    }
+
+    .weapon-mod-description-container {
+        height: fit-content;
+        width: 95%;
+    }
 }
 
 @keyframes WeaponSelectHover {

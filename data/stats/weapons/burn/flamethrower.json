@@ -3,6 +3,53 @@
     "Stigma": "burn",
     "Stigma_ID": 0,
     "Icon": "public/images/weapons/burn/flamethrower.png",
+    "Base_Stats": [
+        {
+            "Name": "Crafting Time",
+            "Value": 42,
+            "Unit": "s",
+            "Misc": {
+                "Suffix": "",
+                "ToolTip": "The amount of time it takes to craft the Flamethrower."
+            }
+        },
+        {
+            "Name": "Base Lifetime",
+            "Value": 8.5,
+            "Unit": "s",
+            "Misc": {
+                "Suffix": "",
+                "ToolTip": "The amount of time you can fire a Flamethrower for before it is fully depleted."
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "Suffix": "The amount of time consistent damage is to be done to the monster with the Flamethrower in order to Wound or Stun it.",
+                "ToolTip": ""
+            }
+        },
+        {
+            "Name": "Maximum Range",
+            "Value": 9,
+            "Unit": "m",
+            "Misc": {
+                "Suffix": "",
+                "ToolTip": "The maximum range of the Flamethrower."
+            }
+        },
+        {
+            "Name": "Time to Reach Max Range",
+            "Value": 0.5,
+            "Unit": "s",
+            "Misc": {
+                "Suffix": "(4.5m/s)",
+                "ToolTip": "The amount of time it takes for the Flamethrower`s flames to reach the maximum range."
+            }
+        }
+    ],
     "Stats": [
         {
             "Name": "",
@@ -98,7 +145,8 @@
     "Mods": [
         {
             "Name": "",
-            "Level": 0,
+            "Icon": "",
+            "Level": 2,
             "Description": "",
             "Stats": [
                 {
@@ -114,7 +162,8 @@
         },
         {
             "Name": "",
-            "Level": 0,
+            "Icon": "",
+            "Level": 6,
             "Description": "",
             "Stats": [
                 {
@@ -130,7 +179,8 @@
         },
         {
             "Name": "",
-            "Level": 0,
+            "Icon": "",
+            "Level": 10,
             "Description": "",
             "Stats": [
                 {
@@ -146,7 +196,8 @@
         },
         {
             "Name": "",
-            "Level": 0,
+            "Icon": "",
+            "Level": 14,
             "Description": "",
             "Stats": [
                 {
@@ -162,7 +213,8 @@
         },
         {
             "Name": "",
-            "Level": 0,
+            "Icon": "",
+            "Level": 17,
             "Description": "",
             "Stats": [
                 {

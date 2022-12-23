@@ -279,6 +279,11 @@ function UpdateToolTipPosition() {
 
     tooltip.style.top = (cY + 5 + document.documentElement.scrollTop) + "px";
     tooltip.style.left = (cX + 5) + "px";
+
+    let width = tooltip.clientWidth;
+    if (cX + width + 25 > window.innerWidth) {
+        tooltip.style.left = (window.innerWidth - width - 25) + "px";
+    }
 }
 
 function ShowToolTip(tooltipText) {

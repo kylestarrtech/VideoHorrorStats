@@ -53,5 +53,92 @@ html
                 div#enigma-btn(class="WeaponImage WeaponBtn")
                     img.StigmaImageSrc(src="public/images/weapons/curse/enigma.png" draggable="false")
         div#contentpanel
+            div.weapon-stats-panel
+                div.weapon-title-text
+                    img.weapon-stigma-img(src="public/images/stigmas/burn-white.png" draggable="false")
+                    h1.TeenTitle FLAMETHROWER
+                div.weapon-base-stats-panel
+                    div.weapon-thumbnail
+                        img(src="public/images/weapons/burn/flamethrower.png")
+                    div.weapon-statscategory
+                        h1.weapon-stats-subtitle BASE STATS
+                        div.weapon-description
+                            p Shoots a scalding steam of flames up to 9 meters away to burn the monster.
+                        div.stats-table
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Crafting Time:
+                                div.weapon-stat-number 42s
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Base Lifetime:
+                                div.weapon-stat-number 8.5s
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Required Damage Time:
+                                div.weapon-stat-number 2s
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Range:
+                                div.weapon-stat-number 9m
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Time to Reach Max Range:
+                                div.weapon-stat-number 0.5s
+                div.weapon-statscategory
+                    div.weapon-stats-subtitle DETAILED STATISTICS
+                    hr.headerDivider
+                    div.weapon-description
+                        p Below are more intricate stats on the Flamethrower that are not readily available in-game:
+                    div.stats-table
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Crafting Time:
+                                div.weapon-stat-number 42s
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Base Lifetime:
+                                div.weapon-stat-number 8.5s
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Required Damage Time:
+                                div.weapon-stat-number 2s
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Range:
+                                div.weapon-stat-number 9m
+                            div.weapon-stat-container
+                                div.weapon-stat-descriptor Time to Reach Max Range:
+                                div.weapon-stat-number 0.5s
+                div.weapon-statscategory
+                    h1.weapon-stats-subtitle WEAPON MODS
+                    hr.headerDivider
+                    div.weapon-description
+                        p Select a mod below to view detailed weapon statistics on it:
+                    div.weapon-mod-flex
+                        button.weapon-mod-button(class="selected-weapon-mod")
+                            img(src="public/images/weapons/mods/flareup.png" draggable="false")
+                        button.weapon-mod-button
+                            img(src="public/images/weapons/mods/underpressure.png" draggable="false")
+                        button.weapon-mod-button
+                            img(src="public/images/weapons/mods/onfumes.png" draggable="false")
+                        button.weapon-mod-button
+                            img(src="public/images/weapons/mods/cheapfuel.png" draggable="false")
+                        button.weapon-mod-button
+                            img(src="public/images/weapons/mods/burnout.png" draggable="false")
+                    div.weapon-statscategory
+                        div.weapon-title-text
+                            img.weapon-stigma-img(class="weapon-mod-stats-icon" src="public/images/weapons/mods/flareup.png" draggable="false")
+                            h1.TeenTitle FLARE UP
+                            h1.weapon-mod-level Level 2
+                        hr.headerDivider
+                        div.weapon-mod-stats-grid-container
+                            div.weapon-mod-description-container
+                                div.weapon-stats-subtitle DESCRIPTION
+                                p.weapon-mod-description <span class="MutNEU">*</span> After firing the <strong>Flamethrower</strong> for <span class="PerkDescBlue">0.5 seconds</span> and for <span class="PerkDescRed">2.75 seconds</span> afterwards, your aura will be shown to the monster and other teens.
+                            div.weapon-mod-stats-container
+                                div.weapon-stats-subtitle STATISTICS
+                                br
+                                div.stats-table
+                                    div.weapon-stat-container
+                                        div.weapon-stat-descriptor Required Initial Fire Time:
+                                        div.weapon-stat-number 0.5s
+                                    div.weapon-stat-container
+                                        div.weapon-stat-descriptor Aura Reveal Time:
+                                        div.weapon-stat-number 2.75s
+
+
+
         include footer
         include disclaimer

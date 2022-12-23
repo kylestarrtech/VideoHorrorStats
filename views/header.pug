@@ -1,6 +1,7 @@
 link(href="public/styles/header.css" rel="stylesheet")
 script(src="public/scripts/header.js" type="text/javascript" onload="main()")
 
+div.mobile-header-extension
 div#header
     img#MainLogo(class="MainButton", src="public/images/logos/logo-small-nofx.png", onmouseenter="HighlightLogo(true)", onmouseleave="HighlightLogo(false)", onclick="UpdateSelectedPage(0)")
     img.RoleButton(id="teenRoleButton", onmouseenter="HighlightButton('teen')", onmouseleave="UnhighlightButton('teen')", src="public/images/header/teen/base.png", width="150px", alt="Teen", onclick="UpdateSelectedPage(1)")
