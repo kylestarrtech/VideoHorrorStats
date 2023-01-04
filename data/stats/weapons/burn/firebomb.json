@@ -1,0 +1,286 @@
+{
+    "Name": "Fire Bomb",
+    "StigmaID": 0,
+    "IconPath": "public/images/weapons/burn/firebomb.png",
+    "Description": "Take aim and launch this volatile cocktail that explodes on impact. The flaming debris spreads up to 3.2 meters away, burning any monster in its radius.",
+    "BaseStats": [
+        {
+            "Name": "Crafting Time",
+            "Value": 35,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The base crafting time of the Fire Bomb",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Ammunition",
+            "Value": 1,
+            "Unit": "bottle",
+            "Misc": {
+                "ToolTip": "The base amount of bottles given to you when crafting the Fire Bomb.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Maximum Throw Distance",
+            "Value": 20,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The default maximum amount of throw distance on the Fire Bomb.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of continuous damage required by the Fire Bomb in order to wound or stun the monster.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Maximum Fire Radius",
+            "Value": 3.2,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The radius of the fire pool when the Fire Bomb has detonated.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "DetailedStats": [
+        {
+            "Name": "Maximum Flame Lifetime",
+            "Value": 10,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The default lifetime of the flame pool when the Fire Bomb has been detonated.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Maximum Thrown Lifetime",
+            "Value": 10,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The default amount of lifetime of a Fire Bomb in the thrown state <strong>This value may be incorrect!</strong>.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Flame Debris Fade Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The default amount of time it takes for the flame debris from the Fire Bomb to dissipate.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Flame Debris Spread Levels",
+            "Value": 4,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The amount of visual spreads on the Fire Bomb debris. This value is purely visual.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Flame Debris Spread Offset",
+            "Value": 0.2,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The offset between the different spreads of the flame debris. This value is purely visual.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Flame Debris Vertical Spread",
+            "Value": 0.6,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The vertical spread between the flame debris (assumed to be the flames that fall when you hit a ceiling with the Fire Bomb). <strong>This value may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Maximum Damage Zones",
+            "Value": 1,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The number of different zones in the flame debris that could damage the monster. <strong>This value may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Minimum Debris Speed",
+            "Value": 0.5,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The minimum speed of the flame debris projectiles upon the detonation of the Fire Bomb.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Maximum Debris Speed",
+            "Value": 1.2,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The maximum speed of the flame debris projectiles upon the detonation of the Fire Bomb.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Warmup Time",
+            "Value": 0.55,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The default amount of time it takes for the Fire Bomb to warm up initially when trying to throw it.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "WeaponMods": [
+        {
+            "Name": "Bottled Up",
+            "IconPath": "public/images/weapons/mods/bottledup.png",
+            "Level": 2,
+            "Description": "<span class=\"MutPOS\">+</span> You can now create <span class=\"PerkDescBlue\">1</span> additional <strong>Fire Bomb</strong> when crafted.<br><span class=\"MutNEG\">-</span> The crafting time of the <strong>Fire Bomb</strong> is increased by <span class=\"PerkDescYellow\">40%</span>.",
+            "Stats": [
+                {
+                    "Name": "Extra Bottle Amount",
+                    "Value": 1,
+                    "Unit": " bottle",
+                    "Misc": {
+                        "ToolTip": "The extra number of bottles received from running Bottled Up.",
+                        "Suffix": "1 -> 2"
+                    }
+                },
+                {
+                    "Name": "Bottled Up Craft Speed Penalty Multiplier",
+                    "Value": 0.4,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The craft speed penalty multiplier applied to crafting Fire Bombs when running Bottled Up.",
+                        "Suffix": "35s ->49s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "To The Brim",
+            "IconPath": "public/images/weapons/mods/tothebrim.png",
+            "Level": 6,
+            "Description": "<span class=\"MutPOS\">+</span> The <strong>Fire Bomb</strong> flames burn for <span class=\"PerkDescBlue\">25%</span> longer.<br><span class=\"MutNEG\">-</span> The distance the <strong>Fire Bomb</strong> can be thrown is reduced by <span class=\"PerkDescYellow\">25%</span>.",
+            "Stats": [
+                {
+                    "Name": "Debris Lifetime Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The multiplier applied to the Fire Bomb debris lifetime when running To The Brim.",
+                        "Suffix": "10s -> 12.5s"
+                    }
+                },
+                {
+                    "Name": "Range Reduction Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the range of the Fire Bomb's throw.",
+                        "Suffix": "20m -> 15m"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Hot Foot",
+            "IconPath": "public/images/weapons/mods/hotfoot.png",
+            "Level": 10,
+            "Description": "<span class=\"MutPOS\">+</span> Teens that enter the flames of your <strong>Fire Bomb</strong> will gain a <span class=\"PerkDescBlue\">25%</span> speed boost for the next <span class=\"PerkDescYellow\">2 seconds</span>.<br><span class=\"MutNEG\">-</span> The <strong>Fire Bomb</strong> flames burn out <span class=\"PerkDescOrange\">25%</span> sooner.",
+            "Stats": [
+                {
+                    "Name": "Teen Movement Speed Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The movement speed multiplier applied to teen movement speed when meeting the conditions of Hot Foot.",
+                        "Suffix": "5m/s -> 6.25m/s"
+                    }
+                },
+                {
+                    "Name": "Debris Lifetime Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the lifetime of the Fire Bomb debris.",
+                        "Suffix": "10s -> 7.5s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Lasting Burns",
+            "IconPath": "public/images/weapons/mods/lastingburns.png",
+            "Level": 14,
+            "Description": "<span class=\"MutPOS\">+</span> If the monster escapes from damage dealt by your <strong>Fire Bomb</strong> they will be slowed by <span class=\"PerkDescBlue\">30%</span> for <span class=\"PerkDescYellow\">3 seconds</span>.<br><span class=\"MutNEG\">-</span> The <strong>Fire Bomb</strong> takes an additional <span class=\"PerkDescOrange\">0.15 seconds</span> to be ready to throw.",
+            "Stats": [
+                {
+                    "Name": "Speed Penalty Bonus Multiplier",
+                    "Value": 0.3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the monster's movement speed when escaping damage from a Fire Bomb running Lasting Burns.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Speed Penalty Duration",
+                    "Value": 3,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The duration of the penalty applied to the monster's movement speed when escaping damage from a Fire Bomb running Lasting Burns.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Added Warmup Penalty",
+                    "Value": 0.15,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The extra duration added to the warmup time of the Fire Bomb.",
+                        "Suffix": "0.55s -> 0.7s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "All in The Wrist",
+            "IconPath": "public/images/weapons/mods/allinthewrist.png",
+            "Level": 17,
+            "Description": "<span class=\"MutNEU\">*</span> The <strong>Fire Bomb</strong> now bounces a single time when hitting a surface before exploding.",
+            "Stats": [
+                {
+                    "Name": "Bounciness Constant",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bounciness constant applied to a Fire Bomb running All in The Wrist. The higher the value, the more bouncy it is (0 to 1 range).",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Number of Bounces",
+                    "Value": 1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The number of bounces the Fire Bomb will do before detonating.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

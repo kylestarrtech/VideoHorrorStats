@@ -101,7 +101,7 @@ html
                             div.weapon-stat-container
                                 div.weapon-stat-descriptor Time to Reach Max Range:
                                 div.weapon-stat-number 0.5s
-                div.weapon-statscategory
+                div.weapon-statscategory(id="weapon-mod-main-category")
                     h1.weapon-stats-subtitle WEAPON MODS
                     hr.headerDivider
                     div.weapon-description
@@ -117,7 +117,7 @@ html
                             img(src="public/images/weapons/mods/cheapfuel.png" draggable="false")
                         button.weapon-mod-button
                             img(src="public/images/weapons/mods/burnout.png" draggable="false")
-                    div.weapon-statscategory
+                    div.weapon-statscategory(class="weapon-mod-container")
                         div.weapon-title-text
                             img.weapon-stigma-img(class="weapon-mod-stats-icon" src="public/images/weapons/mods/flareup.png" draggable="false")
                             h1.TeenTitle FLARE UP

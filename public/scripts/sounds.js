@@ -5,7 +5,7 @@ console.log("Sounds Loaded!");
 
 function main() {
     console.log("Start");
-    SelectID(0);
+    SelectMonsterType(3);
 }
 
 function SelectID(index) {

@@ -1,0 +1,295 @@
+{
+    "Name": "Solar Flare",
+    "StigmaID": 0,
+    "IconPath": "public/images/weapons/burn/solarflare.png",
+    "Description": "Deploys a solar powered sentry with an attack range of up to 8.2 meters. When directed, the sentry will shoot a beam of energy that inflicts damage to a monster in range.\r\n\r\nThe weapon will lose charge while fired or while the sentry has sight of the monster.",
+    "BaseStats": [
+        {
+            "Name": "Crafting Time",
+            "Value": 42,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The base crafting time of the Solar Flare",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Lifetime",
+            "Value": 8.5,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time the Solar Flare can continuously or gradually be fired from full charge before being completely depleted.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of continuous damage required by the Solar Flare in order to wound or stun the monster.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Range",
+            "Value": 8.2,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The default range of the Solar Flare's beam.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "DetailedStats": [
+        {
+            "Name": "Summoning Time",
+            "Value": 0.7,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The base time it takes to summon the Solar Flare.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Warmup Time",
+            "Value": 0.4,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Solar Flare to warm up when initially trying to fire it.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Solar Flare Count",
+            "Value": 1,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The default number of Solar Flares that can be spawned at once.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Warmup Charge Reduction Multiplier",
+            "Value": 0.6,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The multiplier applied to the Solar Flare's charge reduction during warmup.",
+                "Suffix": "11.77c/s -> 7.06c/s"
+            }
+        },
+        {
+            "Name": "Fire Charge Reduction Multiplier",
+            "Value": 0,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The additional multiplier applied to the Solar Flare's charge reduction while firing. It's nothing, so it follows the base charge time.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Percentage Threshold to Create New Mine",
+            "Value": 0.9,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The minimum percentage threshold required to create a new mine when using the summon key.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Percentage Threshold to Cancel Old Mine",
+            "Value": 0.4,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The minimum percentage threshold required to cancel an old mine when using the summon key.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Separation Distance",
+            "Value": 1,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The maximum distance a mine must be and a newly summoned mine must be for the new mine to not override the other. <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster View Minimum Drain Rate",
+            "Value": 0.01,
+            "Unit": "c/s",
+            "Misc": {
+                "ToolTip": "The minimum drain rate the Solar Flare when the monster is in sight of it.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster View Maximum Drain Rate",
+            "Value": 0.8,
+            "Unit": "c/s",
+            "Misc": {
+                "ToolTip": "The maximum drain rate the Solar Flare when the monster is in sight of it.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster View Drain Rate Ramp Time",
+            "Value": 6,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time the monster must be looking at the Solar Flare for it to begin draining at the maximum rate.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster View Max Range",
+            "Value": 20,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The maximum range the monster can be from the Solar Flare in addition to line of sight in order for the Solar Flare to begin draining charges.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster View Drain Decay Multiplier",
+            "Value": 1.5,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The multiplier applied to the drain speed decay when the monster loses view of the Solar Flare within the specified maximum range.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Solar Flare Gravity Multiplier",
+            "Value": 1,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The multiplier applied to the Solar Flare's gravity.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Solar Flare Target Height Offset",
+            "Value": 4.5,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The height offset of the Solar Flare's beam when firing at a target. <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Teen Aim Movement Speed Multiplier",
+            "Value": 0.13,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to teens when aiming the Solar Flare (firing).",
+                "Suffix": "0.65m/s"
+            }
+        }
+    ],
+    "WeaponMods": [
+        {
+            "Name": "Jewel Polish",
+            "IconPath": "public/images/weapons/mods/jewelpolish.png",
+            "Level": 2,
+            "Description": "<span class=\"MutPOS\">+</span> The energy consumed when firing the <strong>Solar Flare</strong> is decreased by <span class=\"PerkDescBlue\">25%</span>.<br><span class=\"MutNEG\">-</span> The <strong>Solar Flare</strong> takes an additional <span class=\"PerkDescYellow\">15%</span> longer to craft.",
+            "Stats": [
+                {
+                    "Name": "Firing Cost Bonus Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the charge consumption while firing the Solar Flare when the user has Jewel Polish equipped.",
+                        "Suffix": "11.77c/s -> 9.41c/s"
+                    }
+                },
+                {
+                    "Name": "Crafting Time Penalty Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the crafting time of the Solar Flare while the user has Jewel Polish equipped.",
+                        "Suffix": "42s -> 48.3s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Blazing Sentry",
+            "IconPath": "public/images/weapons/mods/blazingsentry.png",
+            "Level": 6,
+            "Description": "<span class=\"MutPOS\">+</span> The monster gains the <span class=\"PerkDescRed\">Exposed</span> status effect while within attack range of the sentry.<br><span class=\"MutNEG\">-</span> The time needed to summon a sentry is increased by <span class=\"PerkDescBlue\">25%</span>.",
+            "Stats": [
+                {
+                    "Name": "Summon Time Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the summoning time of the Solar Flare while Blazing Sentry is equipped.",
+                        "Suffix": "0.7s -> 0.875s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Dancing Spark",
+            "IconPath": "public/images/weapons/mods/dancingspark.png",
+            "Level": 10,
+            "Description": "<span class=\"MutNEU\">*</span> Once summoned, the <strong>Solar Flare</strong> will slowly move forward until it collides with a solid obstacle.",
+            "Stats": [
+                {
+                    "Name": "Solar Flare Movement Speed",
+                    "Value": 0.4,
+                    "Unit": "m/s",
+                    "Misc": {
+                        "ToolTip": "The movement speed of the Solar Flare while Dancing Spark is equipped.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Solar Revelation",
+            "IconPath": "public/images/weapons/mods/solarrevelation.png",
+            "Level": 14,
+            "Description": "<span class=\"MutNEU\">*</span> When channeling the <strong>Solar Flare</strong> you will become immobile and your viewpoint will change to the perspective of the summoned sentry.<br><span class=\"MutPOS\">+</span> <span class=\"PerkDescBlue\">50%</span> less energy is used during the warm up period prior to firing the <strong>Solar Flare</strong>.",
+            "Stats": [
+                {
+                    "Name": "Warmup Charge Bonus Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the charge consumption on the Solar Flare during the warmup stage before firing.",
+                        "Suffix": "7.06c/s -> 3.53c/s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Flame Charmer",
+            "IconPath": "public/images/weapons/mods/flamecharmer.png",
+            "Level": 17,
+            "Description": "<span class=\"MutPOS\">+</span> You may summon up to <span class=\"PerkDescBlue\">2</span> sentries at once.<br><span class=\"MutNEG\">-</span> The energy consumed while firing the <strong>Solar Flare</strong> is increased by <span class=\"PerkDescYellow\">50%</span>.",
+            "Stats": [
+                {
+                    "Name": "Maximum Solar Flare Count",
+                    "Value": 2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum amount of Solar Flares that can be spawned when the user has Flame Charmer equipped.",
+                        "Suffix": "1 -> 2"
+                    }
+                },
+                {
+                    "Name": "Firing Cost Penalty Multiplier",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied when firing either Solar Flare while the user has Flame Charmer equipped.",
+                        "Suffix": "11.77c/s -> 23.53c/s"
+                    }
+                }
+            ]
+        }
+    ]
+}

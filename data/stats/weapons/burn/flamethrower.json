@@ -1,16 +1,16 @@
 {
     "Name": "Flamethrower",
-    "Stigma": "burn",
-    "Stigma_ID": 0,
-    "Icon": "public/images/weapons/burn/flamethrower.png",
-    "Base_Stats": [
+    "StigmaID": 0,
+    "IconPath": "public/images/weapons/burn/flamethrower.png",
+    "Description": "Shoots a scalding beam up to 9 meters away to burn the monster.",
+    "BaseStats": [
         {
             "Name": "Crafting Time",
             "Value": 42,
             "Unit": "s",
             "Misc": {
-                "Suffix": "",
-                "ToolTip": "The amount of time it takes to craft the Flamethrower."
+                "ToolTip": "The amount of time required to craft the Flamethrower.",
+                "Suffix": ""
             }
         },
         {
@@ -18,8 +18,8 @@
             "Value": 8.5,
             "Unit": "s",
             "Misc": {
-                "Suffix": "",
-                "ToolTip": "The amount of time you can fire a Flamethrower for before it is fully depleted."
+                "ToolTip": "The amount of time the Flamethrower can continuously or gradually be fired from full charge before being completely depleted.",
+                "Suffix": ""
             }
         },
         {
@@ -27,203 +27,266 @@
             "Value": 2,
             "Unit": "s",
             "Misc": {
-                "Suffix": "The amount of time consistent damage is to be done to the monster with the Flamethrower in order to Wound or Stun it.",
-                "ToolTip": ""
+                "ToolTip": "The amount of continuous damage required by the Flamethrower in order to wound or stun the monster.",
+                "Suffix": ""
             }
         },
         {
-            "Name": "Maximum Range",
+            "Name": "Range",
             "Value": 9,
             "Unit": "m",
             "Misc": {
-                "Suffix": "",
-                "ToolTip": "The maximum range of the Flamethrower."
+                "ToolTip": "The range of the Flamethrower's flames",
+                "Suffix": ""
             }
-        },
+        }
+    ],
+    "DetailedStats": [
         {
             "Name": "Time to Reach Max Range",
             "Value": 0.5,
             "Unit": "s",
             "Misc": {
-                "Suffix": "(4.5m/s)",
-                "ToolTip": "The amount of time it takes for the Flamethrower`s flames to reach the maximum range."
+                "ToolTip": "The amount of time required for the Flamethrower to reach its maximum range.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Time to Ramp Range",
+            "Value": 0.2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Flamethrower to begin expanding its range at an increased speed <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Range Ramp Exponent",
+            "Value": 4,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The exponent used when increasing the range of the Flamethrower's flames <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Damage Decay Timer",
+            "Value": 0.1,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time required after a projectile is no longer damaging the monster to begin reducing the Burn meter.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Fire Rate",
+            "Value": 0.034,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of projectiles per second fired from the Flamethrower.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Falloff Time",
+            "Value": 0.5,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the projectile speed to begin falloff <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Bounciness",
+            "Value": 0.01,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The \"bounciness\" of the Flamethrower projectile. The closer to 0, the less bouncy.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Spawn Offset",
+            "Value": 0.65,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The spawn offset from the player's position at which a Flamethrower projectile is spawned.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Collision Size",
+            "Value": 0.1,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of a Flamethrower projectile.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Projectile Hurtbox Size",
+            "Value": 0.3,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The size of a Flamethrower projectile's hurtbox (the collision that damages the monster)",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Teen Aim Movement Speed Multiplier",
+            "Value": 0.15,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to teens when aiming the Flamethrower (firing).",
+                "Suffix": "0.75m/s"
+            }
+        },
+        {
+            "Name": "Monster Flamethrower Damage Movement Multiplier",
+            "Value": 0.3,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to a monster when being damaged by the Flamethrower.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Flamethrower Warmup Time",
+            "Value": 0.35,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Flamethrower to warm up when initially trying to fire it.",
+                "Suffix": ""
             }
         }
     ],
-    "Stats": [
+    "WeaponMods": [
         {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        },
-        {
-            "Name": "",
-            "Value": 0,
-            "Unit": "",
-            "Misc": {
-                "Suffix": "",
-                "ToolTip": ""
-            }
-        }
-    ],
-    "Mods": [
-        {
-            "Name": "",
-            "Icon": "",
+            "Name": "Flare Up",
+            "IconPath": "public/images/weapons/mods/flareup.png",
             "Level": 2,
-            "Description": "",
+            "Description": "<span class=\"MutNEU\">*</span> After firing the <strong>Flamethrower</strong> for <span class=\"PerkDescBlue\">0.5 seconds</span> and for <span class=\"PerkDescOrange\">2.75 seconds</span> afterwards, your aura will be shown to the monster and other teens.",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
-                    "Unit": "",
+                    "Name": "Aura Reveal Delay Time",
+                    "Value": 0.5,
+                    "Unit": "s",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The delay between firing and revealing your aura to the monster and other teens.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Aura Reveal Duration",
+                    "Value": 2.75,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time your aura is revealed to the monster and other players when firing the Flamethrower and using Flare Up.",
+                        "Suffix": ""
                     }
                 }
             ]
         },
         {
-            "Name": "",
-            "Icon": "",
+            "Name": "Under Pressure",
+            "IconPath": "public/images/weapons/mods/underpressure.png",
             "Level": 6,
-            "Description": "",
+            "Description": "<span class=\"MutPOS\">+</span> The maximum range of the <strong>Flamethrower</strong> is increased by <span class=\"PerkDescBlue\">15%</span>.<br><span class=\"MutNEG\">-</span>When firing, the <strong>Flamethrower</strong> stream takes <span class=\"PerkDescYellow\">0.2 seconds</span> longer to start.",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Range Bonus Multiplier",
+                    "Value": 0.15,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The multiplier applied to the Flamethrower`s range when running Under Pressure.",
+                        "Suffix": "10.35m"
+                    }
+                },
+                {
+                    "Name": "Warmup Time Delay",
+                    "Value": 0.2,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The extra time added to the Flamethrower`s warmup time.",
+                        "Suffix": "0.55s total"
                     }
                 }
             ]
         },
         {
-            "Name": "",
-            "Icon": "",
+            "Name": "On Fumes",
+            "IconPath": "public/images/weapons/mods/onfumes.png",
             "Level": 10,
-            "Description": "",
+            "Description": "<span class=\"MutPOS\">+</span> While injured, the <strong>Flamethrower`s</strong> remaining energy replenishes by <span class=\"PerkDescBlue\">0.8%</span> every second.<br><span class=\"MutNEG\">-</span>The <strong>Flamethrower</strong> consumes <span class=\"PerkDescYellow\">60%</span> more energy when used.",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Ammo Regeneration Rate",
+                    "Value": 0.008,
+                    "Unit": "/s",
+                    "Misc": {
+                        "ToolTip": "The amount of Flamethrower charge that regenerates every second when meeting the conditions of and running On Fumes.",
+                        "Suffix": "0.8%/s"
+                    }
+                },
+                {
+                    "Name": "Ammo Charge Consumption Penalty Multiplier",
+                    "Value": 0.6,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The penalty multiplier applied to the amount of charges used per second when firing the Flamethrower.",
+                        "Suffix": "11.8%/s -> 18.8%/s"
                     }
                 }
             ]
         },
         {
-            "Name": "",
-            "Icon": "",
+            "Name": "Cheap Fuel",
+            "IconPath": "public/images/weapons/mods/cheapfuel.png",
             "Level": 14,
-            "Description": "",
+            "Description": "<span class=\"MutPOS\">+</span> The crafting time of the <strong>Flamethrower</strong> is reduced by <span class=\"PerkDescBlue\">15%</span>.<br><span class=\"MutNEG\">-</span> The <strong>Flamethrower</strong> can only be crafted in a match after the monster has already been wounded by the <strong>Burn</strong> stigma.",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Craft Speed Bonus Multiplier",
+                    "Value": 0.15,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The bonus multiplier applied to the crafting time of the Flamethrower when running Cheap Fuel.",
+                        "Suffix": "42s -> 35.7s"
+                    }   
+                },
+                {
+                    "Name": "Maximum Fire Time",
+                    "Value": 0,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "Unknown/Unused value, only exists for completeness.",
+                        "Suffix": ""
                     }
                 }
             ]
         },
         {
-            "Name": "",
-            "Icon": "",
+            "Name": "Burn Out",
+            "IconPath": "public/images/weapons/mods/burnout.png",
             "Level": 17,
-            "Description": "",
+            "Description": "<span class=\"MutPOS\">+</span> Burn damage dealt by the <strong>Flamethrower</strong> will now reduce the monster's rage meter by <span class=\"PerkDescBlue\">10%</span> per second.<br><span class=\"MutNEG\">-</span> The <strong>Flamethrower</strong> takes an additional <span class=\"PerkDescYellow\">20%</span> longer to craft.",
             "Stats": [
                 {
-                    "Name": "",
-                    "Value": 0,
+                    "Name": "Burn Out Rage Reduction",
+                    "Value": 0.1,
+                    "Unit": "/s",
+                    "Misc": {
+                        "ToolTip": "The amount of Rage the monster loses per second when being damaged by the Flamethrower running Burn Out.",
+                        "Suffix": "10%/s"
+                    }
+                },
+                {
+                    "Name": "Crafting Speed Penalty Multiplier",
+                    "Value": 0.2,
                     "Unit": "",
                     "Misc": {
-                        "Suffix": "",
-                        "ToolTip": ""
+                        "ToolTip": "The penalty multiplier applied to crafting time of the Flamethrower when running Burn Out.",
+                        "Suffix": "42s -> 50.4s"
                     }
                 }
             ]

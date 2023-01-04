@@ -1,0 +1,205 @@
+{
+    "Name": "Radiant Cross",
+    "StigmaID": 1,
+    "IconPath": "public/images/weapons/purify/radiantcross.png",
+    "Description": "Beam an awe inspiring divine light that purifies any monster in its path. Extends in a cone out to 7 meters in front of you, pure and simple.",
+    "BaseStats": [
+        {
+            "Name": "Crafting Time",
+            "Value": 42,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time required to craft the Radiant Cross.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Lifetime",
+            "Value": 7,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time the Radiant Cross can continuously or gradually be fired from full charge before being completely depleted.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of continuous damage required by the Radiant Cross in order to wound or stun the monster.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Range",
+            "Value": 7,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The range of the Radiant Cross' cone.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "DetailedStats": [
+        {
+            "Name": "Radius Base Size",
+            "Value": 0.03,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The base size of the Radiant Cross cone (the size of the cone at its starting point). <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Time to Max Range",
+            "Value": 0.25,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The time it takes for the Radiant Cross cone to reach its maximum range.",
+                "Suffix": "28m/s"
+            }
+        },
+        {
+            "Name": "Warmup Time",
+            "Value": 0.35,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Radiant Cross to warm up when initially trying to fire it.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Teen Aim Movement Speed Multiplier",
+            "Value": 0.13,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to teens when aiming the Radiant Cross (firing).",
+                "Suffix": "0.65m/s"
+            }
+        },
+        {
+            "Name": "Monster Damage Minimum Movement Multiplier",
+            "Value": 0.3,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The minimum movement speed multiplier applied to the monster while being damaged by the Radiant Cross.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster Damage Maximum Movement Multiplier",
+            "Value": 0.36,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The maximum movement speed multiplier applied to the monster while being damaged by the Radiant Cross.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "WeaponMods": [
+        {
+            "Name": "Angelic Fury",
+            "IconPath": "public/images/weapons/mods/angelicfury.png",
+            "Level": 2,
+            "Description": "<span class=\"MutPOS\">+</span> If the monster is <strong>Wounded</strong> by the <strong>Radiant Cross</strong>, the <span class=\"PerkDescRed\">Banished</span> duration is increased by <span class=\"PerkDescBlue\">20%</span>.<br><span class=\"MutNEG\">-</span> If the monster is <strong>Stunned</strong> by the <strong>Radiant Cross</strong>, the <span class=\"PerkDescRed\">Stunned</span> duration is decreased by <span class=\"PerkDescYellow\">30%</span>.",
+            "Stats": [
+                {
+                    "Name": "Banished Duration Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the monster's Banished duration when Wounded by a Radiant Cross with Angelic Fury equipped.",
+                        "Suffix": "14s -> 16.8s"
+                    }
+                },
+                {
+                    "Name": "Stunned Duration Bonus Multiplier",
+                    "Value": 0.3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the monster's Stunned duration when Stunned by a Radiant Cross with Angelic Fury equipped.",
+                        "Suffix": "4.8s -> 3.36s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Divine Light",
+            "IconPath": "public/images/weapons/mods/divinelight.png",
+            "Level": 6,
+            "Description": "<span class=\"MutPOS\">+</span> The <strong>Radiant Cross</strong> consumes <span class=\"PerkDescBlue\">20% less energy</span> when used.<br><span class=\"MutNEG\">-</span> The <strong>Radiant Cross</strong> beam takes an additional <span class=\"PerkDescYellow\">0.25 seconds</span> to reach its maximum distance when firing.",
+            "Stats": [
+                {
+                    "Name": "Energy Consumption Bonus Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the Radiant Cross' energy consumption while firing with Divine Light equipped.",
+                        "Suffix": "14.29c/s -> 11.90c/s"
+                    }
+                },
+                {
+                    "Name": "Time To Max Range Increase",
+                    "Value": 0.25,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The added time it takes for the Radiant Cross to reach its maximum distance while Divine Light is equipped.",
+                        "Suffix": "0.25s -> 0.5s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Hallowed Ground",
+            "IconPath": "public/images/weapons/mods/hallowedground.png",
+            "Level": 10,
+            "Description": "<span class=\"MutPOS\">+</span> The maximum attack range of the <strong>Radiant Cross</strong> is increased by <span class=\"PerkDescBlue\">20%</span>.<br><span class=\"MutNEG\">-</span> You can no longer move while using the <strong>Radiant Cross</strong>.",
+            "Stats": [
+                {
+                    "Name": "Range Bonus Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the Radiant Cross' range while the user has Hallowed Ground equipped.",
+                        "Suffix": "7m -> 8.4m"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Crucifier",
+            "IconPath": "public/images/weapons/mods/crucifier.png",
+            "Level": 14,
+            "Description": "<span class=\"MutPOS\">+</span> The crafting time of the <strong>Radiant Cross</strong>is reduced by <span class=\"PerkDescBlue\">10%</span>.<br><span class=\"MutNEG\">-</span> The <strong>Radiant Cross</strong> can only be crafted in a match after the monster has already been wounded by the <strong>Purify</strong> stigma.",
+            "Stats": [
+                {
+                    "Name": "Crafting Time Bonus Multiplier",
+                    "Value": 0.1,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the Radiant Cross' crafting time while the user has Crucifier equipped.",
+                        "Suffix": "42s -> 37.8s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Saving Grace",
+            "IconPath": "public/images/weapons/mods/savinggrace.png",
+            "Level": 17,
+            "Description": "<span class=\"MutNEU\">*</span> While firing the <strong>Radiant Cross</strong> and for <span class=\"PerkDescBlue\">0.8 seconds</span> afterwards if you are <strong>Injured</strong> by a monster's <strong>Basic Attack</strong> any loss of <strong>Life</strong> will be prevented and the <strong>Radiant Cross</strong> will be destroyed.",
+            "Stats": [
+                {
+                    "Name": "Damage Block Extension Duration",
+                    "Value": 0.8,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The extended duration of the damage block effect on a Radiant Cross where the user is running Saving Grace.",
+                        "Suffix": ""
+                    }
+                }
+            ]
+        }
+    ]
+}

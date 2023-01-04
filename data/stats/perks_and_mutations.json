@@ -364,7 +364,7 @@
         "Name": "Quick Fix",
         "ProtoName": "MedkitMaster",
         "Icon": "public/images/teen/perks/quickfix.png",
-        "Description": "Increases the speed at which you can <span class='PerkDescB'>Heal</span> yourself with a <span class='PerkDescB'>Med Kit</span> by <span class='PerkDescT1'>6%</span>/<span class='PerkDescT2'>10%</span>/<span class='PerkDescT3'>14%</span>. While <span class='PerkDescB'>Injured</span> the distance at which you can see the aura of <span class='PerkDescB'>Med Kit</span> stations is increased to <span class='PerkDescT1'>16 meters</span>/<span class='PerkDescT2'>20 meters</span>/<span class='PerkDescT3'>24 meters</span>."
+        "Description": "Increases the speed at which you can <span class='PerkDescB'>Heal</span> yourself with a <span class='PerkDescB'>Med Kit</span> by <span class='PerkDescT1'>7%</span>/<span class='PerkDescT2'>11%</span>/<span class='PerkDescT3'>15%</span>."
     },
     "ID_PK_HealMaster": {
         "Name": "Healing Hands",
@@ -418,7 +418,7 @@
         "Name": "All Systems Go",
         "ProtoName": "Multitasker",
         "Icon": "public/images/teen/perks/multitasker.png",
-        "Description": "While crafting a weapon at a station, the loss of crafting progress at other stations is reduced by <span class='PerkDescT1'>25%</span>/<span class='PerkDescT2'>50%</span>/<span class='PerkDescT3'>75%</span>."
+        "Description": "While crafting a weapon at a station, the loss of crafting progress at other stations is reduced by <span class='PerkDescT1'>20%</span>/<span class='PerkDescT2'>40%</span>/<span class='PerkDescT3'>60%</span>."
     },
     "UNKNOWN": {
         "Name": "UNKNOWN",
