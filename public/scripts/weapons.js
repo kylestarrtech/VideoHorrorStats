@@ -66,6 +66,12 @@ function SetWeaponSwitchEvents() {
     document.getElementById("radiantcross-btn").addEventListener('click', function() {
         UpdateSelectedCategory(3);
     });
+    document.getElementById("holyslingshot-btn").addEventListener('click', function() {
+        UpdateSelectedCategory(4);
+    });
+    document.getElementById("sacredstaff-btn").addEventListener('click', function() {
+        UpdateSelectedCategory(5);
+    });
 }
 
 function GetCategoryData(index) {

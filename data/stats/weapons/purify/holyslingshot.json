@@ -1,0 +1,232 @@
+{
+    "Name": "Holy Slingshot",
+    "StigmaID": 1,
+    "IconPath": "public/images/weapons/purify/holyslingshot.png",
+    "Description": "Sling a series of glory-filled grenades at the monster. A direct hit will stick the grenade to the monster and cause continuous damage. Otherwise the grenade lands as holy ground with a 2.2 meter radius lasting 5 seconds that purifies any monster within.",
+    "BaseStats": [
+        {
+            "Name": "Crafting Time",
+            "Value": 42,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The base crafting time of the Holy Slingshot",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Ammunition",
+            "Value": 2,
+            "Unit": "shots",
+            "Misc": {
+                "ToolTip": "The base amount of shots given to you when crafting the Holy Slingshot.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Holy Ground Radius",
+            "Value": 2.2,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The radius of the holy ground created by a shot when hitting the environment.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Holy Ground Duration",
+            "Value": 5,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The base duration of the holy ground on the Holy Slingshot.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of continuous damage required by the Holy Slingshot in order to wound or stun the monster.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "DetailedStats": [
+        {
+            "Name": "Shot Fly Duration",
+            "Value": 6,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The maximum amount of time a shot from the Holy Slingshot may be airborne.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Reload Time",
+            "Value": 2.5,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The base amount of time one has to wait before firing a subsequent shot of the Holy Slingshot.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Warmup Time",
+            "Value": 0.7,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The default amount of time it takes for the Holy Slingshot to warm up initially when trying to fire a shot.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Shot Speed",
+            "Value": 20,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The default speed at which a shot from the Holy Slingshot fires.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Teen Aim Movement Speed Multiplier",
+            "Value": 0.2,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to teens when aiming the Holy Slingshot.",
+                "Suffix": "(1m/s)"
+            }
+        },
+        {
+            "Name": "Monster Damage Movement Multiplier",
+            "Value": 0.24,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to the monster while being damaged by a Holy Slingshot's holy ground.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Shot Projectile Radius",
+            "Value": 3.5,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The radius of the shot projectile from the Holy Slingshot. <strong>This may be incorrect!</strong>",
+                "Suffix": ""
+            }
+        }
+    ],
+    "WeaponMods": [
+        {
+            "Name": "Stunning Praise",
+            "IconPath": "public/images/weapons/mods/stunningpraise.png",
+            "Level": 2,
+            "Description": "<span class=\"MutPOS\">+</span> If the monster is <strong>Stunned</strong> by the <strong>Holy Slingshot</strong>, the time the monster is <strong>Stunned</strong> is increased by <span class=\"PerkDescBlue\">25%</span>.<br><span class=\"MutNEG\">-</span> If the monster is <strong>Wounded</strong> by the <strong>Holy Slingshot</strong>, the time the monster is <span class=\"PerkDescRed\">Banished</span> is decreased by <span class=\"PerkDescYellow\">25%</span>.",
+            "Stats": [
+                {
+                    "Name": "Stun Time Bonus Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus stun time multiplier applied to the monster's base stun time Stunned by a Holy Slingshot running Stunning Praise.",
+                        "Suffix": "4.8s -> 6s"
+                    }
+                },
+                {
+                    "Name": "Banished Time Penalty Multiplier",
+                    "Value": 0.25,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the monster's base banished time when Wounded by a Holy Slingshot running Stunning Praise.",
+                        "Suffix": "14s -> 17.5s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Go For Glory",
+            "IconPath": "public/images/weapons/mods/goforglory.png",
+            "Level": 6,
+            "Description": "<span class=\"MutPOS\">+</span> The weapon ammunition of the <strong>Holy Slingshot</strong> is increased by <span class=\"PerkDescBlue\">1</span>.<br><span class=\"MutNEG\">-</span> Grenades will pass through the monster when they hit, rather than stick.",
+            "Stats": [
+                {
+                    "Name": "Extra Shots",
+                    "Value": 1,
+                    "Unit": "shot",
+                    "Misc": {
+                        "ToolTip": "The number of extra shots provided to a Holy Slingshot running Go For Glory.",
+                        "Suffix": "2 shots -> 3 shots"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Devoted One",
+            "IconPath": "public/images/weapons/mods/devotedone.png",
+            "Level": 10,
+            "Description": "<span class=\"MutPOS\">+</span> The crafting time of the <strong>Holy Slingshot</strong> is reduced by <span class=\"PerkDescBlue\">20%</span>.<br><span class=\"MutNEG\">-</span> The ammunition available to the <strong>Holy Slingshot</strong> is decreased by <span class=\"PerkDescYellow\">1</span>.",
+            "Stats": [
+                {
+                    "Name": "Crafting Speed Bonus Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the crafting time of the Holy Slingshot when running Devoted One.",
+                        "Suffix": "42s -> 33.6s"
+                    }
+                },
+                {
+                    "Name": "Shot Reduction Amount",
+                    "Value": 1,
+                    "Unit": "shot",
+                    "Misc": {
+                        "ToolTip": "The amount of shots removed from the total shot count on a Holy Slingshot running Devoted One.",
+                        "Suffix": "2 shots -> 1 shot"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Blind Faith",
+            "IconPath": "public/images/weapons/mods/blindfaith.png",
+            "Level": 14,
+            "Description": "<span class=\"MutPOS\">+</span> When the <strong>Holy Slingshot</strong> deals damage to the monster, they will also be <span class=\"PerkDescRed\">Blinded</span> for <span class=\"PerkDescBlue\">1.5 seconds</span>, unable to see teens or weapons.<br><span class=\"MutNEG\">-</span> The crafting time of the <strong>Holy Slingshot</strong> is increased by <span class=\"PerkDescYellow\">20%</span>.",
+            "Stats": [
+                {
+                    "Name": "Base Blind Time",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The blind duration applied to the monster when being damaged by a Holy Slingshot running Blind Faith.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Crafting Time Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The crafting time penalty multiplier applied to the Holy Slingshot when running Blind Faith.",
+                        "Suffix": "42s -> 50.4s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Higher Power",
+            "IconPath": "public/images/weapons/mods/higherpower.png",
+            "Level": 17,
+            "Description": "<span class=\"MutPOS\">+</span> The weapon ammunition of the <strong>Holy Slingshot</strong> is increased by <span class=\"PerkDescBlue\">1</span>.<br><span class=\"MutNEG\">-</span> Your grenade explosions no longer leave a damaging cloud behind.",
+            "Stats": [
+                {
+                    "Name": "Extra Shots",
+                    "Value": 1,
+                    "Unit": "shot",
+                    "Misc": {
+                        "ToolTip": "The number of extra shots provided to a Holy Slingshot running Higher Power.",
+                        "Suffix": "2 shots -> 3 shots"
+                    }
+                }
+            ]
+        }
+    ]
+}

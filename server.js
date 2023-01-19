@@ -19,6 +19,10 @@ app.get('/', (req, res) => {
   res.render('index.pug')
 })
 
+app.get('/favicon.ico', (req, res) => {
+  res.sendFile(`${__dirname}/public/images/logos/favicon/favicon.ico`);
+})
+
 app.get('/home', (req, res) => {
   res.render('index.pug');
 })

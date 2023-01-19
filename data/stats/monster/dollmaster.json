@@ -210,7 +210,7 @@
                 },
                 {
                     "Name": "Doll Trap Alarmed Radius",
-                    "Value": 0.0175,
+                    "Value": 1.75,
                     "Unit": "m",
                     "Misc": {
                         "ToolTip": "The maximum distance a teen may be when a Doll Trap is considered Alarmed (provided the teen is not crouching)."

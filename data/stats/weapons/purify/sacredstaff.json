@@ -1,0 +1,155 @@
+{
+    "Name": "Sacred Staff",
+    "StigmaID": 1,
+    "IconPath": "public/images/weapons/purify/sacredstaff.png",
+    "Description": "A mystical healer's staff that, once fully energized, can stream purifying energy up to 12 meters. Heal other teens to energize the staff.\r\n\r\nIf all living teens are Healthy, it will start to energize itself.",
+    "BaseStats": [
+        {
+            "Name": "Crafting Time",
+            "Value": 27,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time required to craft the Sacred Staff.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Lifetime",
+            "Value": 7,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time the Sacred Staff can continuously or gradually be fired from full charge before being completely depleted.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of continuous damage required by the Sacred Staff in order to wound or stun the monster.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Range",
+            "Value": 12,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The range of the Sacred Staff's beam.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "DetailedStats": [
+        {
+            "Name": "Percentage Charged Per Full Heal",
+            "Value": 0.7,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The amount of charge the Sacred Staff receives upon the full heal of a teen.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "All Healthy Charge Per Second",
+            "Value": 0.03,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The amount of charge the Sacred Staff receives per second when all teens are healthy.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Warmup Time",
+            "Value": 0.7,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Sacred Staff to warm up when initially trying to fire it.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Heal Speed Bonus Multiplier",
+            "Value": 0,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The bonus multiplier applied to teen heal speed when being healed by the Sacred Staff.",
+                "Suffix": "16s -> 16s"
+            }
+        },
+        {
+            "Name": "Self Heal Speed Penalty Multiplier",
+            "Value": 0.2,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The penalty multiplier applied to a teen's heal speed when self healing with the Sacred Staff.",
+                "Suffix": "16s -> 19.2s"
+            }
+        },
+        {
+            "Name": "Teen Aim Movement Speed Multiplier",
+            "Value": 0.13,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The movement speed multiplier applied to teens when aiming the Sacred Staff (firing).",
+                "Suffix": "0.65m/s"
+            }
+        },
+        {
+            "Name": "Monster Damage Minimum Movement Multiplier",
+            "Value": 0.3,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The minimum movement speed multiplier applied to the monster while being damaged by the Sacred Staff.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Monster Damage Maximum Movement Multiplier",
+            "Value": 0.36,
+            "Unit": "",
+            "Misc": {
+                "ToolTip": "The maximum movement speed multiplier applied to the monster while being damaged by the Sacred Staff.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "WeaponMods": [
+        {
+            "Name": "Beacon of Light",
+            "IconPath": "public/images/weapons/mods/beaconoflight.png",
+            "Level": 2,
+            "Description": "<span class=\"MutPOS\">+</span> While the <strong>Sacred Staff</strong> is not yet energized your aura is revealed to your <strong>Injured</strong> allies.<br><span class=\"MutNEG\">-</span> The crafting time of the <strong>Sacred Staff</strong> is increased by <span class=\"PerkDescBlue\">15%</span>.",
+            "Stats": []
+        },
+        {
+            "Name": "Trial of Suffering",
+            "IconPath": "public/images/weapons/mods/trialofsuffering.png",
+            "Level": 6,
+            "Description": "",
+            "Stats": []
+        },
+        {
+            "Name": "Miraculous Recovery",
+            "IconPath": "public/images/weapons/mods/miraculousrecovery.png",
+            "Level": 10,
+            "Description": "",
+            "Stats": []
+        },
+        {
+            "Name": "Pure Sacrifice",
+            "IconPath": "public/images/weapons/mods/puresacrifice.png",
+            "Level": 14,
+            "Description": "",
+            "Stats": []
+        },
+        {
+            "Name": "Revelations",
+            "IconPath": "public/images/weapons/mods/revelations.png",
+            "Level": 17,
+            "Description": "",
+            "Stats": []
+        }
+    ]
+}

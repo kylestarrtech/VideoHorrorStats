@@ -1,4 +1,6 @@
 var pages = ["home", "teen", "monster", "sounds", "journey", "creatorhub", "weapons"]
+var externalPages = ["https://vhs-lore.carrd.co/"]
+
 var selectedPage = 0;
 
 function HighlightButton(type) {
@@ -31,4 +33,8 @@ function LoadSelectedPage() {
 function UpdateSelectedPage(index) {
     selectedPage = index;
     LoadSelectedPage();
+}
+
+function OpenExternalPage(index) {
+    window.open(externalPages[index], "_blank");
 }
