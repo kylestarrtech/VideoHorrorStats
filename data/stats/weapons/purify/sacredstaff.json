@@ -121,35 +121,93 @@
             "IconPath": "public/images/weapons/mods/beaconoflight.png",
             "Level": 2,
             "Description": "<span class=\"MutPOS\">+</span> While the <strong>Sacred Staff</strong> is not yet energized your aura is revealed to your <strong>Injured</strong> allies.<br><span class=\"MutNEG\">-</span> The crafting time of the <strong>Sacred Staff</strong> is increased by <span class=\"PerkDescBlue\">15%</span>.",
-            "Stats": []
+            "Stats": [
+                {
+                    "Name": "Crafting Time Penalty Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the crafting time of the Sacred Staff while running Beacon of Light.",
+                        "Suffix": ""
+                    }
+                }
+            ]
         },
         {
             "Name": "Trial of Suffering",
             "IconPath": "public/images/weapons/mods/trialofsuffering.png",
             "Level": 6,
-            "Description": "",
+            "Description": "<span class=\"MutNEU\">*</span> If you finish crafting the <strong>Sacred Staff</strong> while in a <strong>Healthy</strong> state, you will be put into the <strong>Injured</strong> state.",
             "Stats": []
         },
         {
             "Name": "Miraculous Recovery",
             "IconPath": "public/images/weapons/mods/miraculousrecovery.png",
             "Level": 10,
-            "Description": "",
-            "Stats": []
+            "Description": "<span class=\"MutPOS\">+</span> If you lose an energized <strong>Sacred Staff</strong> by being knocked down, you will recover up to <span class=\"PerkDescBlue\">20%</span> of your base <strong>Life</strong> based on the energy that was remaining in the weapon.<br><span class=\"MutNEG\">-</span> The <strong>Sacred Staff</strong> consumes <span class=\"PerkDescYellow\">20%</span> more energy when firing.",
+            "Stats": [
+                {
+                    "Name": "Max Life Recovery Amount",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum amount of base Life you may recover from being knocked down while holding a Sacred Staff running Miraculous Recovery.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Energy Consumption Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the Sacred Staff's consumption rate when firing.",
+                        "Suffix": "14.28c/s -> 17.16c/s"
+                    }
+                }
+            ]
         },
         {
             "Name": "Pure Sacrifice",
             "IconPath": "public/images/weapons/mods/puresacrifice.png",
             "Level": 14,
-            "Description": "",
-            "Stats": []
+            "Description": "<span class=\"MutNEU\">*</span> While you are not at <strong>Critical Health</strong> and the <strong>Sacred Staff</strong> is not energized, it will gain up to <span class=\"PerkDescBlue\">50%</span> of the energy needed, but you will lose <span class=\"PerkDescYellow\">1%</span> of your base <strong>Life</strong> per second.",
+            "Stats": [
+                {
+                    "Name": "Maximum Charge Percentage",
+                    "Value": 0.5,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The maximum amount of charge the Sacred Staff can get from the Life stealing properties of Pure Sacrifice.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Life Loss Per Second",
+                    "Value": 0.01,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The amount of base Life lost per second when meeting the conditions to activate a Sacred Staff running Pure Sacrifice.",
+                        "Suffix": ""
+                    }
+                }
+            ]
         },
         {
             "Name": "Revelations",
             "IconPath": "public/images/weapons/mods/revelations.png",
             "Level": 17,
-            "Description": "",
-            "Stats": []
+            "Description": "<span class=\"MutPOS\">+</span> When healing using the <strong>Sacred Staff</strong>, the healing speed is increased by <span class=\"PerkDescBlue\">20%</span>.<br><span class=\"MutNEG\">-</span> When healing using the <strong>Sacred Staff</strong>, your aura is revealed to the monster.",
+            "Stats": [
+                {
+                    "Name": "Healing Speed Bonus Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to teen heal speed when healing with a Sacred Staff running Revelations.",
+                        "Suffix": "16s -> 12.8s"
+                    }
+                }
+            ]
         }
     ]
 }

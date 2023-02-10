@@ -1,0 +1,250 @@
+{
+    "Name": "Raygun",
+    "StigmaID": 3,
+    "IconPath": "public/images/weapons/shock/raygun.png",
+    "Description": "Point, shoot, and shock the monster with this rapid fire cosmic classic. Shock the monster with energy bolts that travel up to 40 meters.",
+    "BaseStats": [
+        {
+            "Name": "Crafting  Time",
+            "Value": 42,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time required to craft the Raygun.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Base Ammunition",
+            "Value": 28,
+            "Unit": " shots",
+            "Misc": {
+                "ToolTip": "The base amount of shots given to you when crafting the Raygun.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Range",
+            "Value": 40,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The range of the Raygun's shots.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Required Damage Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of continuous damage required by the Raygun in order to wound or stun the monster.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "DetailedStats": [
+        {
+            "Name": "Hurtbox Start Radius",
+            "Value": 0.6,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The starting radius of the Raygun shot hurtbox.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Hurtbox Final Radius",
+            "Value": 0.06,
+            "Unit": "m",
+            "Misc": {
+                "ToolTip": "The ending radius of the Raygun shot hurtbox.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Start to Final Hurtbox Radius Blend Time",
+            "Value": 0.1,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Raygun shot hurtbox radius to transition from the starting radius to the ending radius.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Charge Time",
+            "Value": 0.22,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Raygun to charge after being crafted.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Warmup Time",
+            "Value": 0.13,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the Raygun to warm up when initially trying to fire it.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Shot Speed",
+            "Value": 60,
+            "Unit": "m/s",
+            "Misc": {
+                "ToolTip": "The speed of the Raygun shot.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Damage Time Per Shot",
+            "Value": 0.24,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of damage time applied to the monster per successfully hit shot. The monster is Wounded or Stunned when this time is equivalent to or surpasses the required damage time.",
+                "Suffix": "12%"
+            }
+        },
+        {
+            "Name": "Projectile Cleanup Time",
+            "Value": 2,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for the game to automatically destroy a Raygun shot provided it does not naturally get destroyed.",
+                "Suffix": ""
+            }
+        },
+        {
+            "Name": "Damage Decay Timer",
+            "Value": 0.4,
+            "Unit": "s",
+            "Misc": {
+                "ToolTip": "The amount of time it takes for a successful shot to begin decaying from the monster's stigma.",
+                "Suffix": ""
+            }
+        }
+    ],
+    "WeaponMods": [
+        {
+            "Name": "Light It Up",
+            "IconPath": "public/images/weapons/mods/lightitup.png",
+            "Level": 2,
+            "Description": "<span class=\"MutPOS\">+</span> <strong>Raygun</strong> shots that hit the monster will now reveal the monster's aura to all teens for <span class=\"PerkDescBlue\">1.5 seconds</span>.<br><span class=\"MutNEG\">-</span> The ammo of the <strong>Raygun</strong> is reduced by <span class=\"PerkDescYellow\">12%</span>.",
+            "Stats": [
+                {
+                    "Name": "Reveal Duration",
+                    "Value": 1.5,
+                    "Unit": "s",
+                    "Misc": {
+                        "ToolTip": "The amount of time the monster's aura is revealed to all teens when shot by a Raygun running Light It Up.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Ammo Penalty Multiplier",
+                    "Value": 0.12,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the maximum ammunition of the Raygun.",
+                        "Suffix": "28 shots -> 25 shots"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Burst Energy",
+            "IconPath": "public/images/weapons/mods/burstenergy.png",
+            "Level": 6,
+            "Description": "<span class=\"MutPOS\">+</span> Each <strong>Raygun</strong> shot that damaged the monster will also restore <span class=\"PerkDescBlue\">0.75%</span> of the teen's total base <strong>Life</strong>.<br><span class=\"MutNEG\">-</span> The <strong>Raygun's</strong> maximum projectile range is reduced by <span class=\"PerkDescYellow\">75%</span>.",
+            "Stats": [
+                {
+                    "Name": "Health Restore Amount",
+                    "Value": 0.75,
+                    "Unit": "%",
+                    "Misc": {
+                        "ToolTip": "The amount of base Life restored per each successful shot on the monster with a Raygun running Burst Energy.",
+                        "Suffix": "1.69/225 Life"
+                    }
+                },
+                {
+                    "Name": "Range Penalty Multiplier",
+                    "Value": 0.75,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the range of the Raygun shots on a Raygun running Burst Energy.",
+                        "Suffix": "40m -> 10m"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Forked Shot",
+            "IconPath": "public/images/weapons/mods/forkedshot.png",
+            "Level": 10,
+            "Description": "<span class=\"MutPOS\">+</span> When fired, the <strong>Raygun</strong> will now launch <span class=\"PerkDescBlue\">3 shots</span> in a forked formation.<br><span class=\"MutNEG\">-</span> The <strong>Raygun</strong> takes an additional <span class=\"PerkDescYellow\">0.2 seconds</span> to begin firing.",
+            "Stats": [
+                {
+                    "Name": "Total Projectiles per Shot",
+                    "Value": 3,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The number of projectiles shot from the Raygun when running Forked Shot.",
+                        "Suffix": "1 -> 3"
+                    }
+                },
+                {
+                    "Name": "Shot Angle Difference",
+                    "Value": 6,
+                    "Unit": "deg",
+                    "Misc": {
+                        "ToolTip": "The difference in degrees per each shot on a Raygun running Forked Shot.",
+                        "Suffix": ""
+                    }
+                },
+                {
+                    "Name": "Warmup Penalty",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty applied to the warmup time of the Raygun when running Forked Shot.",
+                        "Suffix": "0.13s -> 0.33s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Stunning Victory",
+            "IconPath": "public/images/weapons/mods/stunningvictory.png",
+            "Level": 14,
+            "Description": "<span class=\"MutPOS\">+</span> The crafting time of the <strong>Raygun</strong> is reduced by <span class=\"PerkDescBlue\">15%</span>.<br><span class=\"MutNEG\">-</span> The <strong>Raygun</strong> can only be crafted in a match after the monster has already been wounded by the <strong>Shock</strong> stigma.",
+            "Stats": [
+                {
+                    "Name": "Crafting Time Bonus Multiplier",
+                    "Value": 0.15,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The bonus multiplier applied to the Raygun's crafting time while the user has Stunning Victory equipped.",
+                        "Suffix": "42s -> 35.7s"
+                    }
+                }
+            ]
+        },
+        {
+            "Name": "Trick Shot",
+            "IconPath": "public/images/weapons/mods/trickshot.png",
+            "Level": 17,
+            "Description": "<span class=\"MutPOS\">+</span> The <strong>Raygun's</strong> projectiles now bounce off of the first surface they hit.<br><span class=\"MutNEG\">-</span> The crafting time required to build the <strong>Raygun</strong> is increased by <span class=\"PerkDescBlue\">20%</span>.",
+            "Stats": [
+                {
+                    "Name": "Crafting Time Penalty Multiplier",
+                    "Value": 0.2,
+                    "Unit": "",
+                    "Misc": {
+                        "ToolTip": "The penalty multiplier applied to the Raygun's crafting time while the user has Trick Shot equipped.",
+                        "Suffix": "42 -> 50.4s"
+                    }
+                }
+            ]
+        }
+    ]
+}

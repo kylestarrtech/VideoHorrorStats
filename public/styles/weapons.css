@@ -240,6 +240,12 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .weapon-title-text {
+        flex-flow: column nowrap;
+    }
+}
+
 .weapon-thumbnail {
     text-align: center;
     opacity: 0.5;

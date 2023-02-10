@@ -1,0 +1,9 @@
+{
+    "Name": "RC Flyer",
+    "StigmaID": 3,
+    "IconPath": "public/images/weapons/shock/rcflyer.png",
+    "Description": "Deal damage from a distance! Fly your RC Flyer with the remote control and shock the monster up to 8 meters away. The batteries will drain while in flight and drain faster while firing.\r\n\r\nThe RC Flyer can be destroyed by a monster's attack.",
+    "BaseStats": [],
+    "DetailedStats": [],
+    "WeaponMods": []
+}

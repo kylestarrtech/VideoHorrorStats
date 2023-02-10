@@ -17,7 +17,7 @@ const weaponPaths = [
     "data/stats/weapons/curse/infernaleye.json",
     "data/stats/weapons/curse/enigma.json",
     "data/stats/weapons/shock/raygun.json",
-    "data/stats/weapons/shock/rccopter.json",
+    "data/stats/weapons/shock/rcflyer.json",
     "data/stats/weapons/shock/shocksphere.json",
 ]
 
@@ -71,6 +71,12 @@ function SetWeaponSwitchEvents() {
     });
     document.getElementById("sacredstaff-btn").addEventListener('click', function() {
         UpdateSelectedCategory(5);
+    });
+    document.getElementById("raygun-btn").addEventListener('click', function() {
+        UpdateSelectedCategory(9);
+    });
+    document.getElementById("rcflyer-btn").addEventListener('click', function() {
+        UpdateSelectedCategory(10);
     });
 }
 

@@ -171,7 +171,7 @@
             "Name": "Crucifier",
             "IconPath": "public/images/weapons/mods/crucifier.png",
             "Level": 14,
-            "Description": "<span class=\"MutPOS\">+</span> The crafting time of the <strong>Radiant Cross</strong>is reduced by <span class=\"PerkDescBlue\">10%</span>.<br><span class=\"MutNEG\">-</span> The <strong>Radiant Cross</strong> can only be crafted in a match after the monster has already been wounded by the <strong>Purify</strong> stigma.",
+            "Description": "<span class=\"MutPOS\">+</span> The crafting time of the <strong>Radiant Cross</strong> is reduced by <span class=\"PerkDescBlue\">10%</span>.<br><span class=\"MutNEG\">-</span> The <strong>Radiant Cross</strong> can only be crafted in a match after the monster has already been wounded by the <strong>Purify</strong> stigma.",
             "Stats": [
                 {
                     "Name": "Crafting Time Bonus Multiplier",
