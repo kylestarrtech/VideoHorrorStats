@@ -44,6 +44,33 @@
     cursor: pointer;
 }
 
+#banner-notice {
+    width: 100%;
+    height: max-content;
+    background-color: #cc00ff40;
+
+    transition: all 0.25s;
+}
+
+#banner-notice:hover {
+    cursor: pointer;
+    background-color: #cc00ff60;
+}
+
+#banner-notice:active {
+    background-color: #cc00ff50;
+}
+
+#banner-notice h1 {
+    margin: 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 0px 0px #ff00ff, -2px 0px 0px #00ffff, 0px 0px 10px #ffffff;
+    letter-spacing: 3px;
+
+    padding: 10px;
+}
+
 @keyframes widen {
     from { width: 0%; }
     to { width: 50%; }

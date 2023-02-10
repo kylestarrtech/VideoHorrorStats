@@ -1,6 +1,8 @@
 link(href="public/styles/header.css" rel="stylesheet")
 script(src="public/scripts/header.js" type="text/javascript" onload="main()")
 
+div#banner-notice(onclick="document.getElementById('banner-notice').remove();")
+    h1 Video Horror Stats is currently out of date with the most recent "Eat your Heart Out" patch. The numbers on this site may not reflect what's in-game as a result. These updates will not be coming to the site until the Weapons update is complete. I apologize for the inconvenience! Stay tuned on my Twitter at <a href="https://twitter.com/SHADERSOP">https://twitter.com/SHADERSOP</a> for up-to-date information!
 div#header
     img#MainLogo(class="MainButton", src="public/images/logos/logo-small-nofx.png", onmouseenter="HighlightLogo(true)", onmouseleave="HighlightLogo(false)", onclick="UpdateSelectedPage(0)")
     img.RoleButton(id="teenRoleButton", onmouseenter="HighlightButton('teen')", onmouseleave="UnhighlightButton('teen')", src="public/images/header/teen/base.png", width="150px", alt="Teen", onclick="UpdateSelectedPage(1)")
