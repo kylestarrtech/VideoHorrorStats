@@ -53,6 +53,10 @@ app.get('/creators', (req, res) => {
   res.render('wip.pug')
 })
 
+app.get('/future', (req, res) => {
+  res.render('sunset.pug')
+})
+
 function GetNewFOTD(current, total) {
   let newFOTD = -1;
   do {
