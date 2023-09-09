@@ -1,4 +1,7 @@
 {
+    "------------------------------Note------------------------------": [
+        "This was a placeholder file for the Creator Hub that was in the works. This was not going to be the final design with exposed API Keys, instead, I was going to opt for a solution via JWT (JSON Web Tokens) as that's both easier and more secure. The Creator Hub was never finished, it is here for archival purposes only."
+    ],
     "validAuthKey": "wQF7bju4@*LbNtV@Q@2^3qNmoi87N%kJWLxn*pejbnUZQ*U$eXp$8pEm^RX4i#q^QT*3^Qgjnh%W^Uo9dTpeh#VBqxr99$*9J%WsCi7L29vmV$5paEH#LQMXD3CgvV4Y",
     "Users": [
         {
