@@ -7,14 +7,11 @@ This project was meant to be continuously updated throughout the game's lifespan
 
 ## Preparation
 
-To run this locally, I *highly recommend* deleting the "node_modules" folder. I did not have this folder gitignored as I was only using one computer to work on the project, and I originally did not intend on making the project open-source.
-
 This project is *very* simple in its stack, so the steps to prepare for a launch are also similarily simple.  So here are the things you should know to get started:
 
 1. If you don't have it already, download Node.js. Video Horror Stats uses Node.js v18.15.0, but it should work on other versions quite universally for the forseeable future.
 2. Fork/Clone the repository
-3. Delete the "node_modules" folder to facilitate a fresh install of the used packages.
-4. Run `npm install` to get an update on all of the packages.
+3. Run `npm install` to get an update on all of the packages.
 
 ## Launching
 
